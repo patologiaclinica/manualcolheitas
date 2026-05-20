@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Catálogo A–Z de testes laboratoriais." />
+  <title>Catálogo de Testes A–Z — Manual de Colheitas</title>
+
+  <style>
+    :root {
+      --primary: #1f4e79;
+      --primary-dark: #163954;
+      --accent: #2d6a8e;
+      --bg: #f6f8fb;
+      --text: #1f2933;
+      --muted: #5b6770;
+      --border: #d9e2ec;
+      --white: #ffffff;
+      --max-width: 1180px;
+      --radius: 10px;
+      --shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      width: 100%;
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .sr-only {
+      position: absolute;
+      left: -9999px;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+    }
+
+    .site-header {
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .site-header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      min-height: 76px;
+      padding: 10px 0;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .logo {
+      width: 46px;
+      height: 46px;
+      border-radius: 8px;
+      background: linear-gradient(135deg, var(--primary), var(--accent));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--white);
+      font-weight: bold;
+      font-size: 18px;
+      flex-shrink: 0;
+    }
+
+    .brand-text {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .brand-title {
+      margin: 0;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--primary-dark);
+      line-height: 1.2;
+    }
+
+    .brand-subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.92rem;
+      line-height: 1.2;
+    }
+
+    .main-nav {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+
+    .main-nav a {
+      font-weight: 600;
+      color: var(--primary-dark);
+    }
+
+    .editor-link {
+      display: inline-block;
+      padding: 10px 14px;
+      background: var(--primary);
+      color: var(--white) !important;
+      border-radius: 8px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .editor-link:hover {
+      background: var(--primary-dark);
+      text-decoration: none;
+    }
+
+    .page-hero {
+      padding: 36px 0 22px;
+      background: linear-gradient(180deg, #eef4fa 0%, var(--bg) 100%);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .breadcrumbs {
+      margin-bottom: 12px;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    .breadcrumbs a {
+      color: var(--primary);
+    }
+
+    .page-title {
+      margin: 0 0 10px;
+      font-size: 2rem;
+      line-height: 1.2;
+      color: var(--primary-dark);
+    }
+
+    .page-subtitle {
+      margin: 0;
+      max-width: 72ch;
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    .controls-section {
+      padding: 28px 0 16px;
+    }
+
+    .controls-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 22px;
+    }
+
+    .search-form {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 18px;
+    }
+
+    .search-form input[type="search"] {
+      flex: 1 1 420px;
+      min-width: 260px;
+      padding: 14px 16px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 1rem;
+      background: #fff;
+    }
+
+    .search-form button,
+    .search-form .clear-link {
+      padding: 14px 18px;
+      border: none;
+      border-radius: 8px;
+      font-weight: 700;
+      cursor: pointer;
+      font-size: 0.98rem;
+    }
+
+    .search-form button {
+      background: var(--primary);
+      color: var(--white);
+    }
+
+    .search-form button:hover {
+      background: var(--primary-dark);
+    }
+
+    .search-form .clear-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: #eef4fa;
+      color: var(--primary-dark);
+      text-decoration: none;
+      border: 1px solid var(--border);
+    }
+
+    .search-form .clear-link:hover {
+      background: #dfeaf5;
+    }
+
+    .filter-title {
+      margin: 0 0 8px;
+      color: var(--primary-dark);
+      font-size: 1rem;
+    }
+
+    .area-filters,
+    .az-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .pill,
+    .az-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 42px;
+      padding: 10px 12px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: #fff;
+      color: var(--primary-dark);
+      font-weight: 700;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .pill:hover,
+    .az-link:hover {
+      background: #edf4fb;
+      border-color: var(--primary);
+      text-decoration: none;
+    }
+
+    .pill.active,
+    .az-link.active {
+      background: var(--primary);
+      color: var(--white);
+      border-color: var(--primary);
+    }
+
+    .az-wrapper {
+      margin-top: 18px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+    }
+
+    .summary-section {
+      padding: 8px 0 8px;
+    }
+
+    .summary-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 16px 22px;
+      color: var(--muted);
+      font-size: 0.98rem;
+    }
+
+    .results-section {
+      padding: 10px 0 42px;
+    }
+
+    .results-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 24px;
+    }
+
+    .letter-section {
+      margin-bottom: 30px;
+      scroll-margin-top: 110px;
+    }
+
+    .letter-heading {
+      margin: 0 0 14px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #edf2f7;
+      color: var(--primary-dark);
+      font-size: 1.4rem;
+    }
+
+    .test-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px 18px;
+    }
+
+    .test-item {
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: #fff;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .test-item:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+    }
+
+    .test-link {
+      display: block;
+      padding: 14px 16px;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .test-link:hover {
+      text-decoration: none;
+    }
+
+    .test-title {
+      margin: 0 0 6px;
+      color: var(--primary-dark);
+      font-size: 1rem;
+      font-weight: 700;
+    }
+
+    .test-meta {
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .empty-state,
+    .error-state,
+    .loading-state {
+      padding: 22px 0;
+      color: var(--muted);
+      text-align: center;
+      font-size: 1rem;
+    }
+
+    .error-box {
+      margin-top: 14px;
+      padding: 14px 16px;
+      border-radius: 10px;
+      border: 1px solid #f3c6c6;
+      background: #fff5f5;
+      color: #7a1f1f;
+      font-size: 0.95rem;
+    }
+
+    .site-footer {
+      background: var(--white);
+      border-top: 1px solid var(--border);
+      padding: 24px 0;
+    }
+
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .footer-block {
+      min-width: 220px;
+    }
+
+    .footer-title {
+      margin: 0 0 8px;
+      font-size: 1rem;
+      color: var(--primary-dark);
+    }
+
+    .footer-text,
+    .footer-links a {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    @media (max-width: 900px) {
+      .test-list {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 720px) {
+      .site-header-inner {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .main-nav {
+        width: 100%;
+        justify-content: flex-start;
+      }
+
+      .page-title {
+        font-size: 1.6rem;
+      }
+
+      .search-form {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container site-header-inner">
+      /" class="brand" aria-label="Ir para a página inicial">
+        <div class="logo" aria-hidden="true">MC</div>
+        <div class="brand-text">
+          <p class="brand-title">Manual de Colheitas</p>
+          <p class="brand-subtitle">Serviço de Microbiologia do CHUC</p>
+        </div>
+      </a>
+
+      <nav class="main-nav" aria-label="Navegação principal">
+        /">Início</a>
+        /catalogo.html">Testes</a>
+        /pagina.html?slug=utentes">Informações</a>
+        /pagina.html?slug=contactos">Contactos</a>
+        /admin/" class="editor-link">Área de editores</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumbs">
+        /">Início</a> &gt; <span>Catálogo A–Z</span>
+      </div>
+
+      <h1 class="page-title">Catálogo de Testes — A a Z</h1>
+      <p class="page-subtitle">
+        Consulte a lista alfabética de testes laboratoriais, filtre por área e selecione o teste pretendido para ver o respetivo detalhe.
+      </p>
+    </div>
+  </section>
+
+  <main>
+    <section class="controls-section">
+      <div class="container">
+        <div class="controls-card">
+          <form class="search-form" id="searchForm" role="search">
+            <label class="sr-only" for="searchInput">Pesquisar teste</label>
+            <input
+              type="search"
+              id="searchInput"
+              name="q"
+              placeholder="Pesquisar por nome do teste..."
+              aria-label="Pesquisar por nome do teste"
+            />
+            <button type="submit">Pesquisar</button>
+            /catalogo.html" class="clear-link">Limpar filtros</a>
+          </form>
+
+          <div>
+            <p class="filter-title">Filtrar por área</p>
+            <div class="area-filters" id="areaFilters"></div>
+          </div>
+
+          <div class="az-wrapper">
+            <p class="filter-title">Navegação alfabética</p>
+            <div class="az-grid" id="azNav"></div>
+          </div>
+
+          <div id="catalogError" class="error-box" style="display:none;"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="summary-section">
+      <div class="container">
+        <div class="summary-card" id="resultsSummary">
+          A carregar catálogo...
+        </div>
+      </div>
+    </section>
+
+    <section class="results-section">
+      <div class="container">
+        <div class="results-card">
+          <div id="resultsContainer" class="loading-state">
+            A carregar testes...
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-block">
+        <h3 class="footer-title">Manual de Colheitas</h3>
+        <p class="footer-text">Serviço de Microbiologia do CHUC</p>
+      </div>
+
+      <div class="footer-block footer-links">
+        /">Início</a>
+        /catalogo.html">Testes</a>
+        /pagina.html?slug=utentes">Informações</a>
+        /pagina.html?slug=contactos">Contactos</a>
+      </div>
+
+      <div class="footer-block">
+        <h3 class="footer-title">Acesso de editores</h3>
+        <p class="footer-text">
+          /admin/">Entrar no Decap CMS</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const TESTS_JSON_URL = "/content/testes/index.json";
+
+    const AREAS = [
+      "Todos",
+      "Hematologia",
+      "Imunologia / Autoimunidade",
+      "Microbiologia",
+      "Química Clínica",
+      "Citometria de Fluxo",
+      "Farmacocinética Avançada"
+    ];
+
+    const ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+
+    const elements = {
+      searchForm: document.getElementById("searchForm"),
+      searchInput: document.getElementById("searchInput"),
+      areaFilters: document.getElementById("areaFilters"),
+      azNav: document.getElementById("azNav"),
+      resultsSummary: document.getElementById("resultsSummary"),
+      resultsContainer: document.getElementById("resultsContainer"),
+      catalogError: document.getElementById("catalogError")
+    };
+
+    let allTests = [];
+    let activeArea = "Todos";
+    let activeQuery = "";
+    let activeLetter = "";
+
+    function normalizeText(value) {
+      return (value || "")
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase()
+        .trim();
+    }
+
+    function getFirstLetter(title) {
+      const normalized = normalizeText(title);
+      if (!normalized) return "#";
+      const first = normalized.charAt(0).toUpperCase();
+      return /[A-Z]/.test(first) ? first : "#";
+    }
+
+    function getUrlState() {
+      const params = new URLSearchParams(window.location.search);
+      activeQuery = params.get("q") || "";
+      activeArea = params.get("area") || "Todos";
+
+      const hash = window.location.hash.replace("#", "").toUpperCase();
+      activeLetter = /^[A-Z]$/.test(hash) ? hash : "";
+
+      elements.searchInput.value = activeQuery;
+    }
+
+    function updateUrl() {
+      const params = new URLSearchParams();
+
+      if (activeQuery.trim()) {
+        params.set("q", activeQuery.trim());
+      }
+
+      if (activeArea && activeArea !== "Todos") {
+        params.set("area", activeArea);
+      }
+
+      const queryString = params.toString();
+      const newUrl =
+        window.location.pathname +
+        (queryString ? `?${queryString}` : "") +
+        (activeLetter ? `#${activeLetter}` : "");
+
+      history.replaceState(null, "", newUrl);
+    }
+
+    function renderAreaFilters() {
+      elements.areaFilters.innerHTML = "";
+
+      AREAS.forEach(area => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "pill" + (area === activeArea ? " active" : "");
+        button.textContent = area;
+
+        button.addEventListener("click", () => {
+          activeArea = area;
+          activeLetter = "";
+          updateUrl();
+          renderAll();
+        });
+
+        elements.areaFilters.appendChild(button);
+      });
+    }
+
+    function renderAZNav(filteredTests) {
+      elements.azNav.innerHTML = "";
+
+      const lettersAvailable = new Set(filteredTests.map(test => getFirstLetter(test.title)));
+
+      ALPHABET.forEach(letter => {
+        const a = document.createElement("a");
+        a.href = `#${letter}`;
+        a.className = "az-link" + (letter === activeLetter ? " active" : "");
+        a.textContent = letter;
+
+        if (!lettersAvailable.has(letter)) {
+          a.style.opacity = "0.45";
+        }
+
+        a.addEventListener("click", event => {
+          event.preventDefault();
+          activeLetter = letter;
+          updateUrl();
+          renderAll();
+
+          const target = document.getElementById(`letter-${letter}`);
+          if (target) {
+            target.scrollIntoView({ behavior: "smooth", block: "start" });
+          }
+        });
+
+        elements.azNav.appendChild(a);
+      });
+    }
+
+    function filterTests() {
+      let tests = [...allTests];
+
+      if (activeArea && activeArea !== "Todos") {
+        tests = tests.filter(test => test.area === activeArea);
+      }
+
+      if (activeQuery.trim()) {
+        const q = normalizeText(activeQuery);
+        tests = tests.filter(test =>
+          normalizeText(test.title).includes(q)
+        );
+      }
+
+      tests.sort((a, b) => a.title.localeCompare(b.title, "pt", { sensitivity: "base" }));
+      return tests;
+    }
+
+    function groupByLetter(tests) {
+      const groups = {};
+
+      tests.forEach(test => {
+        const letter = getFirstLetter(test.title);
+        if (!groups[letter]) groups[letter] = [];
+        groups[letter].push(test);
+      });
+
+      return groups;
+    }
+
+    function renderSummary(filteredTests) {
+      let text = `${filteredTests.length} teste(s) encontrado(s).`;
+
+      if (activeArea !== "Todos") {
+        text += ` Área: ${activeArea}.`;
+      }
+
+      if (activeQuery.trim()) {
+        text += ` Pesquisa: “${activeQuery.trim()}”.`;
+      }
+
+      if (activeLetter) {
+        text += ` Letra selecionada: ${activeLetter}.`;
+      }
+
+      elements.resultsSummary.textContent = text;
+    }
+
+    function renderResults(filteredTests) {
+      elements.resultsContainer.innerHTML = "";
+
+      if (!filteredTests.length) {
+        elements.resultsContainer.className = "empty-state";
+        elements.resultsContainer.textContent = "Não foram encontrados testes com os filtros atuais.";
+        return;
+      }
+
+      elements.resultsContainer.className = "";
+
+      const groups = groupByLetter(filteredTests);
+      const lettersToRender = activeLetter
+        ? [activeLetter].filter(letter => groups[letter] && groups[letter].length)
+        : Object.keys(groups).sort();
+
+      if (!lettersToRender.length) {
+        elements.resultsContainer.className = "empty-state";
+        elements.resultsContainer.textContent = "Não existem testes disponíveis para a letra selecionada.";
+        return;
+      }
+
+      lettersToRender.forEach(letter => {
+        const section = document.createElement("section");
+        section.className = "letter-section";
+        section.id = `letter-${letter}`;
+
+        const heading = document.createElement("h2");
+        heading.className = "letter-heading";
+        heading.textContent = letter;
+        section.appendChild(heading);
+
+        const list = document.createElement("ul");
+        list.className = "test-list";
+
+        groups[letter].forEach(test => {
+          const item = document.createElement("li");
+          item.className = "test-item";
+
+          const link = document.createElement("a");
+          link.className = "test-link";
+          link.href = `/teste.html?slug=${encodeURIComponent(test.slug)}`;
+
+          const title = document.createElement("p");
+          title.className = "test-title";
+          title.textContent = test.title;
+
+          const meta = document.createElement("p");
+          meta.className = "test-meta";
+          meta.textContent = test.area || "Área não definida";
+
+          link.appendChild(title);
+          link.appendChild(meta);
+          item.appendChild(link);
+          list.appendChild(item);
+        });
+
+        section.appendChild(list);
+        elements.resultsContainer.appendChild(section);
+      });
+    }
+
+    function renderAll() {
+      const filteredTests = filterTests();
+      renderAreaFilters();
+      renderAZNav(filteredTests);
+      renderSummary(filteredTests);
+      renderResults(filteredTests);
+    }
+
+    async function loadTests() {
+      try {
+        const response = await fetch(TESTS_JSON_URL, { cache: "no-store" });
+
+        if (!response.ok) {
+          throw new Error(`Não foi possível carregar ${TESTS_JSON_URL}`);
+        }
+
+        const data = await response.json();
+
+        if (!Array.isArray(data)) {
+          throw new Error("O ficheiro index.json não contém uma lista válida.");
+        }
+
+        allTests = data
+          .filter(item => item && item.slug && item.title && item.area)
+          .map(item => ({
+            slug: item.slug,
+            title: item.title,
+            area: item.area
+          }));
+
+        elements.catalogError.style.display = "none";
+        renderAll();
+      } catch (error) {
+        console.error(error);
+
+        elements.catalogError.style.display = "block";
+        elements.catalogError.innerHTML = `
+          <strong>Não foi possível carregar o catálogo.</strong><br>
+          Verifique se existe o ficheiro <code>/content/testes/index.json</code> e se contém uma lista válida de testes.
+        `;
+
+        elements.resultsSummary.textContent = "Catálogo indisponível.";
+        elements.resultsContainer.className = "error-state";
+        elements.resultsContainer.textContent = "O catálogo não pôde ser apresentado neste momento.";
+      }
+    }
+
+    elements.searchForm.addEventListener("submit", event => {
+      event.preventDefault();
+      activeQuery = elements.searchInput.value || "";
+      activeLetter = "";
+      updateUrl();
+      renderAll();
+    });
+
+    window.addEventListener("hashchange", () => {
+      getUrlState();
+      renderAll();
+    });
+
+    getUrlState();
+    loadTests();
+  </script>
+</body>
+</html>
