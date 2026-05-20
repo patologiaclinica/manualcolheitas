@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Página institucional do Manual de Colheitas." />
+  <title>Página — Manual de Colheitas</title>
+
+  <style>
+    :root {
+      --primary: #1f4e79;
+      --primary-dark: #163954;
+      --accent: #2d6a8e;
+      --bg: #f6f8fb;
+      --text: #1f2933;
+      --muted: #5b6770;
+      --border: #d9e2ec;
+      --white: #ffffff;
+      --max-width: 1180px;
+      --radius: 10px;
+      --shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    .container {
+      width: 100%;
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .site-header {
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .site-header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      min-height: 76px;
+      padding: 10px 0;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .logo {
+      width: 46px;
+      height: 46px;
+      border-radius: 8px;
+      background: linear-gradient(135deg, var(--primary), var(--accent));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--white);
+      font-weight: bold;
+      font-size: 18px;
+      flex-shrink: 0;
+    }
+
+    .brand-text {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .brand-title {
+      margin: 0;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--primary-dark);
+      line-height: 1.2;
+    }
+
+    .brand-subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.92rem;
+      line-height: 1.2;
+    }
+
+    .main-nav {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+
+    .main-nav a {
+      font-weight: 600;
+      color: var(--primary-dark);
+    }
+
+    .editor-link {
+      display: inline-block;
+      padding: 10px 14px;
+      background: var(--primary);
+      color: var(--white) !important;
+      border-radius: 8px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .editor-link:hover {
+      background: var(--primary-dark);
+      text-decoration: none;
+    }
+
+    .page-hero {
+      padding: 36px 0 20px;
+      background: linear-gradient(180deg, #eef4fa 0%, var(--bg) 100%);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .breadcrumbs {
+      margin-bottom: 12px;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    .breadcrumbs a { color: var(--primary); }
+
+    .page-title {
+      margin: 0 0 10px;
+      font-size: 2rem;
+      line-height: 1.2;
+      color: var(--primary-dark);
+    }
+
+    .page-description {
+      margin: 0;
+      max-width: 72ch;
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    .content-section {
+      padding: 28px 0 42px;
+    }
+
+    .content-card,
+    .message-card,
+    .nav-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 24px;
+    }
+
+    .page-body {
+      color: var(--text);
+      font-size: 1rem;
+    }
+
+    .page-body h2,
+    .page-body h3,
+    .page-body h4 {
+      color: var(--primary-dark);
+      line-height: 1.3;
+      margin: 24px 0 10px;
+    }
+
+    .page-body p {
+      margin: 0 0 14px;
+    }
+
+    .page-body ul,
+    .page-body ol {
+      margin: 0 0 16px 22px;
+      padding: 0;
+    }
+
+    .page-body li {
+      margin-bottom: 8px;
+    }
+
+    .page-body strong {
+      color: var(--primary-dark);
+    }
+
+    .message-card {
+      text-align: center;
+      color: var(--muted);
+    }
+
+    .message-card h2 {
+      margin-top: 0;
+      color: var(--primary-dark);
+    }
+
+    .error-box {
+      margin-top: 14px;
+      padding: 14px 16px;
+      border-radius: 10px;
+      border: 1px solid #f3c6c6;
+      background: #fff5f5;
+      color: #7a1f1f;
+      font-size: 0.95rem;
+    }
+
+    .nav-card {
+      margin-top: 22px;
+    }
+
+    .nav-title {
+      margin: 0 0 12px;
+      color: var(--primary-dark);
+      font-size: 1.1rem;
+    }
+
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .btn-secondary {
+      display: inline-block;
+      padding: 12px 16px;
+      border-radius: 8px;
+      border: 1px solid var(--primary);
+      color: var(--primary);
+      font-weight: 700;
+      background: #fff;
+    }
+
+    .btn-secondary:hover {
+      background: #edf4fb;
+      text-decoration: none;
+    }
+
+    .site-footer {
+      background: var(--white);
+      border-top: 1px solid var(--border);
+      padding: 24px 0;
+      margin-top: 18px;
+    }
+
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .footer-block {
+      min-width: 220px;
+    }
+
+    .footer-title {
+      margin: 0 0 8px;
+      font-size: 1rem;
+      color: var(--primary-dark);
+    }
+
+    .footer-text,
+    .footer-links a {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    @media (max-width: 720px) {
+      .site-header-inner {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .main-nav {
+        width: 100%;
+        justify-content: flex-start;
+      }
+
+      .page-title {
+        font-size: 1.65rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container site-header-inner">
+      <a class="brand" href="/" aria-label="Ir para a página inicial">
+        <div class="logo" aria-hidden="true">MC</div>
+        <div class="brand-text">
+          <p class="brand-title">Manual de Colheitas</p>
+          <p class="brand-subtitle">Serviço de Microbiologia do CHUC</p>
+        </div>
+      </a>
+
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="/">Início</a>
+        <a href="/catalogo.html">Testes</a>
+        <a href="/pagina.html?slug=sobre">Sobre</a>
+        <a href="/pagina.html?slug=utentes">Informações</a>
+        <a href="/pagina.html?slug=contactos">Contactos</a>
+        <a href="/admin/" class="editor-link">Área de editores</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumbs" id="breadcrumbs">
+        <a href="/">Início</a> &gt; <span>Página</span>
+      </div>
+
+      <h1 class="page-title" id="pageTitle">A carregar página...</h1>
+      <p class="page-description" id="pageDescription"></p>
+    </div>
+  </section>
+
+  <main>
+    <section class="content-section">
+      <div class="container" id="pageContainer">
+        <div class="message-card" id="loadingCard">
+          <h2>A carregar conteúdo</h2>
+          <p>Aguarde um momento enquanto a página é apresentada.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-block">
+        <h3 class="footer-title">Manual de Colheitas</h3>
+        <p class="footer-text">Serviço de Microbiologia do CHUC</p>
+      </div>
+
+      <div class="footer-block footer-links">
+        <a href="/">Início</a>
+        <a href="/catalogo.html">Testes</a>
+        <a href="/pagina.html?slug=sobre">Sobre</a>
+        <a href="/pagina.html?slug=utentes">Informações</a>
+        <a href="/pagina.html?slug=contactos">Contactos</a>
+      </div>
+
+      <div class="footer-block">
+        <h3 class="footer-title">Acesso de editores</h3>
+        <p class="footer-text">
+          <a href="/admin/">Entrar no Decap CMS</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function getSlugFromUrl() {
+      const params = new URLSearchParams(window.location.search);
+      return params.get('slug') || '';
+    }
+
+    function escapeHtml(value) {
+      return (value || '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/\"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+    }
+
+    function parseSimpleFrontmatter(text) {
+      const match = text.match(/^---\s*\n([\s\S]*?)\n---\s*([\s\S]*)$/);
+      if (!match) {
+        throw new Error('O ficheiro não contém frontmatter YAML válido.');
+      }
+
+      const yamlBlock = match[1];
+      const body = match[2] || '';
+      const fields = {};
+
+      yamlBlock.split(/\n/).forEach(line => {
+        const trimmed = line.trim();
+        if (!trimmed || trimmed.startsWith('#')) return;
+
+        const separatorIndex = trimmed.indexOf(':');
+        if (separatorIndex === -1) return;
+
+        const key = trimmed.slice(0, separatorIndex).trim();
+        let value = trimmed.slice(separatorIndex + 1).trim();
+
+        if (
+          (value.startsWith('"') && value.endsWith('"')) ||
+          (value.startsWith("'") && value.endsWith("'"))
+        ) {
+          value = value.slice(1, -1);
+        }
+
+        fields[key] = value;
+      });
+
+      return { fields, body };
+    }
+
+    function markdownToHtml(markdown) {
+      const source = markdown || '';
+      const lines = source.split('\n');
+      let html = '';
+      let inUl = false;
+      let inOl = false;
+      let paragraphBuffer = [];
+
+      function flushParagraph() {
+        if (paragraphBuffer.length) {
+          const paragraph = paragraphBuffer.join(' ').trim();
+          if (paragraph) {
+            html += `<p>${inlineMarkdown(paragraph)}</p>`;
+          }
+          paragraphBuffer = [];
+        }
+      }
+
+      function closeLists() {
+        if (inUl) {
+          html += '</ul>';
+          inUl = false;
+        }
+        if (inOl) {
+          html += '</ol>';
+          inOl = false;
+        }
+      }
+
+      function inlineMarkdown(text) {
+        let escaped = escapeHtml(text);
+        escaped = escaped.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+        escaped = escaped.replace(/\*(.*?)\*/g, '<em>$1</em>');
+        escaped = escaped.replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2">$1</a>');
+        return escaped;
+      }
+
+      for (const rawLine of lines) {
+        const line = rawLine.trim();
+
+        if (!line) {
+          flushParagraph();
+          closeLists();
+          continue;
+        }
+
+        if (line.startsWith('### ')) {
+          flushParagraph();
+          closeLists();
+          html += `<h4>${inlineMarkdown(line.slice(4))}</h4>`;
+          continue;
+        }
+
+        if (line.startsWith('## ')) {
+          flushParagraph();
+          closeLists();
+          html += `<h3>${inlineMarkdown(line.slice(3))}</h3>`;
+          continue;
+        }
+
+        if (line.startsWith('# ')) {
+          flushParagraph();
+          closeLists();
+          html += `<h2>${inlineMarkdown(line.slice(2))}</h2>`;
+          continue;
+        }
+
+        if (line.match(/^[-*]\s+/)) {
+          flushParagraph();
+          if (inOl) {
+            html += '</ol>';
+            inOl = false;
+          }
+          if (!inUl) {
+            html += '<ul>';
+            inUl = true;
+          }
+          html += `<li>${inlineMarkdown(line.replace(/^[-*]\s+/, ''))}</li>`;
+          continue;
+        }
+
+        if (line.match(/^\d+\.\s+/)) {
+          flushParagraph();
+          if (inUl) {
+            html += '</ul>';
+            inUl = false;
+          }
+          if (!inOl) {
+            html += '<ol>';
+            inOl = true;
+          }
+          html += `<li>${inlineMarkdown(line.replace(/^\d+\.\s+/, ''))}</li>`;
+          continue;
+        }
+
+        paragraphBuffer.push(line);
+      }
+
+      flushParagraph();
+      closeLists();
+      return html || '<p></p>';
+    }
+
+    function buildPage(data, slug) {
+      const pageContainer = document.getElementById('pageContainer');
+      const titleEl = document.getElementById('pageTitle');
+      const descriptionEl = document.getElementById('pageDescription');
+      const breadcrumbsEl = document.getElementById('breadcrumbs');
+
+      const title = data.title || 'Página institucional';
+      const description = data.description || '';
+      const bodyHtml = markdownToHtml(data.body || '');
+
+      document.title = `${title} — Manual de Colheitas`;
+      titleEl.textContent = title;
+      descriptionEl.textContent = description;
+      breadcrumbsEl.innerHTML = `<a href="/">Início</a> &gt; <span>${escapeHtml(title)}</span>`;
+
+      pageContainer.innerHTML = `
+        <article class="content-card">
+          <div class="page-body">${bodyHtml}</div>
+        </article>
+
+        <div class="nav-card">
+          <h2 class="nav-title">Navegação de apoio</h2>
+          <div class="nav-links">
+            <a class="btn-secondary" href="/">Voltar ao início</a>
+            <a class="btn-secondary" href="/catalogo.html">Ir para o catálogo de testes</a>
+            <a class="btn-secondary" href="/pagina.html?slug=sobre">Sobre</a>
+            <a class="btn-secondary" href="/pagina.html?slug=utentes">Informações a utentes</a>
+            <a class="btn-secondary" href="/pagina.html?slug=contactos">Contactos</a>
+          </div>
+        </div>
+      `;
+    }
+
+    function showError(message) {
+      const pageContainer = document.getElementById('pageContainer');
+      const titleEl = document.getElementById('pageTitle');
+      const descriptionEl = document.getElementById('pageDescription');
+
+      document.title = 'Página não encontrada — Manual de Colheitas';
+      titleEl.textContent = 'Página não encontrada';
+      descriptionEl.textContent = 'Não foi possível apresentar o conteúdo solicitado.';
+
+      pageContainer.innerHTML = `
+        <div class="message-card">
+          <h2>Não foi possível carregar esta página</h2>
+          <p>${escapeHtml(message)}</p>
+          <div class="error-box">
+            Verifique se o ficheiro correspondente existe em <code>/content/paginas/</code> e se o URL inclui um parâmetro válido, por exemplo <code>?slug=sobre</code>.
+          </div>
+          <div class="nav-links" style="justify-content:center; margin-top:18px;">
+            <a class="btn-secondary" href="/">Voltar ao início</a>
+            <a class="btn-secondary" href="/catalogo.html">Ir para o catálogo</a>
+          </div>
+        </div>
+      `;
+    }
+
+    async function loadPage() {
+      const slug = getSlugFromUrl();
+
+      if (!slug) {
+        showError('Falta o parâmetro “slug” no URL. Exemplo: /pagina.html?slug=sobre');
+        return;
+      }
+
+      const fileUrl = `/content/paginas/${encodeURIComponent(slug)}.md`;
+
+      try {
+        const response = await fetch(fileUrl, { cache: 'no-store' });
+        if (!response.ok) {
+          throw new Error('O ficheiro Markdown da página não foi encontrado.');
+        }
+
+        const text = await response.text();
+        const parsed = parseSimpleFrontmatter(text);
+        buildPage({ ...parsed.fields, body: parsed.body }, slug);
+      } catch (error) {
+        console.error(error);
+        showError(error.message || 'Ocorreu um erro inesperado ao carregar esta página.');
+      }
+    }
+
+    loadPage();
+  </script>
+</body>
+</html>
