@@ -1,19 +1,17 @@
 [
   {
     "slug": "sera-que-e-desta",
-    "title": "Será que é desta",
-    "area": "Química Clínica",
-
-    "metodo": "EEA",
-    "amostra": "Soro",
-    "material_colheita": "Seringa",
-
-    "descricao_clinica": "Sei lá",
-    "indicacao": "",
-
-    "transporte_estabilidade": "Sei lá",
-    "tempo_resposta": "Sei lá",
-    "setor": "Sei lá",
-    "observacoes": "Sei lá"
+    "title": "será que é desta",
+    "area": "Química Clínica"
+  },
+  {
+    "slug": "teste1",
+    "title": "teste1",
+    "area": "Hematologia"
+  },
+  {
+    "slug": "teste2",
+    "title": "teste2",
+    "area": "Química Clínica"
   }
 ]
