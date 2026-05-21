@@ -2,11 +2,11 @@
 title: será que é desta
 area: Química Clínica
 metodo: EEA
-amostra: Soro
-material_colheita: Seringa
-descricao_clinica: Sei lá
-transporte_estabilidade: Sei lá
-tempo_resposta: Sei lá
-setor: Sei lá
-observacoes: Sei lá
+amostra: Soro e Plasma
+material_colheita: Seringa e Plasma
+descricao_clinica: e Plasma
+transporte_estabilidade: e Plasma
+tempo_resposta: e Plasma
+setor: e Plasma
+observacoes: e Plasma
 ---
