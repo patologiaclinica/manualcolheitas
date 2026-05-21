@@ -21,9 +21,13 @@ function parseFrontmatter(md) {
     const key = t.slice(0, i).trim();
     let val = t.slice(i + 1).trim();
 
-    if ((val.startsWith('"') && val.endsWith('"')) || (val.startsWith("'") && val.endsWith("'"))) {
+    if (
+      (val.startsWith('"') && val.endsWith('"')) ||
+      (val.startsWith("'") && val.endsWith("'"))
+    ) {
       val = val.slice(1, -1);
     }
+
     data[key] = val;
   }
   return data;
@@ -47,14 +51,33 @@ for (const filename of entries) {
   const title = (fm.title || slug).trim();
   const area = (fm.area || "").trim();
 
-  // Mantém apenas entradas úteis para o catálogo (o teu catálogo filtra por slug/title/area)
+  // Mantém apenas entradas válidas para catálogo
   if (!slug || !title || !area) continue;
 
-  items.push({ slug, title, area });
+  items.push({
+    slug,
+    title,
+    area,
+
+    metodo: (fm.metodo || "").trim(),
+    amostra: (fm.amostra || "").trim(),
+    material_colheita: (fm.material_colheita || "").trim(),
+
+    descricao_clinica: (fm.descricao_clinica || "").trim(),
+    indicacao: (fm.indicacao || "").trim(),
+
+    transporte_estabilidade: (fm.transporte_estabilidade || "").trim(),
+    tempo_resposta: (fm.tempo_resposta || "").trim(),
+    setor: (fm.setor || "").trim(),
+    observacoes: (fm.observacoes || "").trim()
+  });
 }
 
-// Ordena por título (pt-PT)
-items.sort((a, b) => a.title.localeCompare(b.title, "pt", { sensitivity: "base" }));
+// Ordenação final por título (pt-PT)
+items.sort((a, b) =>
+  a.title.localeCompare(b.title, "pt", { sensitivity: "base" })
+);
 
 fs.writeFileSync(OUT_FILE, JSON.stringify(items, null, 2) + "\n", "utf8");
+
 console.log(`✔ Gerado ${OUT_FILE} com ${items.length} teste(s).`);
