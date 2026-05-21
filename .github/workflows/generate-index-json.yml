@@ -30,6 +30,6 @@ jobs:
           fi
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add content/testes/index.json
+          git add data/index.json
           git commit -m "update index.json"
           git push
