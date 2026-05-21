@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 const TESTS_DIR = path.join("content", "testes");
-const OUT_FILE = path.join(TESTS_DIR, "index.json");
+const OUT_FILE = path.join("data", "index.json");
 
 function parseFrontmatter(md) {
   if (!md.startsWith("---")) return {};
