@@ -12,3 +12,5 @@ O presente manual de colheitas foi elaborado para completar uma necessidade de s
 
 Finalmente, importa referir que Serviço de Patologia Clínica está sempre de portas abertas a todos os profissionais da ULSC assumindo-se como motor de apoio clínico e assistencial, na inovação e na investigação.
 
+
+                                                                                                                                               Fernando Rodrigues
