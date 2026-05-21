@@ -58,7 +58,7 @@ content:
 
   - name: paginas
     label: Páginas
-    type: files
+    type: file
 
     files:
       - name: inicio
