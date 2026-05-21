@@ -8,6 +8,7 @@ content:
     type: collection
     path: content/testes
     filename: "{fields.title}.md"
+
     fields:
       - name: title
         label: Nome do teste
@@ -58,37 +59,19 @@ content:
 
   - name: paginas
     label: Páginas
-    type: file
+    type: collection
+    path: content/paginas
+    filename: "{fields.title}.md"
 
-    files:
-      - name: inicio
-        label: Página inicial
-        path: content/paginas/inicio.md
-        fields:
-          - { name: title, label: Título, type: string }
-          - { name: description, label: Descrição curta, type: text }
-          - { name: body, label: Conteúdo, type: markdown }
+    fields:
+      - name: title
+        label: Título
+        type: string
 
-      - name: sobre
-        label: Sobre o serviço
-        path: content/paginas/sobre.md
-        fields:
-          - { name: title, label: Título, type: string }
-          - { name: description, label: Descrição curta, type: text }
-          - { name: body, label: Conteúdo, type: markdown }
+      - name: description
+        label: Descrição curta
+        type: text
 
-      - name: utentes
-        label: Informações a utentes
-        path: content/paginas/utentes.md
-        fields:
-          - { name: title, label: Título, type: string }
-          - { name: description, label: Descrição curta, type: text }
-          - { name: body, label: Conteúdo, type: markdown }
-
-      - name: contactos
-        label: Contactos
-        path: content/paginas/contactos.md
-        fields:
-          - { name: title, label: Título, type: string }
-          - { name: description, label: Descrição curta, type: text }
-          - { name: body, label: Conteúdo, type: markdown }
+      - name: body
+        label: Conteúdo
+        type: markdown
