@@ -1,13 +1,94 @@
-media: media
+media:
+  input: uploads
+  output: /uploads
+
 content:
-  - name: pages
-    label: Pages
+  - name: testes
+    label: Testes
     type: collection
-    path: docs
+    path: content/testes
+    filename: "{fields.title}.md"
     fields:
       - name: title
+        label: Nome do teste
         type: string
-      - name: body
-        type: rich-text
-      - name: Metodologia
+
+      - name: area
+        label: Área
+        type: select
+        options:
+          - Hematologia
+          - Imunologia / Autoimunidade
+          - Microbiologia
+          - Química Clínica
+          - Citometria de Fluxo
+          - Farmacocinética Avançada
+
+      - name: metodo
+        label: Método
         type: string
+
+      - name: amostra
+        label: Amostra
+        type: string
+
+      - name: material_colheita
+        label: Material de Colheita
+        type: string
+
+      - name: descricao_clinica
+        label: Descrição clínica
+        type: text
+
+      - name: transporte_estabilidade
+        label: Transporte/Estabilidade
+        type: text
+
+      - name: tempo_resposta
+        label: Tempo de resposta
+        type: string
+
+      - name: setor
+        label: Setor
+        type: string
+
+      - name: observacoes
+        label: Observações importantes
+        type: text
+
+  - name: paginas
+    label: Páginas
+    type: files
+
+    files:
+      - name: inicio
+        label: Página inicial
+        path: content/paginas/inicio.md
+        fields:
+          - { name: title, label: Título, type: string }
+          - { name: description, label: Descrição curta, type: text }
+          - { name: body, label: Conteúdo, type: markdown }
+
+      - name: sobre
+        label: Sobre o serviço
+        path: content/paginas/sobre.md
+        fields:
+          - { name: title, label: Título, type: string }
+          - { name: description, label: Descrição curta, type: text }
+          - { name: body, label: Conteúdo, type: markdown }
+
+      - name: utentes
+        label: Informações a utentes
+        path: content/paginas/utentes.md
+        fields:
+          - { name: title, label: Título, type: string }
+          - { name: description, label: Descrição curta, type: text }
+          - { name: body, label: Conteúdo, type: markdown }
+
+      - name: contactos
+        label: Contactos
+        path: content/paginas/contactos.md
+        fields:
+          - { name: title, label: Título, type: string }
+          - { name: description, label: Descrição curta, type: text }
+          - { name: body, label: Conteúdo, type: markdown }
