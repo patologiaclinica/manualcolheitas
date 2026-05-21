@@ -3,16 +3,25 @@ media:
   output: /uploads
 
 content:
+  # =========================
+  # COLEÇÃO — TESTES
+  # =========================
   - name: testes
     label: Testes
     type: collection
     path: content/testes
     filename: "{fields.title}.md"
 
+    view:
+      primary: title
+      secondary: area
+      sort: [area, title]
+
     fields:
       - name: title
         label: Nome do teste
         type: string
+        required: true
 
       - name: area
         label: Área
@@ -57,21 +66,46 @@ content:
         label: Observações importantes
         type: text
 
-  - name: paginas
-    label: Páginas
-    type: collection
-    path: content/paginas
-    filename: "{fields.title}.md"
+
+  # =========================
+  # PÁGINAS FIXAS
+  # =========================
+  - name: inicio
+    label: Página inicial
+    type: file
+    path: content/paginas/inicio.md
 
     fields:
-      - name: title
-        label: Título
-        type: string
+      - { name: title, label: Título, type: string }
+      - { name: description, label: Descrição curta, type: text }
+      - { name: body, label: Conteúdo, type: markdown }
 
-      - name: description
-        label: Descrição curta
-        type: text
+  - name: sobre
+    label: Sobre o serviço
+    type: file
+    path: content/paginas/sobre.md
 
-      - name: body
-        label: Conteúdo
-        type: markdown
+    fields:
+      - { name: title, label: Título, type: string }
+      - { name: description, label: Descrição curta, type: text }
+      - { name: body, label: Conteúdo, type: markdown }
+
+  - name: utentes
+    label: Informações a utentes
+    type: file
+    path: content/paginas/utentes.md
+
+    fields:
+      - { name: title, label: Título, type: string }
+      - { name: description, label: Descrição curta, type: text }
+      - { name: body, label: Conteúdo, type: markdown }
+
+  - name: contactos
+    label: Contactos
+    type: file
+    path: content/paginas/contactos.md
+
+    fields:
+      - { name: title, label: Título, type: string }
+      - { name: description, label: Descrição curta, type: text }
+      - { name: body, label: Conteúdo, type: markdown }
