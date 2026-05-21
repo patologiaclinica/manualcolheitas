@@ -1,5 +1,6 @@
 ---
 title: será que é desta
+area: Química Clínica
 metodo: EEA
 amostra: Soro
 material_colheita: Seringa
