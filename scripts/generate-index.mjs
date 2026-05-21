@@ -78,6 +78,10 @@ items.sort((a, b) =>
   a.title.localeCompare(b.title, "pt", { sensitivity: "base" })
 );
 
+// garantir que a pasta data existe
+fs.mkdirSync(path.join("data"), { recursive: true });
+
 fs.writeFileSync(OUT_FILE, JSON.stringify(items, null, 2) + "\n", "utf8");
+
 
 console.log(`✔ Gerado ${OUT_FILE} com ${items.length} teste(s).`);
