@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Detalhe de teste laboratorial." />
   <title>Teste — Manual de Colheitas</title>
-
   <style>
     :root {
       --primary: #1f4e79;
@@ -92,7 +91,6 @@
       white-space: nowrap;
     }
     .editor-link:hover { background: var(--primary-dark); text-decoration: none; }
-
     .page-hero {
       padding: 36px 0 20px;
       background: linear-gradient(180deg, #eef4fa 0%, var(--bg) 100%);
@@ -256,7 +254,6 @@
           <p class="brand-subtitle">Serviço de Microbiologia do CHUC</p>
         </div>
       </a>
-
       <nav class="main-nav" aria-label="Navegação principal">
         <a href="/">Início</a>
         <a href="/catalogo.html">Testes</a>
@@ -310,6 +307,8 @@
   </footer>
 
   <script>
+    const TESTS_JSON_URL = "/content/testes/index.json";
+
     function getSlugFromUrl() {
       const params = new URLSearchParams(window.location.search);
       return params.get("slug") || "";
@@ -328,38 +327,13 @@
         .replace(/'/g, "&#039;");
     }
 
-    function parseSimpleFrontmatter(text) {
-      const match = text.match(/^---\s*\n([\s\S]*?)\n---\s*([\s\S]*)$/);
-      if (!match) {
-        throw new Error("O ficheiro não contém frontmatter YAML válido.");
-      }
-      const yamlBlock = match[1];
-      const fields = {};
-      yamlBlock.split(/\n/).forEach(line => {
-        const trimmed = line.trim();
-        if (!trimmed || trimmed.startsWith("#")) return;
-        const separatorIndex = trimmed.indexOf(":");
-        if (separatorIndex === -1) return;
-        const key = trimmed.slice(0, separatorIndex).trim();
-        let value = trimmed.slice(separatorIndex + 1).trim();
-        if (
-          (value.startsWith('"') && value.endsWith('"')) ||
-          (value.startsWith("'") && value.endsWith("'"))
-        ) {
-          value = value.slice(1, -1);
-        }
-        fields[key] = value;
-      });
-      return { fields };
-    }
-
     function markdownToHtml(markdown) {
       const escaped = escapeHtml(markdown || "");
       const withBold = escaped.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
       const withItalic = withBold.replace(/\*(.*?)\*/g, "<em>$1</em>");
       const paragraphs = withItalic
         .split(/\n\s*\n/)
-        .map(paragraph => `<p>${paragraph.replace(/\n/g, "<br>")}</p>`)
+        .map(p => `<p>${p.replace(/\n/g, "<br>")}</p>`)
         .join("");
       return paragraphs || "<p></p>";
     }
@@ -460,22 +434,32 @@
     }
 
     async function loadTest() {
-      const slug = getSlugFromUrl();
+      const slug = getSlugFromUrl().trim();
       if (!slug) {
         showError('Falta o parâmetro “slug” no URL. Exemplo: /teste.html?slug=hemograma');
         return;
       }
 
-      const fileUrl = `/content/testes/${encodeURIComponent(slug)}.md`;
-
       try {
-        const response = await fetch(fileUrl, { cache: "no-store" });
+        const response = await fetch(TESTS_JSON_URL, { cache: "no-store" });
         if (!response.ok) {
-          throw new Error("O ficheiro do teste não foi encontrado.");
+          throw new Error(`Não foi possível carregar ${TESTS_JSON_URL}`);
         }
-        const text = await response.text();
-        const parsed = parseSimpleFrontmatter(text);
-        buildPage(parsed.fields);
+
+        const data = await response.json();
+        const list = Array.isArray(data) ? data : (Array.isArray(data.items) ? data.items : null);
+        if (!Array.isArray(list)) {
+          throw new Error("O ficheiro index.json não contém uma lista válida.");
+        }
+
+        // Encontrar o teste pelo slug (match exato)
+        const item = list.find(t => (t && String(t.slug).trim() === slug));
+
+        if (!item) {
+          throw new Error("Não existe um teste com este slug no index.json.");
+        }
+
+        buildPage(item);
       } catch (error) {
         console.error(error);
         showError(error.message || "Ocorreu um erro inesperado ao carregar o teste.");
@@ -486,4 +470,3 @@
   </script>
 </body>
 </html>
-``
