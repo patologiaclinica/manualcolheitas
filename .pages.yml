@@ -25,14 +25,15 @@ content:
 
       - name: area
         label: Área
-        type: select
+        type: string
         options:
-          - Hematologia
-          - Imunologia / Autoimunidade
-          - Microbiologia
-          - Química Clínica
-          - Citometria de Fluxo
-          - Farmacocinética Avançada
+          values:
+            - Hematologia
+            - Imunologia / Autoimunidade
+            - Microbiologia
+            - Química Clínica
+            - Citometria de Fluxo
+            - Farmacocinética Avançada
 
       - name: metodo
         label: Método
