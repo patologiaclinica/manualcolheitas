@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Manual de Colheitas — catálogo de testes laboratoriais e informação institucional." />
   <title>Manual de Colheitas — Microbiologia CHUC</title>
-
   <style>
     :root {
       --primary: #1f4e79;
@@ -20,10 +19,8 @@
       --radius: 10px;
       --shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
     }
-
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
-
     body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
@@ -31,17 +28,21 @@
       color: var(--text);
       line-height: 1.6;
     }
-
     a { color: var(--primary); text-decoration: none; }
     a:hover { text-decoration: underline; }
-
     .container {
       width: 100%;
       max-width: var(--max-width);
       margin: 0 auto;
       padding: 0 20px;
     }
-
+    .sr-only {
+      position: absolute;
+      left: -9999px;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+    }
     .site-header {
       background: var(--white);
       border-bottom: 1px solid var(--border);
@@ -49,7 +50,6 @@
       top: 0;
       z-index: 1000;
     }
-
     .site-header-inner {
       display: flex;
       align-items: center;
@@ -58,135 +58,276 @@
       min-height: 76px;
       padding: 10px 0;
     }
-
-    .brand {
-      display: flex;
-      align-items: center;
-      gap: 14px;
-    }
-
+    .brand { display: flex; align-items: center; gap: 14px; }
     .logo {
       width: 46px;
       height: 46px;
       border-radius: 8px;
       background: linear-gradient(135deg, var(--primary), var(--accent));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--white);
+      font-weight: bold;
+      font-size: 18px;
+      flex-shrink: 0;
     }
-
+    .brand-text { display: flex; flex-direction: column; gap: 2px; }
     .brand-title {
       margin: 0;
+      font-size: 1.1rem;
       font-weight: 700;
       color: var(--primary-dark);
+      line-height: 1.2;
     }
-
     .brand-subtitle {
       margin: 0;
       color: var(--muted);
-      font-size: 0.9rem;
+      font-size: 0.92rem;
+      line-height: 1.2;
     }
-
-    .main-nav {
-      display: flex;
-      gap: 18px;
-      flex-wrap: wrap;
-      align-items: center;
-    }
-
+    .main-nav { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
+    .main-nav a { font-weight: 600; color: var(--primary-dark); }
     .editor-link {
+      display: inline-block;
       padding: 10px 14px;
       background: var(--primary);
-      color: white !important;
+      color: var(--white) !important;
       border-radius: 8px;
-      font-weight: bold;
+      font-weight: 700;
+      white-space: nowrap;
     }
+    .editor-link:hover { background: var(--primary-dark); text-decoration: none; }
 
-    .hero {
-      padding: 48px 0;
-      min-height: 60vh;
-      background: url('assets/hero.jpg') center/cover no-repeat;
-      display: flex;
-      align-items: center;
-      color: white;
+    .page-hero {
+      padding: 36px 0 22px;
+      background: linear-gradient(180deg, #eef4fa 0%, var(--bg) 100%);
+      border-bottom: 1px solid var(--border);
     }
-
-    .hero-grid {
-      display: grid;
-      grid-template-columns: 1.3fr 1fr;
-      gap: 40px; /* CORRIGIDO */
-      align-items: center;
-    }
-
-    .hero h1 {
-      font-size: 3rem;
+    .breadcrumbs {
       margin-bottom: 12px;
+      font-size: 0.95rem;
+      color: var(--muted);
     }
-
-    .hero p {
-      font-size: 1.05rem;
-      opacity: 0.95;
-      max-width: 60ch;
+    .breadcrumbs a { color: var(--primary); }
+    .page-title {
+      margin: 0 0 10px;
+      font-size: 2rem;
+      line-height: 1.2;
+      color: var(--primary-dark);
     }
-
-    .section {
-      padding: 26px 0;
+    .page-subtitle {
+      margin: 0;
+      max-width: 72ch;
+      color: var(--muted);
+      font-size: 1rem;
     }
-
-    .card {
+    .controls-section { padding: 28px 0 16px; }
+    .controls-card {
       background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 22px;
+    }
+    .search-form {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 18px;
+    }
+    .search-form input[type="search"] {
+      flex: 1 1 420px;
+      min-width: 260px;
+      padding: 14px 16px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 1rem;
+      background: #fff;
+    }
+    .search-form button,
+    .search-form .clear-link {
+      padding: 14px 18px;
+      border: none;
+      border-radius: 8px;
+      font-weight: 700;
+      cursor: pointer;
+      font-size: 0.98rem;
+    }
+    .search-form button {
+      background: var(--primary);
+      color: var(--white);
+    }
+    .search-form button:hover { background: var(--primary-dark); }
+    .search-form .clear-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: #eef4fa;
+      color: var(--primary-dark);
+      text-decoration: none;
+      border: 1px solid var(--border);
+    }
+    .search-form .clear-link:hover { background: #dfeaf5; }
+    .filter-title {
+      margin: 0 0 8px;
+      color: var(--primary-dark);
+      font-size: 1rem;
+    }
+    .area-filters,
+    .az-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .pill,
+    .az-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 42px;
+      padding: 10px 12px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: #fff;
+      color: var(--primary-dark);
+      font-weight: 700;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .pill:hover,
+    .az-link:hover {
+      background: #edf4fb;
+      border-color: var(--primary);
+      text-decoration: none;
+    }
+    .pill.active,
+    .az-link.active {
+      background: var(--primary);
+      color: var(--white);
+      border-color: var(--primary);
+    }
+    .az-wrapper {
+      margin-top: 18px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+    }
+    .summary-section { padding: 8px 0 8px; }
+    .summary-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 16px 22px;
+      color: var(--muted);
+      font-size: 0.98rem;
+    }
+    .results-section { padding: 10px 0 42px; }
+    .results-card {
+      background: var(--white);
+      border: 1px solid var(--border);
       border-radius: var(--radius);
       box-shadow: var(--shadow);
       padding: 24px;
     }
-
-    .section-title {
-      margin-bottom: 10px;
+    .letter-section {
+      margin-bottom: 30px;
+      scroll-margin-top: 110px;
+    }
+    .letter-heading {
+      margin: 0 0 14px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #edf2f7;
+      color: var(--primary-dark);
+      font-size: 1.4rem;
+    }
+    .test-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px 18px;
+    }
+    .test-item {
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: #fff;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .test-item:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+    }
+    .test-link {
+      display: block;
+      padding: 14px 16px;
+      text-decoration: none;
+      color: inherit;
+    }
+    .test-link:hover { text-decoration: none; }
+    .test-title {
+      margin: 0 0 6px;
+      color: var(--primary-dark);
+      font-size: 1rem;
+      font-weight: 700;
+    }
+    .test-meta {
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+    .empty-state,
+    .error-state,
+    .loading-state {
+      padding: 22px 0;
+      color: var(--muted);
+      text-align: center;
+      font-size: 1rem;
+    }
+    .error-box {
+      margin-top: 14px;
+      padding: 14px 16px;
+      border-radius: 10px;
+      border: 1px solid #f3c6c6;
+      background: #fff5f5;
+      color: #7a1f1f;
+      font-size: 0.95rem;
+    }
+    .site-footer {
+      background: var(--white);
+      border-top: 1px solid var(--border);
+      padding: 24px 0;
+    }
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .footer-block { min-width: 220px; }
+    .footer-title {
+      margin: 0 0 8px;
+      font-size: 1rem;
       color: var(--primary-dark);
     }
-
-    .search-form {
+    .footer-text,
+    .footer-links a {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    .footer-links {
       display: flex;
-      gap: 12px;
-      margin-bottom: 16px;
-      flex-wrap: wrap;
+      flex-direction: column;
+      gap: 6px;
     }
-
-    .search-form input {
-      flex: 1;
-      padding: 12px;
-      border-radius: 8px;
-      border: 1px solid var(--border);
-    }
-
-    .search-form button {
-      padding: 12px 16px;
-      border-radius: 8px;
-      border: none;
-      background: var(--primary);
-      color: white;
-      font-weight: bold;
-    }
-
-    .quick-links {
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-    }
-
-    .quick-links a {
-      padding: 8px 12px;
-      border: 1px solid var(--border);
-      border-radius: 999px;
-      background: white;
-    }
-
-    .cards-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
-    }
-
     @media (max-width: 900px) {
-      .hero-grid { grid-template-columns: 1fr; }
-      .cards-grid { grid-template-columns: 1fr; }
+      .test-list { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 720px) {
+      .site-header-inner { align-items: flex-start; flex-direction: column; }
+      .main-nav { width: 100%; justify-content: flex-start; }
+      .page-title { font-size: 1.6rem; }
+      .search-form { flex-direction: column; }
     }
   </style>
 </head>
