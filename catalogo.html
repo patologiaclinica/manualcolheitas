@@ -440,269 +440,205 @@
     </div>
   </footer>
 
+  
+<!-- SCRIPT COMPLETO CORRIGIDO -->
   <script>
-    const TESTS_JSON_URL = "data/index.json";
-    const ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
-    const elements = {
-      searchForm: document.getElementById("searchForm"),
-      searchInput: document.getElementById("searchInput"),
-      areaFilters: document.getElementById("areaFilters"),
-      azNav: document.getElementById("azNav"),
-      resultsSummary: document.getElementById("resultsSummary"),
-      resultsContainer: document.getElementById("resultsContainer"),
-      catalogError: document.getElementById("catalogError")
-    };
-
-    let allTests = [];
-    let areas = ["Todos"];
-    let activeArea = "Todos";
-    let activeQuery = "";
-    let activeLetter = "";
-
-    function normalizeText(value) {
-      return (value || "")
-        .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "")
-        .toLowerCase()
-        .trim();
-    }
-
-    function getFirstLetter(title) {
-      const normalized = normalizeText(title);
-      if (!normalized) return "#";
-      const first = normalized.charAt(0).toUpperCase();
-      return /[A-Z]/.test(first) ? first : "#";
-    }
-
-    function getUrlState() {
-      const params = new URLSearchParams(window.location.search);
-      activeQuery = params.get("q") || "";
-      activeArea = params.get("area") || "Todos";
-      const hash = window.location.hash.replace("#", "").toUpperCase();
-      activeLetter = /^[A-Z]$/.test(hash) ? hash : "";
-      elements.searchInput.value = activeQuery;
-    }
-
-    function updateUrl() {
-      const params = new URLSearchParams();
-      if (activeQuery.trim()) params.set("q", activeQuery.trim());
-      if (activeArea && activeArea !== "Todos") params.set("area", activeArea);
-
-      const queryString = params.toString();
-      const newUrl =
-        window.location.pathname +
-        (queryString ? `?${queryString}` : "") +
-        (activeLetter ? `#${activeLetter}` : "");
-      history.replaceState(null, "", newUrl);
-    }
-
-    function renderAreaFilters() {
-      elements.areaFilters.innerHTML = "";
-      areas.forEach(area => {
-        const button = document.createElement("button");
-        button.type = "button";
-        button.className = "pill" + (area === activeArea ? " active" : "");
-        button.textContent = area;
-        button.addEventListener("click", () => {
-          activeArea = area;
-          activeLetter = "";
-          updateUrl();
-          renderAll();
-        });
-        elements.areaFilters.appendChild(button);
-      });
-    }
-
-    function renderAZNav(filteredTests) {
-      elements.azNav.innerHTML = "";
-      const lettersAvailable = new Set(filteredTests.map(test => getFirstLetter(test.title)));
-
-      ALPHABET.forEach(letter => {
-        const a = document.createElement("a");
-        a.href = `#${letter}`;
-        a.className = "az-link" + (letter === activeLetter ? " active" : "");
-        a.textContent = letter;
-
-        if (!lettersAvailable.has(letter)) a.style.opacity = "0.45";
-
-        a.addEventListener("click", event => {
-          event.preventDefault();
-          activeLetter = letter;
-          updateUrl();
-          renderAll();
-          const target = document.getElementById(`letter-${letter}`);
-          if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
-        });
-
-        elements.azNav.appendChild(a);
-      });
-    }
-
-    function filterTests() {
-      let tests = [...allTests];
-
-      if (activeArea && activeArea !== "Todos") {
-        tests = tests.filter(test => test.area === activeArea);
-      }
-
-      if (activeQuery.trim()) {
-        const q = normalizeText(activeQuery);
-        tests = tests.filter(test => normalizeText(test.title).includes(q));
-      }
-
-      tests.sort((a, b) => a.title.localeCompare(b.title, "pt", { sensitivity: "base" }));
-      return tests;
-    }
-
-    function groupByLetter(tests) {
-      const groups = {};
-      tests.forEach(test => {
-        const letter = getFirstLetter(test.title);
-        if (!groups[letter]) groups[letter] = [];
-        groups[letter].push(test);
-      });
-      return groups;
-    }
-
-    function renderSummary(filteredTests) {
-      let text = `${filteredTests.length} teste(s) encontrado(s).`;
-      if (activeArea !== "Todos") text += ` Área: ${activeArea}.`;
-      if (activeQuery.trim()) text += ` Pesquisa: “${activeQuery.trim()}”.`;
-      if (activeLetter) text += ` Letra selecionada: ${activeLetter}.`;
-      elements.resultsSummary.textContent = text;
-    }
-
-    function renderResults(filteredTests) {
-      elements.resultsContainer.innerHTML = "";
-
-      if (!filteredTests.length) {
-        elements.resultsContainer.className = "empty-state";
-        elements.resultsContainer.textContent = "Não foram encontrados testes com os filtros atuais.";
-        return;
-      }
-
-      elements.resultsContainer.className = "";
-      const groups = groupByLetter(filteredTests);
-
-      const lettersToRender = activeLetter
-        ? [activeLetter].filter(letter => groups[letter] && groups[letter].length)
-        : Object.keys(groups).sort();
-
-      if (!lettersToRender.length) {
-        elements.resultsContainer.className = "empty-state";
-        elements.resultsContainer.textContent = "Não existem testes disponíveis para a letra selecionada.";
-        return;
-      }
-
-      lettersToRender.forEach(letter => {
-        const section = document.createElement("section");
-        section.className = "letter-section";
-        section.id = `letter-${letter}`;
-
-        const heading = document.createElement("h2");
-        heading.className = "letter-heading";
-        heading.textContent = letter;
-        section.appendChild(heading);
-
-        const list = document.createElement("ul");
-        list.className = "test-list";
-
-        groups[letter].forEach(test => {
-          const item = document.createElement("li");
-          item.className = "test-item";
-
-          const link = document.createElement("a");
-          link.className = "test-link";
-          link.href = `/teste.html?slug=${encodeURIComponent(test.slug)}`;
-
-          const title = document.createElement("p");
-          title.className = "test-title";
-          title.textContent = test.title;
-
-          const meta = document.createElement("p");
-          meta.className = "test-meta";
-          meta.textContent = test.area || "Área não definida";
-
-          link.appendChild(title);
-          link.appendChild(meta);
-          item.appendChild(link);
-          list.appendChild(item);
-        });
-
-        section.appendChild(list);
-        elements.resultsContainer.appendChild(section);
-      });
-    }
-
-    function buildAreasFromTests(tests) {
-      // ordem “natural” (alfabética), com "Todos" primeiro
-      const unique = Array.from(new Set(tests.map(t => t.area).filter(Boolean)));
-      unique.sort((a, b) => a.localeCompare(b, "pt", { sensitivity: "base" }));
-      areas = ["Todos", ...unique];
-
-      // se vier no URL uma área que existe, mantém; se não existir, volta a Todos
-      if (activeArea !== "Todos" && !unique.includes(activeArea)) {
-        activeArea = "Todos";
-      }
-    }
-
-    function renderAll() {
-      const filteredTests = filterTests();
-      renderAreaFilters();
-      renderAZNav(filteredTests);
-      renderSummary(filteredTests);
-      renderResults(filteredTests);
-    }
-
-    async function loadTests() {
-      try {
-        const response = await fetch(TESTS_JSON_URL, { cache: "no-store" });
-        if (!response.ok) throw new Error(`Não foi possível carregar ${TESTS_JSON_URL}`);
-
-        const data = await response.json();
-
-        // Aceita:
-        //  - array direto  (formato atual do teu catálogo)
-        //  - objeto { items: [...] } (para compatibilidade futura)
-        const list = Array.isArray(data) ? data : (Array.isArray(data.items) ? data.items : null);
-        if (!Array.isArray(list)) throw new Error("O ficheiro index.json não contém uma lista válida.");
-
-        allTests = list
-          .filter(item => item && item.slug && item.title && item.area)
-          .map(item => ({ slug: item.slug, title: item.title, area: item.area }));
-
-        buildAreasFromTests(allTests);
-
-        elements.catalogError.style.display = "none";
+  const TESTS_JSON_URL = "data/index.json";
+  const ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+  
+  const elements = {
+    searchForm: document.getElementById("searchForm"),
+    searchInput: document.getElementById("searchInput"),
+    areaFilters: document.getElementById("areaFilters"),
+    azNav: document.getElementById("azNav"),
+    resultsSummary: document.getElementById("resultsSummary"),
+    resultsContainer: document.getElementById("resultsContainer"),
+    catalogError: document.getElementById("catalogError")
+  };
+  
+  let allTests = [];
+  let areas = ["Todos"];
+  let activeArea = "Todos";
+  let activeQuery = "";
+  let activeLetter = "";
+  
+  function normalizeText(value) {
+    return (value || "")
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .trim();
+  }
+  
+  function getFirstLetter(title) {
+    const normalized = normalizeText(title);
+    if (!normalized) return "#";
+    const first = normalized.charAt(0).toUpperCase();
+    return /[A-Z]/.test(first) ? first : "#";
+  }
+  
+  function getUrlState() {
+    const params = new URLSearchParams(window.location.search);
+    activeQuery = params.get("q") || "";
+    activeArea = params.get("area") || "Todos";
+    const hash = window.location.hash.replace("#", "").toUpperCase();
+    activeLetter = /^[A-Z]$/.test(hash) ? hash : "";
+    elements.searchInput.value = activeQuery;
+  }
+  
+  function updateUrl() {
+    const params = new URLSearchParams();
+    if (activeQuery.trim()) params.set("q", activeQuery.trim());
+    if (activeArea && activeArea !== "Todos") params.set("area", activeArea);
+  
+    const queryString = params.toString();
+    const newUrl =
+      window.location.pathname +
+      (queryString ? `?${queryString}` : "") +
+      (activeLetter ? `#${activeLetter}` : "");
+  
+    history.replaceState(null, "", newUrl);
+  }
+  
+  function renderAreaFilters() {
+    elements.areaFilters.innerHTML = "";
+    areas.forEach(area => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "pill" + (area === activeArea ? " active" : "");
+      button.textContent = area;
+  
+      button.addEventListener("click", () => {
+        activeArea = area;
+        activeLetter = "";
+        updateUrl();
         renderAll();
-      } catch (error) {
-        console.error(error);
-        elements.catalogError.style.display = "block";
-        elements.catalogError.innerHTML = `
-          <strong>Não foi possível carregar o catálogo.</strong><br>
-          Verifique se existe o ficheiro <code>/content/testes/index.json</code> e se contém uma lista válida de testes.
-        `;
-        elements.resultsSummary.textContent = "Catálogo indisponível.";
-        elements.resultsContainer.className = "error-state";
-        elements.resultsContainer.textContent = "O catálogo não pôde ser apresentado neste momento.";
+      });
+  
+      elements.areaFilters.appendChild(button);
+    });
+  }
+  
+  function renderAZNav(filteredTests) {
+    elements.azNav.innerHTML = "";
+  
+    const lettersAvailable = new Set(
+      filteredTests.map(t => getFirstLetter(t.title))
+    );
+  
+    ALPHABET.forEach(letter => {
+      const a = document.createElement("a");
+      a.href = `#${letter}`;
+      a.textContent = letter;
+      a.className = "az-link" + (letter === activeLetter ? " active" : "");
+  
+      if (!lettersAvailable.has(letter)) {
+        a.style.opacity = "0.45";
       }
+  
+      a.addEventListener("click", e => {
+        e.preventDefault();
+        activeLetter = letter;
+        updateUrl();
+        renderAll();
+      });
+  
+      elements.azNav.appendChild(a);
+    });
+  }
+  
+  function filterTests() {
+    let tests = [...allTests];
+  
+    if (activeArea && activeArea !== "Todos") {
+      tests = tests.filter(t => t.area === activeArea);
     }
-
-    elements.searchForm.addEventListener("submit", event => {
-      event.preventDefault();
-      activeQuery = elements.searchInput.value || "";
-      activeLetter = "";
-      updateUrl();
-      renderAll();
+  
+    if (activeQuery.trim()) {
+      const q = normalizeText(activeQuery);
+      tests = tests.filter(t => normalizeText(t.title).includes(q));
+    }
+  
+    if (activeLetter) {
+      tests = tests.filter(t =>
+        getFirstLetter(t.title) === activeLetter
+      );
+    }
+  
+    tests.sort((a, b) =>
+      a.title.localeCompare(b.title, "pt", { sensitivity: "base" })
+    );
+  
+    return tests;
+  }
+  
+  function renderResults(filteredTests) {
+    const container = elements.resultsContainer;
+    container.innerHTML = "";
+  
+    if (!filteredTests.length) {
+      container.textContent = "Não foram encontrados testes.";
+      return;
+    }
+  
+    filteredTests.forEach(test => {
+      const div = document.createElement("div");
+  
+      div.innerHTML = `
+        <a href="teste.html?slug=${encodeURIComponent(test.slug)}">
+          ${test.title}
+        </a>
+        <div>${test.area}</div>
+      `;
+  
+      container.appendChild(div);
     });
-
-    window.addEventListener("hashchange", () => {
-      getUrlState();
+  }
+  
+  function renderAll() {
+    const filtered = filterTests();
+    renderAreaFilters();
+    renderAZNav(filtered);
+    renderResults(filtered);
+  }
+  
+  async function loadTests() {
+    try {
+      const res = await fetch(TESTS_JSON_URL);
+      if (!res.ok) throw new Error("Erro ao carregar JSON");
+  
+      const data = await res.json();
+  
+      allTests = data
+        .filter(item => item && item.slug && item.title && item.area)
+        .map(item => ({
+          slug: item.slug,
+          title: item.title,
+          area: item.area
+        }));
+  
+      areas = ["Todos", ...new Set(allTests.map(t => t.area).sort())];
+  
       renderAll();
-    });
-
-    getUrlState();
-    loadTests();
+  
+    } catch (e) {
+      elements.catalogError.style.display = "block";
+      elements.catalogError.innerHTML = `
+        Não foi possível carregar /data/index.json
+      `;
+    }
+  }
+  
+  elements.searchForm.addEventListener("submit", e => {
+    e.preventDefault();
+    activeQuery = elements.searchInput.value || "";
+    activeLetter = "";
+    updateUrl();
+    renderAll();
+  });
+  
+  loadTests();
   </script>
+  
 </body>
 </html>
