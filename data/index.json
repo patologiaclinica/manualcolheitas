@@ -96,5 +96,19 @@
     "tempo_resposta": "Teste6",
     "setor": "Teste6",
     "observacoes": "Teste6"
+  },
+  {
+    "slug": "teste7",
+    "title": "Teste7",
+    "area": "Imunologia/Autoimunidade",
+    "metodo": "Teste7",
+    "amostra": "Teste7",
+    "material_colheita": "Teste7",
+    "descricao_clinica": "Teste7",
+    "indicacao": "",
+    "transporte_estabilidade": "Teste7",
+    "tempo_resposta": "Teste7",
+    "setor": "Teste7",
+    "observacoes": "Teste7"
   }
 ]
