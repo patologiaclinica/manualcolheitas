@@ -54,5 +54,19 @@
     "tempo_resposta": "teste3",
     "setor": "teste3",
     "observacoes": "teste3"
+  },
+  {
+    "slug": "teste4",
+    "title": "Teste4",
+    "area": "Química Clínica",
+    "metodo": "EEA",
+    "amostra": "teste4",
+    "material_colheita": "teste4",
+    "descricao_clinica": "teste4",
+    "indicacao": "",
+    "transporte_estabilidade": "teste4",
+    "tempo_resposta": "teste4",
+    "setor": "teste4",
+    "observacoes": "teste4"
   }
 ]
