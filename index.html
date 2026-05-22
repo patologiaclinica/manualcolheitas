@@ -169,6 +169,23 @@
       font-size: 0.95rem;
       color: var(--muted);
     }
+
+    .search-card,
+    .featured-card,
+    .az-card,
+    .info-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .search-card,
+    .featured-card,
+    .az-card {
+      padding: 24px;
+    }
+    
     .breadcrumbs a { color: var(--primary); }
     .page-title {
       margin: 0 0 10px;
@@ -429,14 +446,14 @@
 
 <section class="section">
   <div class="container">
-    <div class="card">
+    <div class="search-card">
       <h2 class="section-title">Lista de testes</h2>
       <p class="section-subtitle">
-        Introduza o nome do teste ou escolha uma Área Laboratorial.
+        Introduza o nome do Teste ou escolha uma Área Laboratorial
       </p>
       
       <form class="search-form" action="/catalogo.html">
-        <input type="search" name="q" placeholder="Pesquisar teste (Ex: hemocultura, proteína C reactiva,...)" />
+        <input type="search" name="q" placeholder="Pesquisar teste (ex: hemocultura, proteína C reactiva,...)" />
         <button>Pesquisar</button>
       </form>
 
