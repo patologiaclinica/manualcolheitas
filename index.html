@@ -237,15 +237,17 @@
         <button>Pesquisar</button>
       </form>
 
-      <div class="quick-links">
-        <a href="/catalogo.html?area=Hematologia">Hematologia</a>
-        <a href="/catalogo.html?area=Imunologia%20%2F%20Autoimunidade">Imunologia</a>
-        <a href="/catalogo.html?area=Microbiologia">Microbiologia</a>
-        <a href="/catalogo.html?area=Qu%C3%ADmica%20Cl%C3%ADnica">Química Clínica</a>
-        <a href="/catalogo.html?area=Citometria%20de%20Fluxo">Citometria</a>
-        <a href="/catalogo.html?area=Farmacocinética%20Avançada">Farmacocinética</a>
+      <div class="area-filters" id="areaFilters"></div>
+  
+      <!-- abaixo dos botões de área -->
+      <div class="az-wrapper">
+        <p class="filter-title">Navegação alfabética</p>
+        <div class="az-grid" id="azNav"></div>
       </div>
-
+      
+      <div id="resultsContainer" class="loading-state">A carregar testes...</div>
+      <div id="catalogError" class="error-box" style="display:none;"></div>
+      
     </div>
   </div>
 </section>
@@ -282,5 +284,7 @@
   </div>
 </footer>
 
+  <script src="js/catalogo.js"></script>
+  
 </body>
 </html>
