@@ -443,40 +443,38 @@
 </section>
 
 <main>
-  <div> </div>
+  <section class="section">
+    <div class="container">
+      <div class="search-card">
+        <h2 class="section-title">Lista de testes</h2>
+        <p class="section-subtitle">
+          Introduza o nome do Teste ou escolha uma Área Laboratorial
+        </p>
+        
+        <form class="search-form" action="/catalogo.html">
+          <input type="search" name="q" placeholder="Pesquisar teste (ex: hemocultura, proteína C reactiva,...)" />
+          <button>Pesquisar</button>
+        </form>
   
-<section class="section">
-  <div class="container">
-    <div class="search-card">
-      <h2 class="section-title">Lista de testes</h2>
-      <p class="section-subtitle">
-        Introduza o nome do Teste ou escolha uma Área Laboratorial
-      </p>
-      
-      <form class="search-form" action="/catalogo.html">
-        <input type="search" name="q" placeholder="Pesquisar teste (ex: hemocultura, proteína C reactiva,...)" />
-        <button>Pesquisar</button>
-      </form>
-
-      <div class="area-filters" id="areaFilters"></div>
-
-    </div>
-    <div> </div>
-    
-    <div class="search-card">    
-      <!-- abaixo dos botões de área -->
-      <div class="az-wrapper">
-          <h2 class="section-title" id="titulo-az">Navegue de A–Z</h2>
-            <p class="filter-title">Explore o Manual de Colheitas por ordem alfabética</p>
-        <div class="az-grid" id="azNav"></div>
+        <div class="area-filters" id="areaFilters"></div>
+  
       </div>
-    </div> 
-    
-      <div id="resultsContainer" class="loading-state">A carregar testes...</div>
-      <div id="catalogError" class="error-box" style="display:none;"></div>
+        <div> </div>
       
-  </div>
-</section>
+          <div class="search-card">    
+            <!-- abaixo dos botões de área -->
+            <div class="az-wrapper">
+                <h2 class="section-title" id="titulo-az">Navegue de A–Z</h2>
+                  <p class="filter-title">Explore o Manual de Colheitas por ordem alfabética</p>
+              <div class="az-grid" id="azNav"></div>
+            </div>
+          </div> 
+  <!--        
+        <div id="resultsContainer" class="loading-state">A carregar testes...</div>
+        <div id="catalogError" class="error-box" style="display:none;"></div>
+  -->      
+    </div>
+  </section>
 
 <section class="section">
   <div class="container">
