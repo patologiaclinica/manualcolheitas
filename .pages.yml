@@ -49,7 +49,7 @@ content:
 
       - name: descricao_clinica
         label: Descrição clínica
-        type: text
+        type: rich-text
 
       - name: transporte_estabilidade
         label: Transporte/Estabilidade
@@ -61,7 +61,7 @@ content:
 
       - name: setor
         label: Setor
-        type: rich-text
+        type: string
 
       - name: observacoes
         label: Observações importantes
