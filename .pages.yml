@@ -61,7 +61,7 @@ content:
 
       - name: setor
         label: Setor
-        type: string
+        type: rich-text
 
       - name: observacoes
         label: Observações importantes
