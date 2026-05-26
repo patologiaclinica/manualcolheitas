@@ -585,32 +585,52 @@
       `;
     }
 
-    async function loadPage() {
-      const slug = getSlugFromUrl();
+  async function loadPage() {
+    const slug = getSlugFromUrl();
 
-      if (!slug) {
-        showError('Falta o parâmetro “slug” no URL. Exemplo: /pagina.html?slug=sobre');
-        return;
-      }
-
-      const fileUrl = `/content/paginas/${encodeURIComponent(slug)}.md`;
-
-      try {
-        const response = await fetch(fileUrl, { cache: 'no-store' });
-        if (!response.ok) {
-          throw new Error('O ficheiro Markdown da página não foi encontrado.');
-        }
-
-        const text = await response.text();
-        const parsed = parseSimpleFrontmatter(text);
-        buildPage({ ...parsed.fields, body: parsed.body }, slug);
-      } catch (error) {
-        console.error(error);
-        showError(error.message || 'Ocorreu um erro inesperado ao carregar esta página.');
-      }
+    if (!slug) {
+      showError('Falta o parâmetro “slug” no URL. Exemplo: /pagina.html?slug=sobre');
+      return;
     }
 
-    loadPage();
+    // Nota: uso relativo ("data/...") para funcionar bem em GitHub Pages mesmo em subpasta
+    const indexUrl = `data/paginas.json`;
+
+    try {
+      const response = await fetch(indexUrl, { cache: 'no-store' });
+      if (!response.ok) {
+        throw new Error('Não foi possível carregar o índice das páginas (data/paginas.json).');
+      }
+
+      const pages = await response.json();
+
+      if (!Array.isArray(pages)) {
+        throw new Error('O ficheiro data/paginas.json não tem o formato esperado (array).');
+      }
+
+      const page = pages.find(p => (p.slug || '').toLowerCase() === slug.toLowerCase());
+
+      if (!page) {
+        throw new Error('Página não encontrada no índice. Verifique o slug no URL (ex: ?slug=sobre).');
+      }
+
+      // O teu buildPage já espera { title, description, body }
+      buildPage(
+        {
+          title: page.title || slug,
+          description: page.description || '',
+          body: page.body || ''
+        },
+        slug
+      );
+    } catch (error) {
+      console.error(error);
+      showError(error.message || 'Ocorreu um erro inesperado ao carregar esta página.');
+    }
+  }
+
+  loadPage();
+
   </script>
 </body>
 </html>
