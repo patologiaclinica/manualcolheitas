@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - "content/paginas/**"
-      - "!content/testes/paginas.json"
+      - "!content/paginas/paginas.json"
       
 jobs:
   build:
