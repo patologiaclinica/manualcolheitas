@@ -4,7 +4,8 @@ on:
   push:
     paths:
       - "content/paginas/**"
-
+      - "!content/testes/paginas.json"
+      
 jobs:
   build:
     runs-on: ubuntu-latest
