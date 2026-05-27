@@ -109,4 +109,4 @@ content:
     fields:
       - { name: title, label: Título, type: string }
       - { name: description, label: Descrição curta, type: text }
-      - { name: body, label: Conteúdo, type: markdown }
+      - { name: body, label: Conteúdo, type: rich-text }
