@@ -99,7 +99,7 @@ content:
     fields:
       - { name: title, label: Título, type: string }
       - { name: description, label: Descrição curta, type: text }
-      - { name: body, label: Conteúdo, type: Markdown }
+      - { name: body, label: Conteúdo, type: rich-text }
 
   - name: contactos
     label: Contactos
