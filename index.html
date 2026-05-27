@@ -176,8 +176,7 @@
 
     .search-card,
     .featured-card,
-    .az-card,
-    .info-card {
+    .az-card {
       background: var(--white);
       border: 1px solid var(--border);
       border-radius: var(--radius);
@@ -189,6 +188,32 @@
     .featured-card,
     .az-card {
       padding: 24px;
+    }
+
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 20px;
+    }
+    .info-card {
+      padding: 22px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .info-card h3 {
+      margin: 0;
+      color: var(--primary-dark);
+      font-size: 1.15rem;
+    }
+    .info-card p {
+      margin: 0;
+      color: var(--muted);
+      flex-grow: 1;
+    }
+    .info-card .card-link {
+      font-weight: 700;
+      color: var(--primary);
     }
     
     .breadcrumbs a { color: var(--primary); }
