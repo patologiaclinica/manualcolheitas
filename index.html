@@ -517,7 +517,7 @@
   <div class="container">
     <h2 class="section-title">Informação institucional</h2>
 
-    <div class="cards-grid">
+    <div class="cards-grid" id="pagesGrid">
   /*  <div class="card"> */
         <article class="info-card">
         <h3>Sobre o serviço</h3>
@@ -562,6 +562,42 @@
   </footer>
   
   <script src="js/catalogo.js"></script>
+
+  <script>
+  async function loadPages() {
+    try {
+      const res = await fetch('data/paginas.json');
+      const pages = await res.json();
+
+      const grid = document.getElementById('pagesGrid');
+
+      // limpa conteúdo existente
+      grid.innerHTML = '';
+
+      pages.forEach(page => {
+        // opcional: esconder "inicio"
+        if (page.slug === 'inicio') return;
+
+        const article = document.createElement('article');
+        article.className = 'info-card';
+
+        article.innerHTML = `
+          <h3>${page.title}</h3>
+          <p>${page.description}</p>
+          <a href="/pagina.html?slug=${page.slug}">Ler</a>
+        `;
+
+        grid.appendChild(article);
+      });
+
+    } catch (err) {
+      console.error('Erro ao carregar páginas', err);
+    }
+  }
+
+  loadPages();
+  </script>
+  
   
 </body>
 </html>
