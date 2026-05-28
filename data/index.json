@@ -14,20 +14,6 @@
     "observacoes": ""
   },
   {
-    "slug": "herpes",
-    "title": "herpes",
-    "area": "herpes",
-    "metodo": "herpes",
-    "amostra": "herpes",
-    "material_colheita": "herpes",
-    "descricao_clinica": "",
-    "indicacao": "",
-    "transporte_estabilidade": "herpes",
-    "tempo_resposta": "12",
-    "setor": "jjg",
-    "observacoes": "|+"
-  },
-  {
     "slug": "teste3",
     "title": "teste3",
     "area": "Química Clínica",
