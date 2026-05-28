@@ -292,7 +292,11 @@
       color: var(--primary-dark);
       font-size: 1rem;
     }
-    .area-filters,
+    .area-filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
     .az-grid {
       display: grid;
       grid-template-columns: repeat(13, minmax(0, 1fr));
