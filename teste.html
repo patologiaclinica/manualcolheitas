@@ -380,13 +380,13 @@
         <div class="layout">
           <article class="main-card">
             <section class="section-block">
-              <h2 class="section-heading">Descrição clínica</h2>
-              <div class="section-text">${markdownToHtml(descricao)}</div>
+              <h2 class="section-heading">Amostra</h2>
+              <div class="section-text">${markdownToHtml(amostra)}</div>
             </section>
 
             <section class="section-block">
-              <h2 class="section-heading">Indicação / quando solicitar</h2>
-              <div class="section-text">${markdownToHtml(indicacao)}</div>
+              <h2 class="section-heading">Material Colheita</h2>
+              <div class="section-text">${markdownToHtml(materialColheita)}</div>
             </section>
 
             <section class="section-block">
@@ -395,18 +395,18 @@
             </section>
 
             <section class="section-block">
-              <h2 class="section-heading">Observações importantes</h2>
-              <div class="section-text">${markdownToHtml(observacoes)}</div>
+              <h2 class="section-heading">Tempo de resposta</h2>
+              <div class="section-text">${markdownToHtml(tat)}</div>
             </section>
           </article>
 
           <aside class="side-card">
             <h2 class="section-heading">Informação técnica</h2>
             <ul class="tech-list">
-              <li><span class="tech-label">Amostra</span><span class="tech-value">${escapeHtml(amostra)}</span></li>
-              <li><span class="tech-label">Material de colheita</span><span class="tech-value">${escapeHtml(materialColheita)}</span></li>
+ /*             <li><span class="tech-label">Amostra</span><span class="tech-value">${escapeHtml(amostra)}</span></li> */
+ /*             <li><span class="tech-label">Material de colheita</span><span class="tech-value">${escapeHtml(materialColheita)}</span></li> */
               <li><span class="tech-label">Método</span><span class="tech-value">${escapeHtml(metodo)}</span></li>
-              <li><span class="tech-label">Tempo de resposta</span><span class="tech-value">${escapeHtml(tat)}</span></li>
+ /*             <li><span class="tech-label">Tempo de resposta</span><span class="tech-value">${escapeHtml(tat)}</span></li> */
               <li><span class="tech-label">Setor</span><span class="tech-value">${escapeHtml(setor)}</span></li>
             </ul>
           </aside>
