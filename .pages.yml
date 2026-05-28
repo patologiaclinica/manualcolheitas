@@ -47,10 +47,6 @@ content:
         label: Material de Colheita
         type: text
 
-      - name: descricao_clinica
-        label: Descrição clínica
-        type: rich-text
-
       - name: transporte_estabilidade
         label: Transporte/Estabilidade
         type: text
