@@ -145,5 +145,5 @@ description: Meios de contacto telefónico e electrónico, por Setor Laboratoria
 **Médico Serviço Microbiologia**  
 
 - Extensão interna: 7430 (até 16:00)  
-- Outros contactos em linktr.ee/microbiologiachuc (escala de Microbiologista de Serviço)
+- Outros contactos em [https://linktr.ee/microbiologiachuc](https://linktr.ee/microbiologiachuc) (escala de Microbiologista de Serviço)
 
