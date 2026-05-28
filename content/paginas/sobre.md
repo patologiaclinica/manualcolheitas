@@ -20,7 +20,7 @@ description: Realidade, Atividade e Missão
 
  Finalmente, importa referir que Serviço de Patologia Clínica está sempre de portas abertas a todos os profissionais da ULSC assumindo-se como motor de apoio clínico e assistencial, na inovação e na investigação.
 
- - -
+ _ _
 
  Fernando Rodrigues, Diretor
 
