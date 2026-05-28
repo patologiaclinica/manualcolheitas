@@ -14,20 +14,6 @@
     "observacoes": ""
   },
   {
-    "slug": "teste1",
-    "title": "teste1",
-    "area": "Hematologia",
-    "metodo": ".",
-    "amostra": ".",
-    "material_colheita": ".",
-    "descricao_clinica": ".",
-    "indicacao": "",
-    "transporte_estabilidade": ".",
-    "tempo_resposta": ".",
-    "setor": ".",
-    "observacoes": "."
-  },
-  {
     "slug": "teste3",
     "title": "teste3",
     "area": "Química Clínica",
@@ -40,61 +26,5 @@
     "tempo_resposta": "teste3",
     "setor": "teste3",
     "observacoes": "teste3"
-  },
-  {
-    "slug": "teste4",
-    "title": "Teste4",
-    "area": "Química Clínica",
-    "metodo": "EEA",
-    "amostra": "teste4",
-    "material_colheita": "teste4",
-    "descricao_clinica": "teste4",
-    "indicacao": "",
-    "transporte_estabilidade": "teste4",
-    "tempo_resposta": "teste4",
-    "setor": "teste4",
-    "observacoes": "teste4"
-  },
-  {
-    "slug": "teste5",
-    "title": "Teste5",
-    "area": "Química Clínica",
-    "metodo": "Teste5",
-    "amostra": "Teste5",
-    "material_colheita": "Teste5",
-    "descricao_clinica": "Teste5",
-    "indicacao": "",
-    "transporte_estabilidade": "Teste5",
-    "tempo_resposta": "Teste5",
-    "setor": "Teste5",
-    "observacoes": "Teste5"
-  },
-  {
-    "slug": "teste6",
-    "title": "Teste6",
-    "area": "Microbiologia",
-    "metodo": "Teste6",
-    "amostra": "Teste6",
-    "material_colheita": "Teste6",
-    "descricao_clinica": "Teste6",
-    "indicacao": "",
-    "transporte_estabilidade": "Teste6",
-    "tempo_resposta": "Teste6",
-    "setor": "Teste6",
-    "observacoes": "Teste6"
-  },
-  {
-    "slug": "teste7",
-    "title": "Teste7",
-    "area": "Imunologia/Autoimunidade",
-    "metodo": "Teste7",
-    "amostra": "Teste7",
-    "material_colheita": "Teste7",
-    "descricao_clinica": "rich-text rich-text rich-tex trich-tex trich-text",
-    "indicacao": "",
-    "transporte_estabilidade": "Teste7",
-    "tempo_resposta": "Teste7",
-    "setor": "Teste7",
-    "observacoes": "Teste7"
   }
 ]
