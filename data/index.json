@@ -586,5 +586,19 @@
     "tempo_resposta": "3d",
     "setor": "L.MIC",
     "observacoes": ""
+  },
+  {
+    "slug": "liquido-peritoneal-pesquisa-de-aerobios-anaerobios-fungos-leveduriformes",
+    "title": "Líquido peritoneal; Pesquisa de aeróbios, anaeróbios, fungos leveduriformes",
+    "area": "Microbiologia",
+    "metodo": "Cultura",
+    "amostra": "Líquido peritoneal",
+    "material_colheita": "|",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "|",
+    "tempo_resposta": "3d",
+    "setor": "L.MIC",
+    "observacoes": ""
   }
 ]
