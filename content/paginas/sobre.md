@@ -14,7 +14,7 @@ description: Realidade, Atividade e Missão
 
 
 
- O presente manual de colheitas foi elaborado para completar uma necessidade de síntese da informação relativa às análises realizadas pelo SPC/ULSC, proporcionando aos serviços clínicos hospitalares e outras unidades de saúde, o conhecimento relativo às análises realizadas, aos procedimentos de colheita e aos intervalos de tempo de execução das análises, objetivando ainda a diminuição das incorreções associadas à colheita bem como os incómodos e custos inerentes. 
+ O presente manual de colheitas foi elaborado para completar uma necessidade de síntese da informação relativa às análises realizadas pelo SPC/ULSC, proporcionando aos serviços clínicos hospitalares e outras unidades de saúde, o conhecimento relativo às análises realizadas, aos procedimentos de colheita e aos intervalos de tempo de execução das análises, objetivando ainda a diminuição das incorreções associadas à colheita bem como os incómodos e custos inerentes.
 
 
 
