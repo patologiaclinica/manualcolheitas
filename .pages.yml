@@ -1,6 +1,6 @@
 media:
   input: uploads
-  output: uploads
+  output: manualcolheitas_pages/uploads
 
 content:
   # =========================
