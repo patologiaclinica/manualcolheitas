@@ -28,6 +28,20 @@
     "observacoes": ""
   },
   {
+    "slug": "biopsia-ganglionar-estudo-micobacteriologico",
+    "title": "Biópsia ganglionar; estudo micobacteriológico",
+    "area": "Microbiologia",
+    "metodo": "Cultura",
+    "amostra": "Fragmento de biópsia ganglionar",
+    "material_colheita": "Contentor estéril",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Envio imediato",
+    "tempo_resposta": "<57d",
+    "setor": "L.MIC",
+    "observacoes": ""
+  },
+  {
     "slug": "teste3",
     "title": "teste3",
     "area": "Química Clínica",
