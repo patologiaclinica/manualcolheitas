@@ -6,10 +6,6 @@ amostra: Sangue
 material_colheita: |+
   Frasco hemocultura
 
-
-
-  ![](/uploads/tuboteste.jpg)
-
 transporte_estabilidade: Envio imediato. Conservar a 37ºC ou temperatura ambiente.
 tempo_resposta: 5d
 setor: L.MIC
