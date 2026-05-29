@@ -754,5 +754,19 @@
     "tempo_resposta": "3d",
     "setor": "L.MIC",
     "observacoes": ""
+  },
+  {
+    "slug": "pus-de-abcesso-pesquisa-de-aerobios-anaerobios-fungos-leveduriformes",
+    "title": "Pus de abcesso; Pesquisa de aeróbios, anaeróbios, fungos leveduriformes",
+    "area": "Microbiologia",
+    "metodo": "Cultura",
+    "amostra": "Pus de abcesso",
+    "material_colheita": "|-",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Envio imediato",
+    "tempo_resposta": "3d",
+    "setor": "L.MIC",
+    "observacoes": ""
   }
 ]
