@@ -84,6 +84,20 @@
     "observacoes": ""
   },
   {
+    "slug": "cryptococcus-neoformans-pesquisa-de-antigenio",
+    "title": "Cryptococcus neoformans; Pesquisa de antigénio",
+    "area": "Microbiologia",
+    "metodo": "|",
+    "amostra": "|",
+    "material_colheita": "|",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Envio imediato",
+    "tempo_resposta": "<14d",
+    "setor": "L.MIC",
+    "observacoes": ""
+  },
+  {
     "slug": "teste3",
     "title": "teste3",
     "area": "Química Clínica",
