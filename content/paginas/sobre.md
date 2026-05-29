@@ -22,5 +22,5 @@ description: Realidade, Atividade e Missão
 
  _ _
 
- Fernando Rodrigues, Diretor
+  Fernando Rodrigues, Diretor
 
