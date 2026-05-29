@@ -28,6 +28,20 @@
     "observacoes": ""
   },
   {
+    "slug": "actividade-citotoxica-das-celulas-nk-in-vitro",
+    "title": "Actividade citotóxica das células NK, in vitro",
+    "area": "Citometria de Fluxo",
+    "metodo": "Citometria de fluxo",
+    "amostra": "Sangue total",
+    "material_colheita": "Tubo c/ EDTA",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Até 24 horas após colheita",
+    "tempo_resposta": "96 horas",
+    "setor": "UFCF",
+    "observacoes": ""
+  },
+  {
     "slug": "adalimumab-e-respetivos-anticorpos-anti-adalimumab",
     "title": "Adalimumab e respetivos Anticorpos anti-Adalimumab",
     "area": "Imunologia/Autoimunidade",
