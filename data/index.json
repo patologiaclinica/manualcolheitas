@@ -747,7 +747,7 @@
     "area": "Microbiologia",
     "metodo": "PCR",
     "amostra": "Zaragatoa nasal",
-    "material_colheita": "Zaragatoa nasal com meio de transporte adequado",
+    "material_colheita": "Zaragatoa nasal com meio de transporte adequado\n\n![](uploads/mrsa.png)",
     "descricao_clinica": "",
     "indicacao": "",
     "transporte_estabilidade": "Envio imediato",
