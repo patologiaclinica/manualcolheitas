@@ -628,5 +628,19 @@
     "tempo_resposta": "3d",
     "setor": "L.MIC",
     "observacoes": ""
+  },
+  {
+    "slug": "liquido-sinovial-pesquisa-de-cristais",
+    "title": "Líquido sinovial; Pesquisa de cristais",
+    "area": "Microbiologia",
+    "metodo": "Microscopia ótica, luz polarizada",
+    "amostra": "Líquido sinovial",
+    "material_colheita": "Contentor estéril",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Temperatura ambiente",
+    "tempo_resposta": "1d",
+    "setor": "L.MIC",
+    "observacoes": ""
   }
 ]
