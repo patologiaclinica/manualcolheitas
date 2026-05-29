@@ -14,6 +14,20 @@
     "observacoes": ""
   },
   {
+    "slug": "bilis-pesquisa-de-aerobios-anaerobios-e-fungos-leveduriformes",
+    "title": "Bílis; pesquisa de aeróbios, anaeróbios e fungos leveduriformes",
+    "area": "Microbiologia",
+    "metodo": "Cultura",
+    "amostra": "Bílis",
+    "material_colheita": "Contentor estéril",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Envio imediato",
+    "tempo_resposta": "3d",
+    "setor": "L.MIC",
+    "observacoes": ""
+  },
+  {
     "slug": "teste3",
     "title": "teste3",
     "area": "Química Clínica",
