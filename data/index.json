@@ -42,10 +42,24 @@
     "observacoes": ""
   },
   {
+    "slug": "biopsia-gastrica-pesquisa-de-antigenio-de-helicobacter-pylori",
+    "title": "Biópsia gástrica; pesquisa de antigénio de Helicobacter pylori",
+    "area": "Microbiologia",
+    "metodo": "Imunocromatográfico",
+    "amostra": "Fezes",
+    "material_colheita": "Contentor estéril ou meio de transporte apropriado",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Envio imediato",
+    "tempo_resposta": "2d",
+    "setor": "L.MIC",
+    "observacoes": ""
+  },
+  {
     "slug": "biopsia-gastrica-pesquisa-de-helicobacter-pylori",
     "title": "Biópsia gástrica; pesquisa de Helicobacter pylori",
     "area": "Microbiologia",
-    "metodo": "Cultura, antigénio",
+    "metodo": "Cultura",
     "amostra": "Bióspia gástrica",
     "material_colheita": "Contentor estéril ou meio de transporte apropriado",
     "descricao_clinica": "",
