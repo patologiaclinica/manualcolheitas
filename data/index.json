@@ -670,5 +670,19 @@
     "tempo_resposta": "<5d",
     "setor": "L.MIC",
     "observacoes": ""
+  },
+  {
+    "slug": "microsporidia-pesquisa-de",
+    "title": "Microsporidia; Pesquisa de",
+    "area": "Microbiologia",
+    "metodo": "Microscopia óptica",
+    "amostra": "Fezes",
+    "material_colheita": "Contentor estéril",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "3h, ambiente",
+    "tempo_resposta": "<5d",
+    "setor": "L.MIC",
+    "observacoes": ""
   }
 ]
