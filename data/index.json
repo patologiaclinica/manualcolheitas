@@ -442,7 +442,7 @@
     "material_colheita": "Frasco hemocultura",
     "descricao_clinica": "",
     "indicacao": "",
-    "transporte_estabilidade": "|",
+    "transporte_estabilidade": "Envio imediato. Conservar a 37ºC ou temperatura ambiente.",
     "tempo_resposta": "5d",
     "setor": "L.MIC",
     "observacoes": ""
