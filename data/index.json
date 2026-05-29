@@ -726,5 +726,19 @@
     "tempo_resposta": "3d",
     "setor": "L.MIC",
     "observacoes": ""
+  },
+  {
+    "slug": "placenta-pesquisa-de-aerobios-fungos-leveduriformes",
+    "title": "Placenta; Pesquisa de aeróbios, fungos leveduriformes",
+    "area": "Microbiologia",
+    "metodo": "Cultura",
+    "amostra": "Placenta",
+    "material_colheita": "Contentor estéril",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Envio imediato",
+    "tempo_resposta": "3d",
+    "setor": "L.MIC",
+    "observacoes": ""
   }
 ]
