@@ -339,6 +339,13 @@
 
     function markdownToHtml(markdown) {
       const escaped = escapeHtml(markdown || "");
+
+      // ✅ adicionar suporte a imagens
+      const withImages = escaped.replace(
+        /!\[(.*?)\]\((.*?)\)/g,
+        '<img src="$2" alt="$1" style="max-width:100%; height:auto; margin-top:8px;">'
+      );
+      
       const withBold = escaped.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
       const withItalic = withBold.replace(/\*(.*?)\*/g, "<em>$1</em>");
       const paragraphs = withItalic
