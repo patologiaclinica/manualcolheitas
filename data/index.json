@@ -280,6 +280,20 @@
     "observacoes": ""
   },
   {
+    "slug": "fezes-pesquisa-de-parasitas",
+    "title": "Fezes, Pesquisa de parasitas",
+    "area": "Microbiologia",
+    "metodo": "Microscopia, pesquisa de anticorpos IgG, pesquisa de antigénio",
+    "amostra": "Fezes, Soro",
+    "material_colheita": "Contentor estéril ou Tubo com gel",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "3h, ambiente",
+    "tempo_resposta": "7d",
+    "setor": "L.MIC",
+    "observacoes": "|-"
+  },
+  {
     "slug": "fezes-pesquisa-leucocitos",
     "title": "Fezes, Pesquisa leucócitos",
     "area": "Microbiologia",
