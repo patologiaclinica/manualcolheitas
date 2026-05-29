@@ -467,7 +467,7 @@
     "area": "Microbiologia",
     "metodo": "IFI, Western Blot",
     "amostra": "Soro",
-    "material_colheita": "Tubo c/ gel",
+    "material_colheita": "Tubo c/ gel\n\n![](uploads/tuboteste.jpg)",
     "descricao_clinica": "",
     "indicacao": "",
     "transporte_estabilidade": "5d, 2-8ºC\n6m, -20ºC",
