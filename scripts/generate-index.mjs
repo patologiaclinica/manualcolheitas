@@ -19,7 +19,7 @@ function parseFrontmatter(md) {
   while (i < lines.length) {
     const line = lines[i];
 
-    // ignorar linhas vazias ou comentários
+    // Ignorar linhas vazias e comentários
     if (!line.trim() || line.trim().startsWith("#")) {
       i++;
       continue;
@@ -34,7 +34,7 @@ function parseFrontmatter(md) {
     const key = match[1];
     let val = match[2] || "";
 
-    // Campo multilinha YAML (|, |+, |-, >, >+, >-)
+    // Campos multilinha YAML: |, |+, |-, >, >+, >-
     if (/^[|>][+-]?$/.test(val.trim())) {
       i++;
 
@@ -47,7 +47,7 @@ function parseFrontmatter(md) {
           break;
         }
 
-        // Remove até 2 espaços de indentação comuns do bloco
+        // Remove 2 espaços iniciais típicos do YAML multilinha
         blockLines.push(nextLine.replace(/^  /, ""));
         i++;
       }
@@ -57,7 +57,7 @@ function parseFrontmatter(md) {
       continue;
     }
 
-    // remover aspas se houver
+    // Remover aspas simples ou duplas, se existirem
     val = val.trim();
     if (
       (val.startsWith('"') && val.endsWith('"')) ||
@@ -91,7 +91,7 @@ for (const filename of entries) {
   const title = (fm.title || slug).trim();
   const area = (fm.area || "").trim();
 
-  // Mantém apenas entradas válidas para catálogo
+  // Mantém apenas entradas válidas para o catálogo
   if (!slug || !title || !area) continue;
 
   items.push({
@@ -113,14 +113,15 @@ for (const filename of entries) {
   });
 }
 
-// Ordenação final por título (pt-PT)
+// Ordenação final por título
 items.sort((a, b) =>
   a.title.localeCompare(b.title, "pt", { sensitivity: "base" })
 );
 
-// garantir que a pasta data existe
+// Garantir que a pasta data existe
 fs.mkdirSync(path.join("data"), { recursive: true });
 
+// Escrever o ficheiro JSON
 fs.writeFileSync(OUT_FILE, JSON.stringify(items, null, 2) + "\n", "utf8");
 
 console.log(`✔ Gerado ${OUT_FILE} com ${items.length} teste(s).`);
