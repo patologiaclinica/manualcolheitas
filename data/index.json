@@ -98,6 +98,20 @@
     "observacoes": ""
   },
   {
+    "slug": "estudo-de-colonizacao-produtores-de-carbapenemases",
+    "title": "Estudo de colonização, produtores de carbapenemases",
+    "area": "Microbiologia",
+    "metodo": "PCR",
+    "amostra": "Fezes",
+    "material_colheita": "Zaragatoa rectal c/ meio de transporte  adequado",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Envio imediato",
+    "tempo_resposta": "2d",
+    "setor": "L.MIC",
+    "observacoes": ""
+  },
+  {
     "slug": "teste3",
     "title": "teste3",
     "area": "Química Clínica",
