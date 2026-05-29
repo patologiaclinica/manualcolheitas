@@ -37,15 +37,15 @@ content:
 
       - name: metodo
         label: Método
-        type: text
+        type: rich-text
 
       - name: amostra
         label: Amostra
-        type: text
+        type: rich-text
 
       - name: material_colheita
         label: Material de Colheita
-        type: text
+        type: rich-text
 
       - name: transporte_estabilidade
         label: Transporte/Estabilidade
