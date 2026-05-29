@@ -6,7 +6,7 @@ amostra: Sangue
 material_colheita: |+
   Frasco Hemocul
 
-  ![](uploads/tuboteste.jpg)
+  ![](uploads/fr._hemocultura.png)
 
 transporte_estabilidade: Envio imediato. Conservar a 37ºC ou temperatura ambiente.
 tempo_resposta: 5d
