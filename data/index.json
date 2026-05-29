@@ -378,6 +378,20 @@
     "observacoes": ""
   },
   {
+    "slug": "helicobacter-pylori-pesquisa-de-antigenio",
+    "title": "Helicobacter pylori, pesquisa de antigénio",
+    "area": "Microbiologia",
+    "metodo": "Imunocromatográfico",
+    "amostra": "Fezes",
+    "material_colheita": "Contentor estéril",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Envio imediato",
+    "tempo_resposta": "3d",
+    "setor": "L.MIC",
+    "observacoes": ""
+  },
+  {
     "slug": "teste3",
     "title": "teste3",
     "area": "Química Clínica",
