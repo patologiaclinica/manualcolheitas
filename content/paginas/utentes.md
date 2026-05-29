@@ -1,6 +1,6 @@
 ---
-title: Informações a utentes
-description: Informação geral útil para utentes.
+title: Informações a Profissionais e Utentes
+description: Informação de utilidade geral
 ---
 **INFLUÊNCIA DO JEJUM E DA HORA DA COLHEITA**
 
