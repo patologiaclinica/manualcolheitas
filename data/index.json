@@ -392,6 +392,20 @@
     "observacoes": ""
   },
   {
+    "slug": "hemocultura-pesquisa-de-aerobios-anaerobios-fungos-leveduriformes",
+    "title": "Hemocultura; Pesquisa de aeróbios, anaeróbios, fungos leveduriformes",
+    "area": "Microbiologia",
+    "metodo": "Cultura",
+    "amostra": "Sangue",
+    "material_colheita": "Frasco hemocultura",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "|",
+    "tempo_resposta": "5d",
+    "setor": "L.MIC",
+    "observacoes": ""
+  },
+  {
     "slug": "teste3",
     "title": "teste3",
     "area": "Química Clínica",
