@@ -4,7 +4,11 @@ title: Exsudado de ferida não cirúrgica; Pesquisa de aeróbios, anaeróbios,
 area: Microbiologia
 metodo: Cultura
 amostra: Exsudado de ferida não cirúrgica
-material_colheita: Zaragatoas c/ meio transporte
+material_colheita: |+
+  Zaragatoas c/ meio transporte
+
+  ![](uploads/zaragatoa_meio_trans.png)
+
 transporte_estabilidade: Envio imediato à temperatura ambiente
 tempo_resposta: 3d
 setor: L.MIC
