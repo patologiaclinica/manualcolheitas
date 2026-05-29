@@ -59,7 +59,7 @@
     "slug": "anexina-a5-pesquisa-do-haplotipo-m2",
     "title": "Anexina A5, pesquisa do haplótipo M2",
     "area": "Hematologia",
-    "metodo": "*PCR e restrição enzimática*",
+    "metodo": "PCR e restrição enzimática",
     "amostra": "Sangue total",
     "material_colheita": "Tubo c/ EDTA",
     "descricao_clinica": "",
