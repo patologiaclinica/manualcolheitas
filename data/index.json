@@ -182,6 +182,20 @@
     "observacoes": ""
   },
   {
+    "slug": "exsudado-uretral-pesquisa-de-ureoplasma-ureolyticum",
+    "title": "Exsudado uretral; Pesquisa de  Ureoplasma ureolyticum",
+    "area": "Microbiologia",
+    "metodo": "Cultura",
+    "amostra": "Exsudado uretral",
+    "material_colheita": "Zaragatoa e meio de transporte específicos fornecidos pelo laboratório",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "|",
+    "tempo_resposta": "3d",
+    "setor": "L.MIC",
+    "observacoes": ""
+  },
+  {
     "slug": "teste3",
     "title": "teste3",
     "area": "Química Clínica",
