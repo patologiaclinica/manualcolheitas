@@ -6,21 +6,59 @@ const OUT_FILE = path.join("data", "index.json");
 
 function parseFrontmatter(md) {
   if (!md.startsWith("---")) return {};
+
   const end = md.indexOf("\n---", 3);
   if (end === -1) return {};
 
-  const raw = md.slice(3, end).trim();
+  const raw = md.slice(3, end).replace(/\r\n/g, "\n");
+  const lines = raw.split("\n");
+
   const data = {};
+  let i = 0;
 
-  for (const line of raw.split("\n")) {
-    const t = line.trim();
-    if (!t || t.startsWith("#")) continue;
-    const i = t.indexOf(":");
-    if (i === -1) continue;
+  while (i < lines.length) {
+    const line = lines[i];
 
-    const key = t.slice(0, i).trim();
-    let val = t.slice(i + 1).trim();
+    // ignorar linhas vazias ou comentários
+    if (!line.trim() || line.trim().startsWith("#")) {
+      i++;
+      continue;
+    }
 
+    const match = line.match(/^([A-Za-z0-9_-]+):\s*(.*)$/);
+    if (!match) {
+      i++;
+      continue;
+    }
+
+    const key = match[1];
+    let val = match[2] || "";
+
+    // Campo multilinha YAML (|, |+, |-, >, >+, >-)
+    if (/^[|>][+-]?$/.test(val.trim())) {
+      i++;
+
+      const blockLines = [];
+      while (i < lines.length) {
+        const nextLine = lines[i];
+
+        // Se aparecer uma nova chave no mesmo nível, termina o bloco
+        if (/^[A-Za-z0-9_-]+:\s*/.test(nextLine) && !nextLine.startsWith(" ")) {
+          break;
+        }
+
+        // Remove até 2 espaços de indentação comuns do bloco
+        blockLines.push(nextLine.replace(/^  /, ""));
+        i++;
+      }
+
+      val = blockLines.join("\n").trimEnd();
+      data[key] = val;
+      continue;
+    }
+
+    // remover aspas se houver
+    val = val.trim();
     if (
       (val.startsWith('"') && val.endsWith('"')) ||
       (val.startsWith("'") && val.endsWith("'"))
@@ -29,7 +67,9 @@ function parseFrontmatter(md) {
     }
 
     data[key] = val;
+    i++;
   }
+
   return data;
 }
 
@@ -82,6 +122,5 @@ items.sort((a, b) =>
 fs.mkdirSync(path.join("data"), { recursive: true });
 
 fs.writeFileSync(OUT_FILE, JSON.stringify(items, null, 2) + "\n", "utf8");
-
 
 console.log(`✔ Gerado ${OUT_FILE} com ${items.length} teste(s).`);
