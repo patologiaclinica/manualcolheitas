@@ -1,7 +1,7 @@
 ---
 title: Biópsia gástrica; pesquisa de Helicobacter pylori
 area: Microbiologia
-metodo: Cultura, antigénio
+metodo: Cultura
 amostra: Bióspia gástrica
 material_colheita: Contentor estéril ou meio de transporte apropriado
 transporte_estabilidade: Envio imediato
