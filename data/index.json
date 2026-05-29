@@ -224,6 +224,20 @@
     "observacoes": ""
   },
   {
+    "slug": "exsudado-vaginal-pesquisa-de-aerobios-anaerobios-fungos-leveduriformes",
+    "title": "Exsudado vaginal; Pesquisa de aeróbios, anaeróbios, fungos leveduriformes",
+    "area": "Microbiologia",
+    "metodo": "Cultura",
+    "amostra": "Exsudado vaginal",
+    "material_colheita": "Zaragatoa c/ meio transporte",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "|",
+    "tempo_resposta": "3d",
+    "setor": "L.MIC",
+    "observacoes": ""
+  },
+  {
     "slug": "teste3",
     "title": "teste3",
     "area": "Química Clínica",
