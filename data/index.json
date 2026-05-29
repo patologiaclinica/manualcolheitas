@@ -544,5 +544,19 @@
     "tempo_resposta": "<5d",
     "setor": "L.MIC",
     "observacoes": ""
+  },
+  {
+    "slug": "leishmaniose-detecao-de-anticorpos-igg",
+    "title": "Leishmaniose; Deteção de  anticorpos IgG",
+    "area": "Microbiologia",
+    "metodo": "IFI/Western Blot",
+    "amostra": "Soro",
+    "material_colheita": "Tubo c/ gel",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "|-",
+    "tempo_resposta": "<30d",
+    "setor": "L.MIC",
+    "observacoes": ""
   }
 ]
