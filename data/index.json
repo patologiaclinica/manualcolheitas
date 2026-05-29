@@ -476,6 +476,20 @@
     "observacoes": ""
   },
   {
+    "slug": "lavado-bronco-alveolar-pesquisa-de-pneumocystis-jirovecci",
+    "title": "Lavado bronco-alveolar; Pesquisa de Pneumocystis jirovecci",
+    "area": "Microbiologia",
+    "metodo": "IFI",
+    "amostra": "Lavado bronco-alveolar",
+    "material_colheita": "Contentor estéril",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Envio imediato",
+    "tempo_resposta": "<5d",
+    "setor": "L.MIC",
+    "observacoes": ""
+  },
+  {
     "slug": "teste3",
     "title": "teste3",
     "area": "Química Clínica",
