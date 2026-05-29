@@ -328,36 +328,6 @@
       return (value || "").trim();
     }
 
-<!--    
-    function escapeHtml(value) {
-      return (value || "")
-        .replace(/&/g, "&amp;")
-        .replace(/</g, "&lt;")
-        .replace(/>/g, "&gt;")
-        .replace(/"/g, "&quot;")
-        .replace(/'/g, "&#039;");
-    }
-
-    function markdownToHtml(markdown) {
-      const escaped = escapeHtml(markdown || "");
-    
-      const withImages = escaped.replace(
-        /!\[(.*?)\]\((.*?)\)/g,
-        '<img src="$2" alt="$1" style="max-width:100%; height:auto; margin-top:8px;">'
-      );
-    
-      const withBold = withImages.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
-      const withItalic = withBold.replace(/\*(.*?)\*/g, "<em>$1</em>");
-    
-      const paragraphs = withItalic
-        .split(/\n\s*\n/)
-        .map(p => `<p>${p.replace(/\n/g, "<br>")}</p>`)
-        .join("");
-    
-      return paragraphs || "<p></p>";
-    }
--->
-
       function escapeHtml(value) {
         return String(value || "")
           .replace(/&/g, "&amp;")
