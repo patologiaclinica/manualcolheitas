@@ -406,6 +406,20 @@
     "observacoes": ""
   },
   {
+    "slug": "hidatidose-ech-granulosus-detecao-de-anticorpos-igg",
+    "title": "Hidatidose (Ech. granulosus); Deteção de anticorpos IgG",
+    "area": "Microbiologia",
+    "metodo": "IFI, Western Blot",
+    "amostra": "Soro",
+    "material_colheita": "Tubo c/ gel",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "|-",
+    "tempo_resposta": "<30d",
+    "setor": "L.MIC",
+    "observacoes": ""
+  },
+  {
     "slug": "teste3",
     "title": "teste3",
     "area": "Química Clínica",
