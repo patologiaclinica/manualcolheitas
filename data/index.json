@@ -168,6 +168,20 @@
     "observacoes": ""
   },
   {
+    "slug": "exsudado-ouvido-medio-pesquisa-de-aerobios-anaerobios-fungos-leveduriformes",
+    "title": "Exsudado ouvido médio; Pesquisa de aeróbios, anaeróbios, fungos leveduriformes",
+    "area": "Microbiologia",
+    "metodo": "Cultura",
+    "amostra": "Exsudado ouvido médio",
+    "material_colheita": "|",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Envio imediato",
+    "tempo_resposta": "3d",
+    "setor": "L.MIC",
+    "observacoes": ""
+  },
+  {
     "slug": "teste3",
     "title": "teste3",
     "area": "Química Clínica",
