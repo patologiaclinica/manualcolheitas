@@ -49,7 +49,7 @@ content:
 
       - name: transporte_estabilidade
         label: Transporte/Estabilidade
-        type: text
+        type: rich-text
 
       - name: tempo_resposta
         label: Tempo de resposta
