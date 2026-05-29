@@ -530,5 +530,19 @@
     "tempo_resposta": "5-7d",
     "setor": "L.MIC",
     "observacoes": ""
+  },
+  {
+    "slug": "leishmania-pesquisa-de",
+    "title": "Leishmania; Pesquisa de",
+    "area": "Microbiologia",
+    "metodo": "Microscopia óptica",
+    "amostra": "Esfregaço de medula óssea",
+    "material_colheita": "|",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "3h, ambiente",
+    "tempo_resposta": "<5d",
+    "setor": "L.MIC",
+    "observacoes": ""
   }
 ]
