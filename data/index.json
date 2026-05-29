@@ -768,5 +768,19 @@
     "tempo_resposta": "3d",
     "setor": "L.MIC",
     "observacoes": ""
+  },
+  {
+    "slug": "raspado-cornea-pesquisa-fungos-filamentosos",
+    "title": "Raspado córnea; pesquisa fungos filamentosos",
+    "area": "Microbiologia",
+    "metodo": "Cultura",
+    "amostra": "Raspado de córnea",
+    "material_colheita": "Gelose Sabouraud com Cloranfenicol ou contentor estéril",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Envio imediato",
+    "tempo_resposta": "3s",
+    "setor": "L.MIC",
+    "observacoes": ""
   }
 ]
