@@ -705,12 +705,26 @@
     "area": "Microbiologia",
     "metodo": "|",
     "amostra": "|",
-    "material_colheita": "",
+    "material_colheita": "|",
     "descricao_clinica": "",
     "indicacao": "",
-    "transporte_estabilidade": "",
-    "tempo_resposta": "",
-    "setor": "",
+    "transporte_estabilidade": "|",
+    "tempo_resposta": "1s",
+    "setor": "L.MIC",
+    "observacoes": ""
+  },
+  {
+    "slug": "neisseria-meningitidis-spneumoniae-listeria-dna-qualitativo",
+    "title": "Neisseria meningitidis/ S.Pneumoniae / Listeria DNA qualitativo",
+    "area": "Microbiologia",
+    "metodo": "PCR tempo real",
+    "amostra": "|",
+    "material_colheita": "|",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "|",
+    "tempo_resposta": "3d",
+    "setor": "L.MIC",
     "observacoes": ""
   }
 ]
