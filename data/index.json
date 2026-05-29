@@ -28,6 +28,20 @@
     "observacoes": ""
   },
   {
+    "slug": "adalimumab-e-respetivos-anticorpos-anti-adalimumab",
+    "title": "Adalimumab e respetivos Anticorpos anti-Adalimumab",
+    "area": "Imunologia/Autoimunidade",
+    "metodo": "ELISA",
+    "amostra": "Soro",
+    "material_colheita": "Tubo c/ gel",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "|-",
+    "tempo_resposta": "1-4s",
+    "setor": "L.IM",
+    "observacoes": ""
+  },
+  {
     "slug": "bilis-pesquisa-de-aerobios-anaerobios-e-fungos-leveduriformes",
     "title": "Bílis; pesquisa de aeróbios, anaeróbios e fungos leveduriformes",
     "area": "Microbiologia",
