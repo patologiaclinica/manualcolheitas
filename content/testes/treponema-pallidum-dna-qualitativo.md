@@ -9,6 +9,5 @@ material_colheita: contentor estéril
 transporte_estabilidade: Imediato/ 72H a 4ªC
 tempo_resposta: Até 72 horas
 setor: Microbiologia
-observacoes: |+
-  TREPB
+codigo_interno: TREPB
 ---
