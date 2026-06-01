@@ -9,5 +9,5 @@ material_colheita: Contentor estéril, sem conservante
 transporte_estabilidade: Imediato/ 72h  a 4ºc
 tempo_resposta: até 72 horas
 setor: Microbiologia
-observacoes: DSTU
+codigo_interno: DSTU
 ---
