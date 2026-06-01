@@ -434,6 +434,20 @@
     "observacoes": "TICK"
   },
   {
+    "slug": "dst-teste-multiplo-ctrachngono-myctvagure",
+    "title": "DST (Chlam. trachomatis, Myco. genitalium, Myco. hominis, Neiss.",
+    "area": "Bacteriologia - Biologia Molecular",
+    "metodo": "PCR em tempo real",
+    "amostra": "Zar.genit/Urina,",
+    "material_colheita": "Zaragatoa com meio de transporte líquido (Amies) ou Zaragatoa",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Imediato/ 72h a 4ºC",
+    "tempo_resposta": "até 72 horas",
+    "setor": "Microbiologia",
+    "observacoes": "4990"
+  },
+  {
     "slug": "estudo-de-colonizacao-produtores-de-carbapenemases",
     "title": "Estudo de colonização, produtores de carbapenemases",
     "area": "Microbiologia",
