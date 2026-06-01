@@ -434,6 +434,20 @@
     "observacoes": "TICK"
   },
   {
+    "slug": "dst-chlam-trachomatis-myco-genitalium-myco-hominis-neiss-gonorrhoea-trich-vaginalis-ureapl-parvum-ureapl-urealyticum-dna-qualitativo",
+    "title": "DST (Chlam. trachomatis, Myco. genitalium, Myco. hominis, Neiss.",
+    "area": "Bacteriologia - Biologia Molecular",
+    "metodo": "PCR em tempo real",
+    "amostra": "Outros produtos,",
+    "material_colheita": "Contentor estéril",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Imediato/ 72H a 4ºC",
+    "tempo_resposta": "até 72 horas",
+    "setor": "Microbiologia",
+    "observacoes": "DSTO"
+  },
+  {
     "slug": "dst-teste-multiplo-ctrachngono-myctvagure",
     "title": "DST (Chlam. trachomatis, Myco. genitalium, Myco. hominis, Neiss.",
     "area": "Bacteriologia - Biologia Molecular",
