@@ -596,8 +596,8 @@
     "transporte_estabilidade": "Imediato/ 72h a 4ºC",
     "tempo_resposta": "Até 4h",
     "setor": "Microbiologia",
-    "codigo_interno": "",
-    "observacoes": "DMCU"
+    "codigo_interno": "DMCU",
+    "observacoes": ""
   },
   {
     "slug": "estudo-de-colonizacao-produtores-de-carbapenemases",
