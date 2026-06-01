@@ -1,6 +1,5 @@
 ---
-title: Painel de pesquisa de microrganismos associados a Gastroenterites (painel
-  de Urgência)
+title: Painel de Gastroenterites (painel de Urgência)
 area: Bacteriologia - Biologia Molecular e Virologia
 metodo: PCR em tempo real e Nested PCR
 amostra: "Fezes liquídas "
