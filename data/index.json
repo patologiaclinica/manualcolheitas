@@ -252,6 +252,20 @@
     "observacoes": ""
   },
   {
+    "slug": "borrelia-burgdorferi-sl-16s-rrna-qualitativo-1",
+    "title": "Borrelia burgdorferi sl. (16S rRNA qualitativo)",
+    "area": "Bacteriologia - Biologia Molecular",
+    "metodo": "PCR em tempo real",
+    "amostra": "LCR",
+    "material_colheita": "Contentor estéril",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "imediato/72 a 4ªC",
+    "tempo_resposta": "até 72 horas",
+    "setor": "Microbiologia",
+    "observacoes": "BORRLC"
+  },
+  {
     "slug": "borrelia-burgdorferi-sl-16s-rrna-qualitativo",
     "title": "Borrelia burgdorferi sl. (16S rRNA qualitativo)",
     "area": "Bacteriologia - Biologia Molecular",
