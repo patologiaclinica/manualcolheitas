@@ -1755,6 +1755,21 @@
     "observacoes": ""
   },
   {
+    "slug": "pneumocystis-jirovecii-dna-qualitativo",
+    "title": "Pneumocystis jirovecii, DNA qualitativo",
+    "area": "Micologia",
+    "metodo": "PCR em tempo real",
+    "amostra": "Lavado bronco-alveolar",
+    "material_colheita": "Contentor estéril",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Imediato/ 72H a 4ºC",
+    "tempo_resposta": "Até 72 horas",
+    "setor": "Microbiologia",
+    "codigo_interno": "",
+    "observacoes": "PNCY"
+  },
+  {
     "slug": "protese-vascular-pesquisa-de-aerobios-fungos-leveduriformes",
     "title": "Prótese vascular; Pesquisa de aeróbios, fungos leveduriformes",
     "area": "Microbiologia",
