@@ -1650,6 +1650,21 @@
     "observacoes": "PMRSA"
   },
   {
+    "slug": "pesquisa-de-clostridium-difficile",
+    "title": "Pesquisa de Clostridium difficile",
+    "area": "Bacteriologia - Biologia Molecular",
+    "metodo": "PCR em tempo real",
+    "amostra": "Fezes liquidas, exclusivamente",
+    "material_colheita": "Contentor estéril",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Imediato, 72 h a 4ºC",
+    "tempo_resposta": "Até 4h",
+    "setor": "Microbiologia",
+    "codigo_interno": "",
+    "observacoes": "TCLO"
+  },
+  {
     "slug": "pesquisa-de-enterobacteriaceas-produtoras-de-carbapenemases",
     "title": "Pesquisa de enterobacteriáceas produtoras de carbapenemases",
     "area": "Bacteriologia - Biologia Molecular",
