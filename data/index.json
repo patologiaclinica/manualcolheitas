@@ -1530,6 +1530,21 @@
     "observacoes": ""
   },
   {
+    "slug": "painel-agentes-infecao-respiratoria-inferior-disponivel-apos-consulta-pat-clinico-escala-de-microbiologia",
+    "title": "Painel agentes infeção respiratória inferior (disponível após consulta",
+    "area": "Bacteriologia - Biologia Molecular",
+    "metodo": "PCR em tempo real e nested PCR",
+    "amostra": "Aspirado traqueobronquico e lavado bronco-alveolar",
+    "material_colheita": "Contentor estéril",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Imediato/ 72H  a 4ºC",
+    "tempo_resposta": "Até 4h",
+    "setor": "Microbiologia",
+    "codigo_interno": "",
+    "observacoes": "RESIN\n\n\nMicrorganismos pesquisados: Adenovirus, Coronavirus, Human metapneumovirus,\nHuman rhinovirus/enterovirus, Influenza A vírus, Influenza B vírus,\nParainfluenza vírus, Respiratory syncytial vírus, *Acinetobacter\ncalcoaceticus-baumannii complex, Enterobacter cloacae complex, Escherichia\ncoli, Haemophilus influenzae, Klebsiella aerogenes, Klebsiella oxytoca,\nKlebsiella pneumoniae group, Moraxella catarrhalis, Proteus spp., Pseudomonas\naeruginosa, Serratia marcescens, Staphylococcus aureus, Streptococcus\nagalactiae, Streptococcus pneumoniae, Streptococcus pyogenes*"
+  },
+  {
     "slug": "painel-agentes-infecao-respiratoria-superior",
     "title": "Painel agentes infeção respiratória superior",
     "area": "Bacteriologia - Biologia Molecular",
