@@ -1766,8 +1766,8 @@
     "transporte_estabilidade": "Imediato/ 72H a 4ºC",
     "tempo_resposta": "Até 72 horas",
     "setor": "Microbiologia",
-    "codigo_interno": "",
-    "observacoes": "PNCYA"
+    "codigo_interno": "PNCYA",
+    "observacoes": ""
   },
   {
     "slug": "pneumocystis-jirovecii-dna-qualitativo",
