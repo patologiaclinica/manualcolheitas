@@ -5,16 +5,16 @@ metodo: PCR em tempo real
 amostra: |+
   Exs.oral
 
-material_colheita: >2+
+material_colheita: |2+
    Zaragatoa com meio de transporte líquido (Amies) ou Zaragatoa com meio de
   transporte vírico com inactivador
 
 transporte_estabilidade: Imediato/ 72H a 4ºC
 tempo_resposta: Até 72 horas
 setor: Microbiologia
+codigo_interno: ULGEEO
 observacoes: >-
-  ULGEEO
-
+  
 
   Microrganismos pesquisados: ·     *Cytomegalovirus, Haemophilus ducreyi,*
   Herpes simplex virus type 1, Herpes simplex virus type 2, *Lymphogranuloma
