@@ -126,6 +126,20 @@
     "observacoes": "BARTb"
   },
   {
+    "slug": "bartonella-sp-dna-qualitativo-2",
+    "title": "Bartonella sp., DNA qualitativo",
+    "area": "Bacteriologia - Biologia Molecular",
+    "metodo": "PCR em tempo real",
+    "amostra": "Liquido sinovial",
+    "material_colheita": "Contentor estéril",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Imediato/72h a 4ºC",
+    "tempo_resposta": "até 72 horas",
+    "setor": "Microbiologia",
+    "observacoes": "BARTLS"
+  },
+  {
     "slug": "bartonella-sp-dna-qualitativo",
     "title": "Bartonella sp., DNA qualitativo",
     "area": "Bacteriologia - Biologia Molecular",
