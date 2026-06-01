@@ -1456,6 +1456,20 @@
     "observacoes": "GASTR\n\n\n\n\nMicroorganismos no Painel:  \n\nCampylobacter (C. jejuni / C. coli / C. upsaliensis), Clostridioides\n(Clostridium) difficile (toxin A/B), Plesiomonas shigelloides, Salmonella,\nYersinia enterocolitica, Vibrio (V. parahaemolyticus / V. vulnificus / V.\ncholerae), Vibrio cholerae, Enteroaggregative E. coli (EAEC), Enteropathogenic\nE. coli (EPEC), Enterotoxigenic E. coli (ETEC) lt/st, Shiga-like\ntoxin-producing E. coli (STEC) stx1/stx2, E. coli O157,\nShigella/Enteroinvasive, E. coli (EIEC), Cryptosporidium, Cyclospora\ncayetanensis, Entamoeba histolytica, Giardia lamblia"
   },
   {
+    "slug": "painel-diagnostico-de-encefalitesmeningites-painel-de-urgencia",
+    "title": "Painel diagnóstico de encefalites/meningites (painel de urgência)",
+    "area": "Bacteriologia - Biologia Molecular",
+    "metodo": "PCR em tempo real e Nested PCR",
+    "amostra": "LCR",
+    "material_colheita": "Contentor estéril",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Imediato /72h a 4ºC",
+    "tempo_resposta": "Até 4h",
+    "setor": "Microbiologia",
+    "observacoes": "MENIN\n\n\nMicrorganismos pesquisados: ·     *Escherichia coli K1, Haemophilus\ninfluenzae, Listeria monocytogenes, Neisseria meningitidis, Streptococcus\nagalactiae, Streptococcus pneumoniae,* Cytomegalovirus (CMV), Enterovirus\n(EV), Herpes simplex virus 1 (HSV-1), Herpes simplex virus 2 (HSV-2),\nHerpesvirus 6 (HHV-6), Human parechovirus (HPeV), Varicella zoster virus\n(VZV), Cryptococcus (C. neoformans/C. gattii)"
+  },
+  {
     "slug": "placenta-pesquisa-de-aerobios-fungos-leveduriformes",
     "title": "Placenta; Pesquisa de aeróbios, fungos leveduriformes",
     "area": "Microbiologia",
