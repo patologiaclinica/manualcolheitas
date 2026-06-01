@@ -433,6 +433,7 @@
       const transporteEstabilidade = data.transporte_estabilidade || "";
       const tat = data.tempo_resposta || "";
       const setor = data.setor || "";
+      const codigo = data.codigo_interno || "";
       const observacoes = data.observacoes || "";
 
       document.title = `${title} — Manual de Colheitas`;
@@ -479,6 +480,7 @@
             <ul class="tech-list">
               <li><span class="tech-label">Método</span><span class="tech-value">${escapeHtml(metodo)}</span></li>
               <li><span class="tech-label">Setor</span><span class="tech-value">${escapeHtml(setor)}</span></li>
+              <li><span class="tech-label">Código Interno</span><span class="tech-value">${escapeHtml(codigo)}</span></li>              
             </ul>
           </aside>
         </div>
