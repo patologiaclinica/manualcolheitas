@@ -8,5 +8,6 @@ material_colheita: |+
 
 transporte_estabilidade: Imedato/ 72H a 4ºC
 tempo_resposta: Até 72 horas
-setor: VMPXOUT
+setor: Microbiologia
+codigo_interno: VMPXOUT
 ---
