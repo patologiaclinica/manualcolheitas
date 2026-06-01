@@ -14,6 +14,20 @@
     "observacoes": ""
   },
   {
+    "slug": "acanthamoeba-1",
+    "title": "Acanthamoeba",
+    "area": "Bacteriologia - Biologia Molecular",
+    "metodo": "",
+    "amostra": "LCR",
+    "material_colheita": "Contentor estéril",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Imediato, ou 24 se mantido a 4ºC",
+    "tempo_resposta": "até 72 horas",
+    "setor": "Microbiologia",
+    "observacoes": "ACANTAL"
+  },
+  {
     "slug": "acanthamoeba",
     "title": "Acanthamoeba",
     "area": "Bacteriologia - Biologia Molecular",
