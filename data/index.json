@@ -709,15 +709,15 @@
     "title": "DST (Chlam. trachomatis, Myco. genitalium, Myco. hominis, Neiss.",
     "area": "Bacteriologia - Biologia Molecular",
     "metodo": "PCR em tempo real",
-    "amostra": "",
-    "material_colheita": "Exs Retal,",
+    "amostra": "Exs Retal,",
+    "material_colheita": "Zaragatoa com meio de transporte líquido (Amies) ou Zaragatoa",
     "descricao_clinica": "",
     "indicacao": "",
-    "transporte_estabilidade": "Zaragatoa com meio de transporte líquido (Amies) ou",
+    "transporte_estabilidade": "Imediato/ 72H a 4ºC",
     "tempo_resposta": "até 72 horas",
     "setor": "Microbiologia",
     "codigo_interno": "DSTZA",
-    "observacoes": ""
+    "observacoes": "![image4257.png](uploads/image4257.png)\n\n![image2066.png](uploads/image2066.png)"
   },
   {
     "slug": "dst-chlam-trachomatis-myco-genitalium-myco-hominis-neiss-gonorrhoea-trich-vaginalis-ureapl-parvum-ureapl-urealyticum-dna-qualitativo-2",
