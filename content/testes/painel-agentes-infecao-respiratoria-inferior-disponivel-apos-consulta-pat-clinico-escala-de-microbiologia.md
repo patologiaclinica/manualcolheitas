@@ -8,9 +8,9 @@ material_colheita: Contentor estéril
 transporte_estabilidade: Imediato/ 72H  a 4ºC
 tempo_resposta: Até 4h
 setor: Microbiologia
+codigo_interno: RESIN
 observacoes: >-
-  RESIN
-
+  
 
   Microrganismos pesquisados: Adenovirus, Coronavirus, Human metapneumovirus,
   Human rhinovirus/enterovirus, Influenza A vírus, Influenza B vírus,
