@@ -7,5 +7,5 @@ material_colheita: "Contentor estéril "
 transporte_estabilidade: Imediato/ 72H a 4ºC
 tempo_resposta: Até 72 horas
 setor: Microbiologia
-observacoes: 16SRNA
+codigo_interno: 16SRNA
 ---
