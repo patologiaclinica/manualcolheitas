@@ -1860,6 +1860,21 @@
     "observacoes": "TOXOLC"
   },
   {
+    "slug": "toxoplasma-gondii-dna-qualitativo-3",
+    "title": "Toxoplasma gondii, DNA qualitativo",
+    "area": "Bacteriologia - Biologia Molecular",
+    "metodo": "PCR em tempo real",
+    "amostra": "Sangue total do cordão",
+    "material_colheita": "Tubo de EDTA (tubo de hemograma)",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Imediato/ 72H a 4ºC",
+    "tempo_resposta": "Até 72 horas",
+    "setor": "Microbiologia",
+    "codigo_interno": "",
+    "observacoes": "TOXOSC"
+  },
+  {
     "slug": "toxoplasma-gondii-dna-qualitativo",
     "title": "Toxoplasma gondii, DNA qualitativo",
     "area": "Bacteriologia - Biologia Molecular",
