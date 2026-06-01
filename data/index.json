@@ -1372,6 +1372,20 @@
     "observacoes": "4936"
   },
   {
+    "slug": "nmeningitidisspneumoniaelisteria-dna-qualitativo-1",
+    "title": "N.meningitidis/S.pneumoniae./Listeria -DNA qualitativo",
+    "area": "Bacteriologia - Biologia Molecular",
+    "metodo": "PCR em tempo real",
+    "amostra": "Liq. Pleural/ LCR/ Outras amostras",
+    "material_colheita": "contentor estéril",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Imediato/72H a 4ºC",
+    "tempo_resposta": "até 72 horas",
+    "setor": "Microbiologia",
+    "observacoes": "4924"
+  },
+  {
     "slug": "nmeningitidisspneumoniaelisteria-dna-qualitativo",
     "title": "N.meningitidis/S.pneumoniae./Listeria -DNA qualitativo",
     "area": "Bacteriologia - Biologia Molecular",
