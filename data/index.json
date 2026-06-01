@@ -1031,8 +1031,8 @@
     "transporte_estabilidade": "Contentor estéril",
     "tempo_resposta": "até 72 horas",
     "setor": "Microbiologia",
-    "codigo_interno": "",
-    "observacoes": "KINGB"
+    "codigo_interno": "KINGB",
+    "observacoes": ""
   },
   {
     "slug": "kingella-kingae-dna-qualitativo-3",
