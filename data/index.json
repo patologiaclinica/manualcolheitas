@@ -26,8 +26,8 @@
     "transporte_estabilidade": "Imediato / 72horas a 4ºC",
     "tempo_resposta": "até 72 horas",
     "setor": "Microbiologia",
-    "codigo_interno": "",
-    "observacoes": "ACANTAL"
+    "codigo_interno": "ACANTAL",
+    "observacoes": ""
   },
   {
     "slug": "acanthamoeba-2",
