@@ -9,5 +9,5 @@ material_colheita: |+
 transporte_estabilidade: Imediato / 72horas a 4ºC
 tempo_resposta: até 72 horas
 setor: Microbiologia
-observacoes: ACANTAL
+codigo_interno: ACANTAL
 ---
