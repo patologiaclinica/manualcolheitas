@@ -1620,6 +1620,21 @@
     "observacoes": "MENIN\n\n\nMicrorganismos pesquisados: ·     *Escherichia coli K1, Haemophilus\ninfluenzae, Listeria monocytogenes, Neisseria meningitidis, Streptococcus\nagalactiae, Streptococcus pneumoniae,* Cytomegalovirus (CMV), Enterovirus\n(EV), Herpes simplex virus 1 (HSV-1), Herpes simplex virus 2 (HSV-2),\nHerpesvirus 6 (HHV-6), Human parechovirus (HPeV), Varicella zoster virus\n(VZV), Cryptococcus (C. neoformans/C. gattii)"
   },
   {
+    "slug": "painel-infecoes-osteoarticulares",
+    "title": "Painel infeções osteoarticulares",
+    "area": "Bacteriologia - Biologia Molecular",
+    "metodo": "PCR em tempo real e nested PCR",
+    "amostra": "Liquido sinovial",
+    "material_colheita": "Contentor estéril",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Imediato / 72H a 4ºC",
+    "tempo_resposta": "Até 4h",
+    "setor": "Microbiologia",
+    "codigo_interno": "",
+    "observacoes": "BFJI\n\n\nMicrorganismos pesquisados: ·     *Bacteroides fragilis, Citrobacter,\nEnterobacter cloacae complex, Escherichia coli, Haemophilus influenzae,\nKingella kingae, Klebsiella aerogenes, Klebsiella pneumoniae group, Morganella\nmorganii, Neisseria gonorrhoeae, Proteus spp., Pseudomonas aeruginosa,\nSalmonella spp., Serratia marcescens, Anaerococcus prevotii/vaginalis,\nClostridium perfringens, Cutibacterium avidum/granulosum, Enterococcus\nfaecalis, Enterococcus faecium, Finegoldia magna, Parvimonas micra,\nPeptoniphilus, Peptostreptococcus anaerobius, Staphylococcus aureus,\nStaphylococcus lugdunensis, Streptococcus spp., Streptococcus agalactiae,\nStreptococcus pneumoniae, Streptococcus pyogenes*"
+  },
+  {
     "slug": "placenta-pesquisa-de-aerobios-fungos-leveduriformes",
     "title": "Placenta; Pesquisa de aeróbios, fungos leveduriformes",
     "area": "Microbiologia",
