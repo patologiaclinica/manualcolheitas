@@ -1920,6 +1920,21 @@
     "observacoes": ""
   },
   {
+    "slug": "pesquisa-de-antigenios-associados-a-gastroenterites",
+    "title": "Pesquisa de antigénios associados a gastroenterites",
+    "area": "Virologia",
+    "metodo": "Imunoensaio",
+    "amostra": "Fezes",
+    "material_colheita": "Contentor estéril",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Imediato /72H a 4ºC",
+    "tempo_resposta": "Até 4h",
+    "setor": "Microbiologia",
+    "codigo_interno": "AGGAS",
+    "observacoes": "\"Microrganismos pesquisados: Norovirus GII.4 & GI, rotavirus,"
+  },
+  {
     "slug": "pesquisa-de-clostridium-difficile",
     "title": "Pesquisa de Clostridium difficile",
     "area": "Bacteriologia - Biologia Molecular",
