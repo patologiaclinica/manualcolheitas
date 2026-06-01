@@ -9,6 +9,5 @@ material_colheita: Zaragatoa com meio de transporte líquido (Amies)
 transporte_estabilidade: Imediato/ 72h a 4ºC
 tempo_resposta: Até 4h
 setor: Microbiologia
-observacoes: |+
-  STRB
+codigo_interno: STRB
 ---
