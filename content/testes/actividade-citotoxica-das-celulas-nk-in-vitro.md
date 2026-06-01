@@ -7,4 +7,6 @@ material_colheita: Tubo c/ EDTA
 transporte_estabilidade: Até 24 horas após colheita
 tempo_resposta: 96 horas
 setor: UFCF
+observacoes: |+
+  ![image388.jpg](uploads/image388.jpg)
 ---
