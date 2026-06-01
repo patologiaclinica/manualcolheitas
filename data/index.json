@@ -536,8 +536,8 @@
     "transporte_estabilidade": "Imediato/ 72h a 4ºC",
     "tempo_resposta": "até 72 horas",
     "setor": "Microbiologia",
-    "codigo_interno": "",
-    "observacoes": "4990"
+    "codigo_interno": "4990",
+    "observacoes": ""
   },
   {
     "slug": "dst-chlamtrach-neissgono-dna-qualitativo-1",
