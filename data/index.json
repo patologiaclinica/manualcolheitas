@@ -911,8 +911,8 @@
     "transporte_estabilidade": "Imediato/72H a 4ºC",
     "tempo_resposta": "até 72 horas",
     "setor": "Microbiologia",
-    "codigo_interno": "",
-    "observacoes": "HELICBG"
+    "codigo_interno": "HELICBG",
+    "observacoes": ""
   },
   {
     "slug": "helicobacter-pylori-pesquisa-de-antigenio",
