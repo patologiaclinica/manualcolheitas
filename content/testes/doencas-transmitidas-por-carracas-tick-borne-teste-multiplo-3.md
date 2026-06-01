@@ -1,5 +1,8 @@
 ---
-title: "Doenças transmitidas por carraças (Tick-borne), teste múltiplo "
+title: Doenças transmitidas por carraças (Tick-borne - Rickettsia spp., Babesia
+  microti, Babesia divergens, Ehrlichia chafeensis, Ehrlichia muris, Borrelia
+  burgdorferi sensu lato, Borrelia miyamotoi, Borrelia hermsii, Anaplasma
+  phagocitophylum and Coxiella burnetii), DNA qualitativo
 area: Bacteriologia - Biologia Molecular
 metodo: PCR em tempo real
 amostra: "Liquido sinovial "
