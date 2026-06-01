@@ -566,8 +566,8 @@
     "transporte_estabilidade": "Imediato/ 72h a 4ºC",
     "tempo_resposta": "Até 4h",
     "setor": "Microbiologia",
-    "codigo_interno": "",
-    "observacoes": "DMCR"
+    "codigo_interno": "DMCR",
+    "observacoes": ""
   },
   {
     "slug": "dst-chlamtrach-neissgono-dna-qualitativo-3",
@@ -581,8 +581,8 @@
     "transporte_estabilidade": "Imediato/ 72h a 4ºC",
     "tempo_resposta": "Até 4h",
     "setor": "Microbiologia",
-    "codigo_interno": "",
-    "observacoes": "DMCO"
+    "codigo_interno": "DMCO",
+    "observacoes": ""
   },
   {
     "slug": "dst-chlamtrach-neissgono-dna-qualitativo",
