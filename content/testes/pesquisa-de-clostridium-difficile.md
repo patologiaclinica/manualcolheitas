@@ -7,5 +7,5 @@ material_colheita: Contentor estéril
 transporte_estabilidade: Imediato, 72 h a 4ºC
 tempo_resposta: Até 4h
 setor: Microbiologia
-observacoes: TCLO
+codigo_interno: TCLO
 ---
