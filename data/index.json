@@ -1920,6 +1920,21 @@
     "observacoes": ""
   },
   {
+    "slug": "parvovirus-b19-dna-qualitativo",
+    "title": "Parvovírus B19 -  DNA qualitativo",
+    "area": "Virologia",
+    "metodo": "PCR em tempo real",
+    "amostra": "LCR/Outros,",
+    "material_colheita": "Contentor estéril",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Imediato/72H a 4ºC",
+    "tempo_resposta": "Até 72 horas",
+    "setor": "Microbiologia",
+    "codigo_interno": "4947",
+    "observacoes": ""
+  },
+  {
     "slug": "pesquisa-de-mrsa-staphylococcus-aureus-resistente-a-meticilina",
     "title": "Pesquisa de  MRSA (Staphylococcus aureus resistente à meticilina)",
     "area": "Bacteriologia - Biologia Molecular",
