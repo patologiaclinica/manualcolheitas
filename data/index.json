@@ -2070,6 +2070,21 @@
     "observacoes": ""
   },
   {
+    "slug": "sarampo-mev-rna-qualitativo",
+    "title": "Sarampo (MeV), RNA qualitativo",
+    "area": "Virologia",
+    "metodo": "PCR em tempo real",
+    "amostra": "Zaragatoa orofaringe,",
+    "material_colheita": "Zaragatoa com meio de transporte vírico com inactivador",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Imediato/ 72H a 4ºC",
+    "tempo_resposta": "até 72 horas",
+    "setor": "Microbiologia",
+    "codigo_interno": "SARZO",
+    "observacoes": ""
+  },
+  {
     "slug": "toxoplasma-gondii-dna-qualitativo-1",
     "title": "Toxoplasma gondii, DNA qualitativo",
     "area": "Bacteriologia - Biologia Molecular",
