@@ -140,6 +140,20 @@
     "observacoes": "BARTLS"
   },
   {
+    "slug": "bartonella-sp-dna-qualitativo-3",
+    "title": "Bartonella sp., DNA qualitativo",
+    "area": "Bacteriologia - Biologia Molecular",
+    "metodo": "PCR em tempo real",
+    "amostra": "Qualquer amostra ocular",
+    "material_colheita": "Tubo solicitado ao lab de microbiologia",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Imediato/ 72h a 4ºC",
+    "tempo_resposta": "até 72 horas",
+    "setor": "Microbiologia",
+    "observacoes": "BARTOC"
+  },
+  {
     "slug": "bartonella-sp-dna-qualitativo",
     "title": "Bartonella sp., DNA qualitativo",
     "area": "Bacteriologia - Biologia Molecular",
