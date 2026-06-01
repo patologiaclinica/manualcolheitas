@@ -10,5 +10,5 @@ material_colheita: Zaragatoa com meio de transporte líquido (Amies) ou Zaragato
 transporte_estabilidade: Imediato/ 72h a 4ºC
 tempo_resposta: até 72 horas
 setor: Microbiologia
-observacoes: DSTZG
+codigo_interno: DSTZG
 ---
