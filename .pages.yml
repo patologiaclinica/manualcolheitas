@@ -59,6 +59,10 @@ content:
         label: Setor
         type: string
 
+      - name: codigo
+        label: Código Interno
+        type: string
+
       - name: observacoes
         label: Observações importantes
         type: rich-text
