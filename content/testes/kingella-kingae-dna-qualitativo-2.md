@@ -8,6 +8,5 @@ transporte_estabilidade: |+
 
 tempo_resposta: até 72 horas
 setor: Microbiologia
-observacoes: |+
-  KINGB
+codigo_interno: KINGB
 ---
