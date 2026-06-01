@@ -7,6 +7,5 @@ material_colheita: Tubo de EDta (tubo de hemograma)
 transporte_estabilidade: Imediato/ 72H a 4ºC
 tempo_resposta: até 72 horas
 setor: Microbiologia
-observacoes: |+
-  LEPTST
+codigo_interno: LEPTST
 ---
