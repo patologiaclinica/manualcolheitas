@@ -1120,6 +1120,20 @@
     "observacoes": "LEISHBP"
   },
   {
+    "slug": "leishmania-dna-qualitativo",
+    "title": "Leishmania, DNA qualitativo",
+    "area": "Bacteriologia - Biologia Molecular",
+    "metodo": "PCR em tempo real",
+    "amostra": "Sangue total",
+    "material_colheita": "Tubode EDTA (Tubo de hemograma)",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Imediato/ 72h a 4ºC",
+    "tempo_resposta": "até 72 horas",
+    "setor": "Microbiologia",
+    "observacoes": "LEISHST"
+  },
+  {
     "slug": "leishmania-pesquisa-de",
     "title": "Leishmania; Pesquisa de",
     "area": "Microbiologia",
@@ -1331,7 +1345,7 @@
   },
   {
     "slug": "Painel de pesquisa de microrganismos associados a Gastroenterites (painel de Urgência)",
-    "title": "Painel de pesquisa de microrganismos associados a Gastroenterites (painel",
+    "title": "Painel de Gastroenterites (painel de Urgência)",
     "area": "Bacteriologia - Biologia Molecular e Virologia",
     "metodo": "PCR em tempo real e Nested PCR",
     "amostra": "Fezes liquídas",
