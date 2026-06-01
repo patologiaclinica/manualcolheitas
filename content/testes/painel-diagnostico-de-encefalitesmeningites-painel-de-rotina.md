@@ -7,9 +7,9 @@ material_colheita: Contentor estéril
 transporte_estabilidade: Imediato /72H a 4ºC
 tempo_resposta: Até 72 horas
 setor: Microbiologia
+codigo_interno: TAQVIR
 observacoes: >-
-  TAQVIR
-
+  
 
   Microrganismos  pesquisados: ·     **Virus:** Adenovirus (AdV) , Astrovirus,
   Chikungunya vírus, Coxsackievirus types A9, Coxsackievirus types B2,
