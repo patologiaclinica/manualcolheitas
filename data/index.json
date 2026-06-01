@@ -1061,8 +1061,8 @@
     "transporte_estabilidade": "Imediato/ 72H a 4ºC",
     "tempo_resposta": "até 72 horas",
     "setor": "Microbiologia",
-    "codigo_interno": "",
-    "observacoes": "KINGST"
+    "codigo_interno": "KINGST",
+    "observacoes": ""
   },
   {
     "slug": "kingella-kingae-dna-qualitativo",
