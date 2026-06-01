@@ -364,6 +364,20 @@
     "observacoes": ""
   },
   {
+    "slug": "doencas-transmitidas-por-carracas-tick-borne-teste-multiplo",
+    "title": "Doenças transmitidas por carraças (Tick-borne), teste múltiplo",
+    "area": "Bacteriologia - Biologia Molecular",
+    "metodo": "PCR em tempo real",
+    "amostra": "Sangue total",
+    "material_colheita": "Tubo de EDTA (tubo de hemograma)",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Imdiato/ 72h a 4ºC",
+    "tempo_resposta": "até 72 horas",
+    "setor": "Microbiologia",
+    "observacoes": "TICK"
+  },
+  {
     "slug": "estudo-de-colonizacao-produtores-de-carbapenemases",
     "title": "Estudo de colonização, produtores de carbapenemases",
     "area": "Microbiologia",
