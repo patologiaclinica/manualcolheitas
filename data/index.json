@@ -1635,6 +1635,21 @@
     "observacoes": "BFJI\n\n\nMicrorganismos pesquisados: ·     *Bacteroides fragilis, Citrobacter,\nEnterobacter cloacae complex, Escherichia coli, Haemophilus influenzae,\nKingella kingae, Klebsiella aerogenes, Klebsiella pneumoniae group, Morganella\nmorganii, Neisseria gonorrhoeae, Proteus spp., Pseudomonas aeruginosa,\nSalmonella spp., Serratia marcescens, Anaerococcus prevotii/vaginalis,\nClostridium perfringens, Cutibacterium avidum/granulosum, Enterococcus\nfaecalis, Enterococcus faecium, Finegoldia magna, Parvimonas micra,\nPeptoniphilus, Peptostreptococcus anaerobius, Staphylococcus aureus,\nStaphylococcus lugdunensis, Streptococcus spp., Streptococcus agalactiae,\nStreptococcus pneumoniae, Streptococcus pyogenes*"
   },
   {
+    "slug": "panfungico-dna-qualitativo",
+    "title": "Panfúngico, DNA qualitativo",
+    "area": "Micologia",
+    "metodo": "PCR em tempo real",
+    "amostra": "Qualquer amostra biológica",
+    "material_colheita": "Contentor estéril / Zaragatoa com meio de transporte líquido",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "",
+    "tempo_resposta": "Até 72 horas",
+    "setor": "Microbiologia",
+    "codigo_interno": "",
+    "observacoes": "PANFUN"
+  },
+  {
     "slug": "pesquisa-de-mrsa-staphylococcus-aureus-resistente-a-meticilina",
     "title": "Pesquisa de  MRSA (Staphylococcus aureus resistente à meticilina)",
     "area": "Bacteriologia - Biologia Molecular",
