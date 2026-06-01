@@ -1,5 +1,5 @@
 ---
-title: Painel de Gastroenterites (painel de rotina)
+title: Painel de Gastroenterites (painel de Rotina)
 area: Bacteriologia - Biologia Molecular
 metodo: PCR em tempo real
 amostra: Fezes
