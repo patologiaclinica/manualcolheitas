@@ -308,6 +308,20 @@
     "observacoes": "BRUCLS"
   },
   {
+    "slug": "brucella-species-dna-qualitativo-2",
+    "title": "Brucella species, DNA qualitativo",
+    "area": "Bacteriologia - Biologia Molecular",
+    "metodo": "",
+    "amostra": "Medula óssea",
+    "material_colheita": "",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "",
+    "tempo_resposta": "até 72 horas",
+    "setor": "Microbiologia",
+    "observacoes": "BRUCMO"
+  },
+  {
     "slug": "brucella-species-dna-qualitativo",
     "title": "Brucella species, DNA qualitativo",
     "area": "Bacteriologia - Biologia Molecular",
