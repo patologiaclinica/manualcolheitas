@@ -1541,8 +1541,8 @@
     "transporte_estabilidade": "Imediato/ 72H  a 4ºC",
     "tempo_resposta": "Até 4h",
     "setor": "Microbiologia",
-    "codigo_interno": "",
-    "observacoes": "RESIN\n\n\nMicrorganismos pesquisados: Adenovirus, Coronavirus, Human metapneumovirus,\nHuman rhinovirus/enterovirus, Influenza A vírus, Influenza B vírus,\nParainfluenza vírus, Respiratory syncytial vírus, *Acinetobacter\ncalcoaceticus-baumannii complex, Enterobacter cloacae complex, Escherichia\ncoli, Haemophilus influenzae, Klebsiella aerogenes, Klebsiella oxytoca,\nKlebsiella pneumoniae group, Moraxella catarrhalis, Proteus spp., Pseudomonas\naeruginosa, Serratia marcescens, Staphylococcus aureus, Streptococcus\nagalactiae, Streptococcus pneumoniae, Streptococcus pyogenes*"
+    "codigo_interno": "RESIN",
+    "observacoes": "Microrganismos pesquisados: Adenovirus, Coronavirus, Human metapneumovirus,\nHuman rhinovirus/enterovirus, Influenza A vírus, Influenza B vírus,\nParainfluenza vírus, Respiratory syncytial vírus, *Acinetobacter\ncalcoaceticus-baumannii complex, Enterobacter cloacae complex, Escherichia\ncoli, Haemophilus influenzae, Klebsiella aerogenes, Klebsiella oxytoca,\nKlebsiella pneumoniae group, Moraxella catarrhalis, Proteus spp., Pseudomonas\naeruginosa, Serratia marcescens, Staphylococcus aureus, Streptococcus\nagalactiae, Streptococcus pneumoniae, Streptococcus pyogenes*"
   },
   {
     "slug": "painel-agentes-infecao-respiratoria-superior",
