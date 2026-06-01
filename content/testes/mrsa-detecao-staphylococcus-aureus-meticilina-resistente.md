@@ -1,7 +1,7 @@
 ---
 title: MRSA, deteção Staphylococcus aureus meticilina resistente
 area: Microbiologia
-metodo: PCR
+metodo: PCR em tempo real
 amostra: "Zaragatoa nasal "
 material_colheita: |+
   Zaragatoa nasal com meio de transporte adequado
