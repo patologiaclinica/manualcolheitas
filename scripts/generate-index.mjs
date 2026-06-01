@@ -109,6 +109,7 @@ for (const filename of entries) {
     transporte_estabilidade: (fm.transporte_estabilidade || "").trim(),
     tempo_resposta: (fm.tempo_resposta || "").trim(),
     setor: (fm.setor || "").trim(),
+    codigo_interno: (fm.codigo_interno || "").trim(),
     observacoes: (fm.observacoes || "").trim()
   });
 }
