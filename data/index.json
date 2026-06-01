@@ -1676,8 +1676,8 @@
     "transporte_estabilidade": "Imediato/ 72H a 4ºC",
     "tempo_resposta": "Até 4h",
     "setor": "Microbiologia",
-    "codigo_interno": "",
-    "observacoes": "PMRSA"
+    "codigo_interno": "PMRSA",
+    "observacoes": ""
   },
   {
     "slug": "pesquisa-de-clostridium-difficile",
