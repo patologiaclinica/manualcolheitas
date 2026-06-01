@@ -1076,8 +1076,8 @@
     "transporte_estabilidade": "Imediato/ 72h a 4ºc",
     "tempo_resposta": "até 72 horas",
     "setor": "Microbiologia",
-    "codigo_interno": "",
-    "observacoes": "KINGLBA"
+    "codigo_interno": "KINGLBA",
+    "observacoes": ""
   },
   {
     "slug": "lavado-bronco-alveolar-pesquisa-de-aerobios-anaerobios-fungos-leveduriformes",
