@@ -1661,8 +1661,8 @@
     "transporte_estabilidade": "",
     "tempo_resposta": "Até 72 horas",
     "setor": "Microbiologia",
-    "codigo_interno": "",
-    "observacoes": "PANFUN"
+    "codigo_interno": "PANFUN",
+    "observacoes": ""
   },
   {
     "slug": "pesquisa-de-mrsa-staphylococcus-aureus-resistente-a-meticilina",
