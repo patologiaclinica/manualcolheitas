@@ -1695,6 +1695,21 @@
     "observacoes": ""
   },
   {
+    "slug": "monkeypox-virus-vmpx-dna-qualitativo-3",
+    "title": "Monkeypox vírus (VMPX) DNA Qualitativo",
+    "area": "Virologia",
+    "metodo": "PCR em tempo real",
+    "amostra": "",
+    "material_colheita": "Biópsia,",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Contentor estéril",
+    "tempo_resposta": "Até 72 horas",
+    "setor": "Microbiologia",
+    "codigo_interno": "VMPXB",
+    "observacoes": ""
+  },
+  {
     "slug": "monkeypox-virus-vmpx-dna-qualitativo",
     "title": "Monkeypox vírus (VMPX) DNA Qualitativo",
     "area": "Virologia",
