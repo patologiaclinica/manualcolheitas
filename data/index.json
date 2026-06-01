@@ -311,7 +311,7 @@
     "slug": "brucella-species-dna-qualitativo-2",
     "title": "Brucella species, DNA qualitativo",
     "area": "Bacteriologia - Biologia Molecular",
-    "metodo": "",
+    "metodo": "PCR em tempo real",
     "amostra": "Medula óssea",
     "material_colheita": "Tubo de EDTA (tubo de hemograma)",
     "descricao_clinica": "",
