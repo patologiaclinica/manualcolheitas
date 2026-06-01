@@ -7,9 +7,9 @@ material_colheita: Contentor estéril
 transporte_estabilidade: Imediato/ 72 H a temperatura  ambiente
 tempo_resposta: Até 2 semanas
 setor: Microbiologia
+codigo_interno: DERMAT
 observacoes: >-
-  DERMAT
-
+  
 
   *Microrganismos pesquisados: Epidermophyton floccosum, Microsporum audouinii,
   Microsporum ferrugineum, Trichophyton bullosum, Trichophyton erinacei,
