@@ -1466,8 +1466,8 @@
     "transporte_estabilidade": "Imediato /72H a 4ºC",
     "tempo_resposta": "até 72 horas",
     "setor": "Microbiologia",
-    "codigo_interno": "",
-    "observacoes": "4936"
+    "codigo_interno": "4936",
+    "observacoes": ""
   },
   {
     "slug": "nmeningitidisspneumoniaelisteria-dna-qualitativo-1",
