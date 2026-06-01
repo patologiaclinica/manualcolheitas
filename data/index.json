@@ -1586,7 +1586,7 @@
     "transporte_estabilidade": "Imediato(72h a 4ºC",
     "tempo_resposta": "Até 4h",
     "setor": "Microbiologia",
-    "codigo_interno": "",
+    "codigo_interno": "GASTR",
     "observacoes": "GASTR\n\n\n\n\nMicroorganismos no Painel:  \n\nCampylobacter (C. jejuni / C. coli / C. upsaliensis), Clostridioides\n(Clostridium) difficile (toxin A/B), Plesiomonas shigelloides, Salmonella,\nYersinia enterocolitica, Vibrio (V. parahaemolyticus / V. vulnificus / V.\ncholerae), Vibrio cholerae, Enteroaggregative E. coli (EAEC), Enteropathogenic\nE. coli (EPEC), Enterotoxigenic E. coli (ETEC) lt/st, Shiga-like\ntoxin-producing E. coli (STEC) stx1/stx2, E. coli O157,\nShigella/Enteroinvasive, E. coli (EIEC), Cryptosporidium, Cyclospora\ncayetanensis, Entamoeba histolytica, Giardia lamblia"
   },
   {
