@@ -10,4 +10,6 @@ transporte_estabilidade: Imediato/72H a 4ºC
 tempo_resposta: Até 72 horas
 setor: Microbiologia
 codigo_interno: "4917"
+observacoes: |+
+  ![image.png](uploads/image-28.png)
 ---
