@@ -1680,6 +1680,21 @@
     "observacoes": "TCLO"
   },
   {
+    "slug": "pesquisa-de-dermatofitos",
+    "title": "Pesquisa de Dermatófitos",
+    "area": "Micologia",
+    "metodo": "PCR acoplado a array e cultura",
+    "amostra": "Cabelos, pelos, pele, unhas",
+    "material_colheita": "Contentor estéril",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Imediato/ 72 H a temperatura  ambiente",
+    "tempo_resposta": "Até 2 semanas",
+    "setor": "Microbiologia",
+    "codigo_interno": "",
+    "observacoes": "DERMAT\n\n\n*Microrganismos pesquisados: Epidermophyton floccosum, Microsporum audouinii,\nMicrosporum ferrugineum, Trichophyton bullosum, Trichophyton erinacei,\nTrichophyton interdigitale, Trichophyton quinckeanum (T. mentagrophytes),\nTrichophyton rubrum, Trichophyton schoenleinii, Trichophyton tonsurans,\nTrichophyton violaceum, Microsporum canis, Nannizzia fulva (Microsporum\nfulvum), Trichophyton benhamiae, Trichophyton concentricum, Trichophyton\nequinum, Trichophyton eriotrephon, Trichophyton simii, Trichophyton\nverrucosum, Nannizzia gypsea (Microsporum gypseum), Nannizzia incurvata\n(Microsporum incurvatum), Nannizzia persicolor (Microsporum persicolor) e\nTrichophyton mentagrophytes,* além das leveduras  *Candida albicans, Candida\nparapsilosis, Candida guilliermondii, Fusarium oxysporum, Fusarium solani e\nScopulariopsis brevicaulis.*"
+  },
+  {
     "slug": "pesquisa-de-enterobacteriaceas-produtoras-de-carbapenemases",
     "title": "Pesquisa de enterobacteriáceas produtoras de carbapenemases",
     "area": "Bacteriologia - Biologia Molecular",
