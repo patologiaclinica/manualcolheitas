@@ -6,7 +6,7 @@ amostra: Qualquer amostra ocular
 material_colheita: |+
   Tubo solicitado ao lab de microbiologia
 
-transporte_estabilidade: Imediato ou 24 horas se mantido a 4ºC
+transporte_estabilidade: Imediato / 72horas a 4ºC
 tempo_resposta: até 72 horas
 setor: Microbiologia
 observacoes: ACANTA
