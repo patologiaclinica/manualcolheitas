@@ -10,4 +10,6 @@ transporte_estabilidade: Imediato/ 72H a 3ºC
 tempo_resposta: Até 72 horas
 setor: Microbiologia
 codigo_interno: QBKP-SG
+observacoes: |+
+  ![image.png](uploads/image-21.png)
 ---
