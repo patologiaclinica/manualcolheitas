@@ -7,9 +7,9 @@ material_colheita: Contentor estéril
 transporte_estabilidade: Imediato /72h a 4ºC
 tempo_resposta: Até 4h
 setor: Microbiologia
+codigo_interno: MENIN
 observacoes: >-
-  MENIN
-
+  
 
   Microrganismos pesquisados: ·     *Escherichia coli K1, Haemophilus
   influenzae, Listeria monocytogenes, Neisseria meningitidis, Streptococcus
