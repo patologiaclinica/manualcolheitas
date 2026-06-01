@@ -1092,6 +1092,20 @@
     "observacoes": "LEISHZL"
   },
   {
+    "slug": "leishmania-sp-dna-qualitativo-2",
+    "title": "Leishmania sp., DNA qualitativo",
+    "area": "Bacteriologia - Biologia Molecular",
+    "metodo": "PCR em tempo real",
+    "amostra": "Medula óssea",
+    "material_colheita": "Tubo de EDTA (Tubo de hemograma)",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Imediato/ 72H a 4ºC",
+    "tempo_resposta": "até 72 horas",
+    "setor": "Microbiologia",
+    "observacoes": "LEISHMO"
+  },
+  {
     "slug": "leishmania-sp-dna-qualitativo",
     "title": "Leishmania sp., DNA qualitativo",
     "area": "Bacteriologia - Biologia Molecular",
