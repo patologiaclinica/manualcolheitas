@@ -7,6 +7,5 @@ material_colheita: Contento estéril sem conservante
 transporte_estabilidade: Imediato/ 72h a 4ºC
 tempo_resposta: até 72 horas
 setor: Microbiologia
-observacoes: |+
-  LEPTU
+codigo_interno: LEPTU
 ---
