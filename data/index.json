@@ -281,8 +281,8 @@
     "transporte_estabilidade": "imediato/72 a 4ªC",
     "tempo_resposta": "até 72 horas",
     "setor": "Microbiologia",
-    "codigo_interno": "",
-    "observacoes": "BORRLC"
+    "codigo_interno": "BORRLC",
+    "observacoes": ""
   },
   {
     "slug": "borrelia-burgdorferi-sl-16s-rrna-qualitativo-2",
