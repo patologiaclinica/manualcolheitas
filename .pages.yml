@@ -59,7 +59,7 @@ content:
         label: Setor
         type: string
 
-      - name: codigo
+      - name: codigo_interno
         label: Código Interno
         type: string
 
