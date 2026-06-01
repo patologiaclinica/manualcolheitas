@@ -22,7 +22,7 @@
     "material_colheita": "Contentor estéril",
     "descricao_clinica": "",
     "indicacao": "",
-    "transporte_estabilidade": "Imediato, ou 24 se mantido a 4ºC",
+    "transporte_estabilidade": "Imediato / 72horas a 4ºC",
     "tempo_resposta": "até 72 horas",
     "setor": "Microbiologia",
     "observacoes": "ACANTAL"
@@ -36,7 +36,7 @@
     "material_colheita": "Tubo solicitado ao lab de microbiologia",
     "descricao_clinica": "",
     "indicacao": "",
-    "transporte_estabilidade": "Imediato ou 24 horas se mantido a 4ºC",
+    "transporte_estabilidade": "Imediato / 72horas a 4ºC",
     "tempo_resposta": "até 72 horas",
     "setor": "Microbiologia",
     "observacoes": "ACANTA"
@@ -50,7 +50,7 @@
     "material_colheita": "Contentor estéril",
     "descricao_clinica": "",
     "indicacao": "",
-    "transporte_estabilidade": "Imediato ou manter até 24 horas a 4ºC",
+    "transporte_estabilidade": "Imediato / 72horas a 4ºC",
     "tempo_resposta": "até 72 horas",
     "setor": "Microbiologia",
     "observacoes": "ACANTA"
@@ -110,6 +110,20 @@
     "tempo_resposta": "4s (urgência,2d)",
     "setor": "L.BM",
     "observacoes": ""
+  },
+  {
+    "slug": "bartonella-sp-dna-qualitativo",
+    "title": "Bartonella sp., DNA qualitativo",
+    "area": "Bacteriologia - Biologia Molecular",
+    "metodo": "PCR em tempo real",
+    "amostra": "LCR",
+    "material_colheita": "Contentor estéril",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Imediato/ 72 horas a 4ºC",
+    "tempo_resposta": "até 72 horas",
+    "setor": "Microbiologia",
+    "observacoes": "BARTLCR"
   },
   {
     "slug": "bilis-pesquisa-de-aerobios-anaerobios-e-fungos-leveduriformes",
