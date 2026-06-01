@@ -15,7 +15,7 @@
   },
   {
     "slug": "acanthamoeba-1",
-    "title": "Acanthamoeba",
+    "title": "Acanthamoeba,  DNA qualitativo",
     "area": "Bacteriologia - Biologia Molecular",
     "metodo": "",
     "amostra": "LCR",
@@ -29,7 +29,7 @@
   },
   {
     "slug": "acanthamoeba-2",
-    "title": "Acanthamoeba",
+    "title": "Acanthamoeba, DNA qualitativo",
     "area": "Bacteriologia - Biologia Molecular",
     "metodo": "PCR em tempo real",
     "amostra": "Qualquer amostra ocular",
@@ -43,7 +43,7 @@
   },
   {
     "slug": "acanthamoeba",
-    "title": "Acanthamoeba",
+    "title": "Acanthamoeba, DNA qualitativo",
     "area": "Bacteriologia - Biologia Molecular",
     "metodo": "PCR em tempo real",
     "amostra": "Outros produtos",
