@@ -434,6 +434,20 @@
     "observacoes": "TICK"
   },
   {
+    "slug": "dst-chlam-trachomatis-myco-genitalium-myco-hominis-neiss-gonorrhoea-trich-vaginalis-ureapl-parvum-ureapl-urealyticum-dna-qualitativo-1",
+    "title": "DST (Chlam. trachomatis, Myco. genitalium, Myco. hominis, Neiss.",
+    "area": "Bacteriologia - Biologia Molecular",
+    "metodo": "PCR em tempo real",
+    "amostra": "",
+    "material_colheita": "Exs Retal,",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Zaragatoa com meio de transporte líquido (Amies) ou",
+    "tempo_resposta": "até 72 horas",
+    "setor": "Microbiologia",
+    "observacoes": "DSTZA"
+  },
+  {
     "slug": "dst-chlam-trachomatis-myco-genitalium-myco-hominis-neiss-gonorrhoea-trich-vaginalis-ureapl-parvum-ureapl-urealyticum-dna-qualitativo",
     "title": "DST (Chlam. trachomatis, Myco. genitalium, Myco. hominis, Neiss.",
     "area": "Bacteriologia - Biologia Molecular",
