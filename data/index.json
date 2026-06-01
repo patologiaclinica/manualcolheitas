@@ -1344,6 +1344,20 @@
     "observacoes": ""
   },
   {
+    "slug": "mycoplasma-chlpneumlegionella-spp-dna-qualitativo",
+    "title": "Mycoplasma /Chl.pneum./Legionella spp-DNA qualitativo",
+    "area": "Bacteriologia - Biologia Molecular",
+    "metodo": "PCR em tempo real",
+    "amostra": "Liq. Pleural/ LCR/Outras amostras,  contentor estéril",
+    "material_colheita": "Contentor estéril",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Imediato/ 72H a 4ºC",
+    "tempo_resposta": "até 72 horas",
+    "setor": "Microbiologia",
+    "observacoes": "4918"
+  },
+  {
     "slug": "neisseria-gonorrhoeae-chlamydia-trachomatis",
     "title": "Neisseria gonorrhoeae/ Chlamydia trachomatis",
     "area": "Microbiologia",
