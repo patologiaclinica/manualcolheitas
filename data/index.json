@@ -1690,8 +1690,8 @@
     "indicacao": "",
     "transporte_estabilidade": "Imedato/ 72H a 4ºC",
     "tempo_resposta": "Até 72 horas",
-    "setor": "VMPXOUT",
-    "codigo_interno": "",
+    "setor": "Microbiologia",
+    "codigo_interno": "VMPXOUT",
     "observacoes": ""
   },
   {
@@ -1728,7 +1728,7 @@
     "slug": "mrsa-detecao-staphylococcus-aureus-meticilina-resistente",
     "title": "MRSA, deteção Staphylococcus aureus meticilina resistente",
     "area": "Microbiologia",
-    "metodo": "PCR",
+    "metodo": "PCR em tempo real",
     "amostra": "Zaragatoa nasal",
     "material_colheita": "Zaragatoa nasal com meio de transporte adequado\n\n![](uploads/mrsa.png)",
     "descricao_clinica": "",
