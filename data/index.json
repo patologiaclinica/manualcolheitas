@@ -491,8 +491,8 @@
     "transporte_estabilidade": "Imediato/ 72h a 4ºC",
     "tempo_resposta": "até 72 horas",
     "setor": "Microbiologia",
-    "codigo_interno": "",
-    "observacoes": "DSTZG"
+    "codigo_interno": "DSTZG",
+    "observacoes": ""
   },
   {
     "slug": "dst-chlam-trachomatis-myco-genitalium-myco-hominis-neiss-gonorrhoea-trich-vaginalis-ureapl-parvum-ureapl-urealyticum-dna-qualitativo-3",
