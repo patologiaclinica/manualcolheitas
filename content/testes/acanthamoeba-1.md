@@ -1,5 +1,5 @@
 ---
-title: Acanthamoeba
+title: Acanthamoeba,  DNA qualitativo
 area: Bacteriologia - Biologia Molecular
 amostra: LCR
 material_colheita: |+
