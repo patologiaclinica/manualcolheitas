@@ -1650,6 +1650,21 @@
     "observacoes": "PMRSA"
   },
   {
+    "slug": "pesquisa-de-enterobacteriaceas-produtoras-de-carbapenemases",
+    "title": "Pesquisa de enterobacteriáceas produtoras de carbapenemases",
+    "area": "Bacteriologia - Biologia Molecular",
+    "metodo": "PCR em tempo real",
+    "amostra": "Zaragatoa retal,",
+    "material_colheita": "Zaragatoa com meio de transporte líquido (Amies) - Tampa rosa",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Imediato/ 72H a 4ºC",
+    "tempo_resposta": "Até 4h",
+    "setor": "Microbiologia",
+    "codigo_interno": "",
+    "observacoes": "ZPCE"
+  },
+  {
     "slug": "pesquisa-de-streptococcus-grupo-b",
     "title": "Pesquisa de Streptococcus grupo B",
     "area": "Bacteriologia - Biologia Molecular",
