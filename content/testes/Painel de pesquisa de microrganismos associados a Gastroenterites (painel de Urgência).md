@@ -7,6 +7,7 @@ material_colheita: Contentor estéril
 transporte_estabilidade: Imediato(72h a 4ºC
 tempo_resposta: Até 4h
 setor: Microbiologia
+codigo: GASTR
 observacoes: >-
   GASTR
 
