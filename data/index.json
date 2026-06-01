@@ -1635,6 +1635,21 @@
     "observacoes": "BFJI\n\n\nMicrorganismos pesquisados: ·     *Bacteroides fragilis, Citrobacter,\nEnterobacter cloacae complex, Escherichia coli, Haemophilus influenzae,\nKingella kingae, Klebsiella aerogenes, Klebsiella pneumoniae group, Morganella\nmorganii, Neisseria gonorrhoeae, Proteus spp., Pseudomonas aeruginosa,\nSalmonella spp., Serratia marcescens, Anaerococcus prevotii/vaginalis,\nClostridium perfringens, Cutibacterium avidum/granulosum, Enterococcus\nfaecalis, Enterococcus faecium, Finegoldia magna, Parvimonas micra,\nPeptoniphilus, Peptostreptococcus anaerobius, Staphylococcus aureus,\nStaphylococcus lugdunensis, Streptococcus spp., Streptococcus agalactiae,\nStreptococcus pneumoniae, Streptococcus pyogenes*"
   },
   {
+    "slug": "pesquisa-de-mrsa-staphylococcus-aureus-resistente-a-meticilina",
+    "title": "Pesquisa de  MRSA (Staphylococcus aureus resistente à meticilina)",
+    "area": "Bacteriologia - Biologia Molecular",
+    "metodo": "PCR em tempo real",
+    "amostra": "Zaragatoa nasasl",
+    "material_colheita": "Zaragatoa com meio de transporte líquido (Amies)",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Imediato/ 72H a 4ºC",
+    "tempo_resposta": "Até 4h",
+    "setor": "Microbiologia",
+    "codigo_interno": "",
+    "observacoes": "PMRSA"
+  },
+  {
     "slug": "placenta-pesquisa-de-aerobios-fungos-leveduriformes",
     "title": "Placenta; Pesquisa de aeróbios, fungos leveduriformes",
     "area": "Microbiologia",
