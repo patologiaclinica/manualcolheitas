@@ -9,11 +9,6 @@ tempo_resposta: Até 4h
 setor: Microbiologia
 codigo_interno: GASTR
 observacoes: >-
-  GASTR
-
-
-
-
   Microorganismos no Painel:  
 
   Campylobacter (C. jejuni / C. coli / C. upsaliensis), Clostridioides
