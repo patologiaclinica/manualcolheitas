@@ -8,4 +8,6 @@ transporte_estabilidade: Imediato / 72H a 4ºC
 tempo_resposta: Até 72 horas
 setor: Microbiologia
 codigo_interno: TOXOST
+observacoes: |+
+  ![image388.jpg](uploads/image388-13.jpg)
 ---
