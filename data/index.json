@@ -105,6 +105,21 @@
     "observacoes": ""
   },
   {
+    "slug": "adenovirus-dna-carga-viral",
+    "title": "Adenovírus - DNA Carga viral",
+    "area": "Virologia",
+    "metodo": "PCR em tempo real",
+    "amostra": "Plasma,",
+    "material_colheita": "Tubo de EDTA com gel",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Imediato/ 72H a 4ºC",
+    "tempo_resposta": "Até 72 horas",
+    "setor": "Microbiologia",
+    "codigo_interno": "4911",
+    "observacoes": "O tubo deve ser centrifugado assim que chega ao laboratório"
+  },
+  {
     "slug": "anexina-a5-pesquisa-do-haplotipo-m2",
     "title": "Anexina A5, pesquisa do haplótipo M2",
     "area": "Hematologia",
