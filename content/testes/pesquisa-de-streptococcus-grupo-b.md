@@ -10,4 +10,11 @@ transporte_estabilidade: Imediato/ 72h a 4ºC
 tempo_resposta: Até 4h
 setor: Microbiologia
 codigo_interno: STRB
+observacoes: "                                 \ 
+
+
+  ![image2967.png](uploads/image2967-1.png)
+
+
+  \                             "
 ---
