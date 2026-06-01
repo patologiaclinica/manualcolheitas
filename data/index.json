@@ -1691,8 +1691,8 @@
     "transporte_estabilidade": "Imediato, 72 h a 4ºC",
     "tempo_resposta": "Até 4h",
     "setor": "Microbiologia",
-    "codigo_interno": "",
-    "observacoes": "TCLO"
+    "codigo_interno": "TCLO",
+    "observacoes": ""
   },
   {
     "slug": "pesquisa-de-dermatofitos",
