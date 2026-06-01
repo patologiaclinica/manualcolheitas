@@ -9,5 +9,5 @@ transporte_estabilidade: Zaragatoa com meio de transporte líquido (Amies) ou
   Zaragatoa com meio de transporte vírico com inactivador
 tempo_resposta: até 72 horas
 setor: Microbiologia
-observacoes: DSTZA
+codigo_interno: DSTZA
 ---
