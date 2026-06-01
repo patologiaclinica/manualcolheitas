@@ -371,8 +371,8 @@
     "transporte_estabilidade": "Imediato/ 72h a 4ºC",
     "tempo_resposta": "até 72 horas",
     "setor": "Microbiologia",
-    "codigo_interno": "",
-    "observacoes": "BRUCBG"
+    "codigo_interno": "BRUCBG",
+    "observacoes": ""
   },
   {
     "slug": "cryptococcus-neoformans-pesquisa-de-antigenio",
