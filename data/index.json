@@ -120,6 +120,21 @@
     "observacoes": "O tubo deve ser centrifugado assim que chega ao laboratório"
   },
   {
+    "slug": "adenovirus-dna-qualitativo",
+    "title": "Adenovírus - DNA qualitativo",
+    "area": "Virologia",
+    "metodo": "PCR em tempo real",
+    "amostra": "LCR/Outros,",
+    "material_colheita": "Contentor estéril",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Imediato/72H a 4ºC",
+    "tempo_resposta": "Até 72 horas",
+    "setor": "Microbiologia",
+    "codigo_interno": "4917",
+    "observacoes": ""
+  },
+  {
     "slug": "anexina-a5-pesquisa-do-haplotipo-m2",
     "title": "Anexina A5, pesquisa do haplótipo M2",
     "area": "Hematologia",
