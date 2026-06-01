@@ -2280,6 +2280,21 @@
     "observacoes": "Microrganismos pesquisados: ·     *Cytomegalovirus, Haemophilus ducreyi,*\nHerpes simplex virus type 1, Herpes simplex virus type 2, *Lymphogranuloma\nvenereum, Treponema pallidum, Varicella-zoster virus.*\n\n\n**"
   },
   {
+    "slug": "varicela-zoster-vzv-dna-qualitativo",
+    "title": "Varicela Zoster (VZV) DNA  qualitativo",
+    "area": "Virologia",
+    "metodo": "PCR em tempo real",
+    "amostra": "LCR/Outros produtos,",
+    "material_colheita": "Contentor estéril",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Imediato/ 72H a 4ºC",
+    "tempo_resposta": "Até 72 horas",
+    "setor": "Microbiologia",
+    "codigo_interno": "4940",
+    "observacoes": ""
+  },
+  {
     "slug": "varicela-zoster-vzv-dna-carga-viral",
     "title": "Varicela Zoster (VZV) DNA Carga viral",
     "area": "Virologia",
