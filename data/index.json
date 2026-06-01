@@ -1961,8 +1961,8 @@
     "transporte_estabilidade": "Imediato/ 72H a 4ºC",
     "tempo_resposta": "Até 72 horas",
     "setor": "Microbiologia",
-    "codigo_interno": "",
-    "observacoes": "ULGEEA\n\n\n\n\nMicrorganismos pesquisados: ·     *Cytomegalovirus, Haemophilus ducreyi,*\nHerpes simplex virus type 1, Herpes simplex virus type 2, *Lymphogranuloma\nvenereum, Treponema pallidum, Varicella-zoster virus.*"
+    "codigo_interno": "ULGEEA",
+    "observacoes": "Microrganismos pesquisados: ·     *Cytomegalovirus, Haemophilus ducreyi,*\nHerpes simplex virus type 1, Herpes simplex virus type 2, *Lymphogranuloma\nvenereum, Treponema pallidum, Varicella-zoster virus.*"
   },
   {
     "slug": "ulceras-genitais-hducreyilvenereumcmvhsv12vzvtpallidum",
