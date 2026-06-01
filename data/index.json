@@ -1841,8 +1841,8 @@
     "transporte_estabilidade": "Imediato/ 72H a 4ºC",
     "tempo_resposta": "Até 72 horas",
     "setor": "Microbiologia",
-    "codigo_interno": "",
-    "observacoes": "TOXOLA"
+    "codigo_interno": "TOXOLA",
+    "observacoes": ""
   },
   {
     "slug": "toxoplasma-gondii-dna-qualitativo-2",
