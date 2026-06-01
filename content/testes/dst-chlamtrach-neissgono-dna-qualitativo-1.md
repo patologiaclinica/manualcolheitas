@@ -10,5 +10,4 @@ transporte_estabilidade: Imediato/ 72H a 4ºC
 tempo_resposta: Até 4h
 setor: Microbiologia
 codigo_interno: DMCV
-observacoes: DMCV
 ---
