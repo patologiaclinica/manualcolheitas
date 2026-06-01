@@ -1635,6 +1635,21 @@
     "observacoes": "BFJI\n\n\nMicrorganismos pesquisados: ·     *Bacteroides fragilis, Citrobacter,\nEnterobacter cloacae complex, Escherichia coli, Haemophilus influenzae,\nKingella kingae, Klebsiella aerogenes, Klebsiella pneumoniae group, Morganella\nmorganii, Neisseria gonorrhoeae, Proteus spp., Pseudomonas aeruginosa,\nSalmonella spp., Serratia marcescens, Anaerococcus prevotii/vaginalis,\nClostridium perfringens, Cutibacterium avidum/granulosum, Enterococcus\nfaecalis, Enterococcus faecium, Finegoldia magna, Parvimonas micra,\nPeptoniphilus, Peptostreptococcus anaerobius, Staphylococcus aureus,\nStaphylococcus lugdunensis, Streptococcus spp., Streptococcus agalactiae,\nStreptococcus pneumoniae, Streptococcus pyogenes*"
   },
   {
+    "slug": "pan-bacteriano-16srrna",
+    "title": "Pan-bacteriano, 16SrRNA",
+    "area": "Bacteriologia - Biologia Molecular",
+    "metodo": "PCR em tempo real",
+    "amostra": "Qualquer amostra biológica",
+    "material_colheita": "Contentor estéril",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Imediato/ 72H a 4ºC",
+    "tempo_resposta": "Até 72 horas",
+    "setor": "Microbiologia",
+    "codigo_interno": "",
+    "observacoes": "16SRNA"
+  },
+  {
     "slug": "panfungico-dna-qualitativo",
     "title": "Panfúngico, DNA qualitativo",
     "area": "Micologia",
