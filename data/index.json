@@ -476,8 +476,8 @@
     "transporte_estabilidade": "Zaragatoa com meio de transporte líquido (Amies) ou",
     "tempo_resposta": "até 72 horas",
     "setor": "Microbiologia",
-    "codigo_interno": "",
-    "observacoes": "DSTZA"
+    "codigo_interno": "DSTZA",
+    "observacoes": ""
   },
   {
     "slug": "dst-chlam-trachomatis-myco-genitalium-myco-hominis-neiss-gonorrhoea-trich-vaginalis-ureapl-parvum-ureapl-urealyticum-dna-qualitativo-2",
