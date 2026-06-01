@@ -10,11 +10,9 @@ material_colheita: >+
 transporte_estabilidade: Imediato/ 72H a 4ºC
 tempo_resposta: Até 72 horas
 setor: Microbiologia
+codigo_interno: ULGEEA
 observacoes: >-
-  ULGEEA
-
-
-
+  
 
   Microrganismos pesquisados: ·     *Cytomegalovirus, Haemophilus ducreyi,*
   Herpes simplex virus type 1, Herpes simplex virus type 2, *Lymphogranuloma
