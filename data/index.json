@@ -1770,6 +1770,21 @@
     "observacoes": "ULGEER\n\n\n\n\nMicrorganismos pesquisados: ·     *Cytomegalovirus, Haemophilus ducreyi,*\nHerpes simplex virus type 1, Herpes simplex virus type 2, *Lymphogranuloma\nvenereum, Treponema pallidum, Varicella-zoster virus.*"
   },
   {
+    "slug": "ulceras-genitais-hducreyilvenereumcmvhsv12vzvtpallidum-2",
+    "title": "Ulceras genitais (H.ducreyi,L.venereum,CMV,HSV,1/2,VZV,T.pallidum)",
+    "area": "Bacteriologia - Biologia Molecular",
+    "metodo": "PCR em tempo real",
+    "amostra": "Exs.oral",
+    "material_colheita": ">2+",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Imediato/ 72H a 4ºC",
+    "tempo_resposta": "Até 72 horas",
+    "setor": "Microbiologia",
+    "codigo_interno": "",
+    "observacoes": "ULGEEO\n\n\nMicrorganismos pesquisados: ·     *Cytomegalovirus, Haemophilus ducreyi,*\nHerpes simplex virus type 1, Herpes simplex virus type 2, *Lymphogranuloma\nvenereum, Treponema pallidum, Varicella-zoster virus.*"
+  },
+  {
     "slug": "ulceras-genitais-hducreyilvenereumcmvhsv12vzvtpallidum",
     "title": "Ulceras genitais (H.ducreyi,L.venereum,CMV,HSV,1/2,VZV,T.pallidum)",
     "area": "Bacteriologia - Biologia Molecular",
