@@ -7,6 +7,5 @@ material_colheita: Tubode EDTA (Tubo de hemograma)
 transporte_estabilidade: Imediato/ 72h a 4ºC
 tempo_resposta: até 72 horas
 setor: Microbiologia
-observacoes: |+
-  LEISHST
+observacoes: LEISHST
 ---
