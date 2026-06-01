@@ -1721,8 +1721,8 @@
     "transporte_estabilidade": "Imediato/ 72H a 4ºC",
     "tempo_resposta": "Até 4h",
     "setor": "Microbiologia",
-    "codigo_interno": "",
-    "observacoes": "ZPCE"
+    "codigo_interno": "ZPCE",
+    "observacoes": ""
   },
   {
     "slug": "pesquisa-de-streptococcus-grupo-b",
