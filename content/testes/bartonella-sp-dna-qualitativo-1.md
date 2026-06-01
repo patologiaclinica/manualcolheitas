@@ -7,5 +7,5 @@ material_colheita: Contentor estéril
 transporte_estabilidade: Imediato/ 72 horas a 4ºC
 tempo_resposta: até 72 horas
 setor: Microbiologia
-observacoes: BARTb
+codigo_interno: BARTB
 ---
