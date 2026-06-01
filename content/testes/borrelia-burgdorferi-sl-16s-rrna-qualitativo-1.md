@@ -7,5 +7,5 @@ material_colheita: Contentor estéril
 transporte_estabilidade: imediato/72 a 4ªC
 tempo_resposta: até 72 horas
 setor: Microbiologia
-observacoes: BORRLC
+codigo_interno: BORRLC
 ---
