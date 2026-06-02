@@ -13,5 +13,5 @@ codigo_interno: "4911"
 observacoes: |+
   O tubo deve ser centrifugado assim que chega ao laboratório
 
-  ![image.png](uploads/image-20.png)
+  ![](uploads/k2edta.png)
 ---
