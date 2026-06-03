@@ -150,6 +150,21 @@
     "observacoes": "![image.png](uploads/image-28.png)"
   },
   {
+    "slug": "adnase-b",
+    "title": "ADNase B",
+    "area": "Imunologia",
+    "metodo": "Nefelometria",
+    "amostra": "Soro",
+    "material_colheita": "Tubo com gel",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "24h, ambiente",
+    "tempo_resposta": "1 semana",
+    "setor": "Imunologia",
+    "codigo_interno": "X3131",
+    "observacoes": ""
+  },
+  {
     "slug": "anexina-a5-pesquisa-do-haplotipo-m2",
     "title": "Anexina A5, pesquisa do haplótipo M2",
     "area": "Hematologia",
