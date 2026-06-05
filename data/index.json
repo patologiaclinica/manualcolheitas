@@ -165,6 +165,21 @@
     "observacoes": ""
   },
   {
+    "slug": "alfa-1-antitripsina",
+    "title": "Alfa 1 antitripsina",
+    "area": "L.IM",
+    "metodo": "Imunoturbidimetria",
+    "amostra": "Soro",
+    "material_colheita": "Tubo soro com gel",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "24h, ambiente",
+    "tempo_resposta": "1 dia",
+    "setor": "Imunologia",
+    "codigo_interno": "AATB",
+    "observacoes": ""
+  },
+  {
     "slug": "anexina-a5-pesquisa-do-haplotipo-m2",
     "title": "Anexina A5, pesquisa do haplótipo M2",
     "area": "Hematologia",
