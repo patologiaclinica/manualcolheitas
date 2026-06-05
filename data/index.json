@@ -2713,5 +2713,20 @@
     "setor": "Microbiologia",
     "codigo_interno": "4940M",
     "observacoes": "![image388.jpg](uploads/image388-11.jpg)"
+  },
+  {
+    "slug": "vedolizumab-e-anticorpos-anti-vedolizumab",
+    "title": "Vedolizumab e Anticorpos anti-Vedolizumab",
+    "area": "Imunologia",
+    "metodo": "CLIA",
+    "amostra": "Soro",
+    "material_colheita": "Tubo soro com gel",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "24h, ambiente",
+    "tempo_resposta": "1 mês",
+    "setor": "L.IM",
+    "codigo_interno": "VEMAB, AVEMAB",
+    "observacoes": ""
   }
 ]
