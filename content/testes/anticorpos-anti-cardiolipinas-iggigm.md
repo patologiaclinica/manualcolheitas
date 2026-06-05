@@ -1,7 +1,7 @@
 ---
 title: Anticorpos anti-cardiolipinas (IgG/IgM)
 area: Autoimunidade
-metodo: FEIA/ELISA
+metodo: CLIA/ELISA
 amostra: Soro
 material_colheita: Tubo soro com gel
 transporte_estabilidade: 24h, ambiente
