@@ -240,6 +240,21 @@
     "observacoes": ""
   },
   {
+    "slug": "anticorpos-anti-actina",
+    "title": "Anticorpos anti-actina",
+    "area": "Autoimunidade",
+    "metodo": "IFI",
+    "amostra": "Soro",
+    "material_colheita": "Tubo de soro com gel",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "24h, ambiente",
+    "tempo_resposta": "1-2 semanas",
+    "setor": "Autoimunidade",
+    "codigo_interno": "ACT",
+    "observacoes": ""
+  },
+  {
     "slug": "bartonella-sp-dna-qualitativo-1",
     "title": "Bartonella sp., DNA qualitativo",
     "area": "Bacteriologia - Biologia Molecular",
