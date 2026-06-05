@@ -345,6 +345,21 @@
     "observacoes": ""
   },
   {
+    "slug": "anticorpos-anti-citoplasma-do-neutrofilo-c-anca",
+    "title": "Anticorpos anti-citoplasma do neutrófilo C ANCA",
+    "area": "Autoimunidade",
+    "metodo": "IFI",
+    "amostra": "Soro",
+    "material_colheita": "Tubo soro com gel",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "24h, ambiente",
+    "tempo_resposta": "1-2 semanas",
+    "setor": "L.IM",
+    "codigo_interno": "ANP",
+    "observacoes": ""
+  },
+  {
     "slug": "bartonella-sp-dna-qualitativo-1",
     "title": "Bartonella sp., DNA qualitativo",
     "area": "Bacteriologia - Biologia Molecular",
