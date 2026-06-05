@@ -210,6 +210,21 @@
     "observacoes": ""
   },
   {
+    "slug": "anticorpos-anti-celulas-parietais-gastricas-apca",
+    "title": "Anticorpos anti células parietais gástricas (APCA)",
+    "area": "Autoimunidade",
+    "metodo": "IFI",
+    "amostra": "Soro",
+    "material_colheita": "Soro com gel",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "24h, ambiente",
+    "tempo_resposta": "1-2s",
+    "setor": "Autoimunidade",
+    "codigo_interno": "APC",
+    "observacoes": ""
+  },
+  {
     "slug": "bartonella-sp-dna-qualitativo-1",
     "title": "Bartonella sp., DNA qualitativo",
     "area": "Bacteriologia - Biologia Molecular",
