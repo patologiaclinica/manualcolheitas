@@ -1,5 +1,5 @@
 ---
-title: Anticorpos anti-citoplasma do neutrófilo C ANCA
+title: Anticorpos anti-citoplasma do neutrófilo P ANCA
 area: Autoimunidade
 metodo: IFI
 amostra: Soro
