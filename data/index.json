@@ -615,6 +615,21 @@
     "observacoes": ""
   },
   {
+    "slug": "anticorpos-anti-insulina",
+    "title": "Anticorpos anti-Insulina",
+    "area": "Autoimunidade",
+    "metodo": "RIA",
+    "amostra": "Soro",
+    "material_colheita": "Tubo soro com gel",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "24h, ambiente",
+    "tempo_resposta": "2-4 semanas",
+    "setor": "L.IM",
+    "codigo_interno": "AAI",
+    "observacoes": ""
+  },
+  {
     "slug": "anticorpos-anti-b2-glicoproteina-iggigm",
     "title": "Anticorpos anti-β2-glicoproteína (IgG/IgM)",
     "area": "Autoimunidade",
