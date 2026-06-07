@@ -555,6 +555,21 @@
     "observacoes": ""
   },
   {
+    "slug": "anticorpos-anti-hmg-coa-reductase",
+    "title": "Anticorpos anti-HMG CoA reductase",
+    "area": "Autoimunidade",
+    "metodo": "Immunoblot",
+    "amostra": "Soro",
+    "material_colheita": "Tubo soro com gel",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "24h, ambiente",
+    "tempo_resposta": "1-2 semanas",
+    "setor": "L.IM",
+    "codigo_interno": "HMGCR",
+    "observacoes": ""
+  },
+  {
     "slug": "anticorpos-anti-b2-glicoproteina-iggigm",
     "title": "Anticorpos anti-β2-glicoproteína (IgG/IgM)",
     "area": "Autoimunidade",
