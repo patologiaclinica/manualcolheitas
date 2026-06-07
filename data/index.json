@@ -540,6 +540,21 @@
     "observacoes": ""
   },
   {
+    "slug": "anticorpos-anti-histonas",
+    "title": "Anticorpos anti-histonas",
+    "area": "Autoimunidade",
+    "metodo": "ELISA",
+    "amostra": "Soro",
+    "material_colheita": "Tubo soro com gel",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "24h, ambiente",
+    "tempo_resposta": "1-2 semanas",
+    "setor": "L.IM",
+    "codigo_interno": "HIS",
+    "observacoes": ""
+  },
+  {
     "slug": "anticorpos-anti-b2-glicoproteina-iggigm",
     "title": "Anticorpos anti-β2-glicoproteína (IgG/IgM)",
     "area": "Autoimunidade",
