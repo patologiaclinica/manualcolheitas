@@ -2820,6 +2820,21 @@
     "observacoes": ""
   },
   {
+    "slug": "transferrina",
+    "title": "Transferrina",
+    "area": "Imunologia",
+    "metodo": "Nefelometria",
+    "amostra": "Soro",
+    "material_colheita": "Tubo soro com gel",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "24h, ambiente",
+    "tempo_resposta": "2 dias",
+    "setor": "L.IM",
+    "codigo_interno": "TFRB",
+    "observacoes": ""
+  },
+  {
     "slug": "treponema-pallidum-dna-qualitativo-1",
     "title": "Treponema pallidum, DNA qualitativo",
     "area": "Bacteriologia - Biologia Molecular",
