@@ -645,6 +645,21 @@
     "observacoes": ""
   },
   {
+    "slug": "anticorpos-anti-mieloperoxidase-mpo",
+    "title": "Anticorpos anti-mieloperoxidase (MPO)",
+    "area": "Autoimunidade",
+    "metodo": "FEIA",
+    "amostra": "Soro",
+    "material_colheita": "Tubo soro com gel",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "24h, ambiente",
+    "tempo_resposta": "1-7 dias",
+    "setor": "L.IM",
+    "codigo_interno": "MPO",
+    "observacoes": ""
+  },
+  {
     "slug": "anticorpos-anti-b2-glicoproteina-iggigm",
     "title": "Anticorpos anti-β2-glicoproteína (IgG/IgM)",
     "area": "Autoimunidade",
