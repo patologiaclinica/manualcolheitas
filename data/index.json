@@ -2850,6 +2850,21 @@
     "observacoes": ""
   },
   {
+    "slug": "sirolimus",
+    "title": "Sirolimus",
+    "area": "Imunologia",
+    "metodo": "CMIA",
+    "amostra": "Sangue total",
+    "material_colheita": "Tubo EDTA",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "24h, ambiente",
+    "tempo_resposta": "1 dia",
+    "setor": "L.IM",
+    "codigo_interno": "SIRO",
+    "observacoes": ""
+  },
+  {
     "slug": "tacrolimus",
     "title": "Tacrolimus",
     "area": "Imunologia",
