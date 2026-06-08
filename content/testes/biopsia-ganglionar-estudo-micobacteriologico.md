@@ -1,5 +1,5 @@
 ---
-title: Biópsia ganglionar - Pesquisa de Micobactérias
+title: Biópsia ganglionar - Pesquisa de Micobactérias - Cultura e PCR
 area: Micobacteriologia
 metodo: Cultura e PCR
 amostra: Fragmento de biópsia ganglionar
