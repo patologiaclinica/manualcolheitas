@@ -1440,6 +1440,21 @@
     "observacoes": ""
   },
   {
+    "slug": "expectoracao-pesquisa-de-micobacterias-cultura-e-pcr",
+    "title": "Expectoração - Pesquisa de Micobactérias - Cultura e PCR",
+    "area": "Micobacteriologia",
+    "metodo": "Cultura e PCR",
+    "amostra": "Expectoração",
+    "material_colheita": "Contentor esterilizado",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Envio imediato",
+    "tempo_resposta": "Até 42 dias para cultura / 4 dias para PCR",
+    "setor": "Microbiologia",
+    "codigo_interno": "MEXP, MAEXP, MAEXPNT",
+    "observacoes": "- 5-10 ml: em contentor estéril:\n  - 3 amostras de colheita matinal em dias consecutivos."
+  },
+  {
     "slug": "exsudado-de-ferida-cirurgica-pesquisa-de-aerobios-anaerobios-fungos-leveduriformes",
     "title": "Exsudado de ferida cirúrgica; Pesquisa de aeróbios, anaeróbios, fungos",
     "area": "Microbiologia",
