@@ -855,19 +855,34 @@
     "observacoes": ""
   },
   {
+    "slug": "biopsia-pesquisa-de-micobacterias-cultura-e-pcr",
+    "title": "Biópsia - Pesquisa de Micobactérias - Cultura  e PCR",
+    "area": "Micobacteriologia",
+    "metodo": "Cultura e PCR",
+    "amostra": "Biópsia",
+    "material_colheita": "Contentor esterilizado",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Envio imediato; <24h, a 2-4ºC",
+    "tempo_resposta": "Até 57 dias para cultura / 4 dias para PCR",
+    "setor": "Microbiologia",
+    "codigo_interno": "MBI, MABI",
+    "observacoes": "- Aspirar com seringa para a deteção de micobactérias\n\n- Úlceras cutâneas: biópsia da zona periférica da lesão. Enviar em contentor\nestéril sem adição de conservantes ou fixantes. \n\n- No caso de atraso no envio, recomenda-se adição de pequena quantidade (0,5\nml) de NaCl estéril.\n\n- **Não colher com zaragatoa.**"
+  },
+  {
     "slug": "biopsia-ganglionar-estudo-micobacteriologico",
-    "title": "Biópsia ganglionar; estudo micobacteriológico",
-    "area": "Microbiologia",
-    "metodo": "Cultura",
+    "title": "Biópsia ganglionar - Pesquisa de Micobactérias",
+    "area": "Micobacteriologia",
+    "metodo": "Cultura e PCR",
     "amostra": "Fragmento de biópsia ganglionar",
     "material_colheita": "Contentor estéril",
     "descricao_clinica": "",
     "indicacao": "",
     "transporte_estabilidade": "Envio imediato",
-    "tempo_resposta": "<57d",
-    "setor": "L.MIC",
-    "codigo_interno": "",
-    "observacoes": ""
+    "tempo_resposta": "<57 dias para cultura / 4 dias para PCR",
+    "setor": "Microbiologia",
+    "codigo_interno": "MBGS, MAD",
+    "observacoes": "No caso de atraso no envio, recomenda-se adição de pequena"
   },
   {
     "slug": "biopsia-gastrica-pesquisa-de-antigenio-de-helicobacter-pylori",
