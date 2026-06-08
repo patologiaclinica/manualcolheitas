@@ -2850,6 +2850,21 @@
     "observacoes": ""
   },
   {
+    "slug": "taso-titulo-anti-estreptolisina-o",
+    "title": "TASO (título anti-estreptolisina O)",
+    "area": "Imunologia",
+    "metodo": "Nefelometria",
+    "amostra": "Soro",
+    "material_colheita": "Tubo soro com gel",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "24h, ambiente",
+    "tempo_resposta": "1-2 semanas",
+    "setor": "L.IM",
+    "codigo_interno": "ASO",
+    "observacoes": ""
+  },
+  {
     "slug": "tnf-alfa",
     "title": "TNF-alfa",
     "area": "Imunologia",
