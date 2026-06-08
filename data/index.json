@@ -2820,6 +2820,21 @@
     "observacoes": ""
   },
   {
+    "slug": "receptor-soluvel-da-transferrina",
+    "title": "Receptor solúvel da transferrina",
+    "area": "Imunologia",
+    "metodo": "Nefelometria",
+    "amostra": "Soro",
+    "material_colheita": "Tubo soro com gel",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "24h, ambiente",
+    "tempo_resposta": "1 semana",
+    "setor": "L.IM",
+    "codigo_interno": "X3047",
+    "observacoes": ""
+  },
+  {
     "slug": "sarampo-mev-rna-qualitativo-1",
     "title": "Sarampo (MeV), RNA qualitativo",
     "area": "Virologia",
