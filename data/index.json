@@ -720,6 +720,21 @@
     "observacoes": ""
   },
   {
+    "slug": "anticorpos-anti-neuronais-anti-hu-yo-ri-pnma2ta-cv21-anfifisina-recoverin-sox1-titina-gad65-zic4-tr",
+    "title": "Anticorpos anti-neuronais (anti-Hu, Yo, Ri, PNMA2/Ta, CV2.1, Anfifisina,",
+    "area": "Autoimunidade",
+    "metodo": "IFI, Immunoblot",
+    "amostra": "Soro e LCR",
+    "material_colheita": "Tubo soro com gel",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "24h, ambiente",
+    "tempo_resposta": "1-2 semanas",
+    "setor": "L.IM",
+    "codigo_interno": "NEU, NEUIF, NEUIFL",
+    "observacoes": ""
+  },
+  {
     "slug": "anticorpos-anti-b2-glicoproteina-iggigm",
     "title": "Anticorpos anti-β2-glicoproteína (IgG/IgM)",
     "area": "Autoimunidade",
