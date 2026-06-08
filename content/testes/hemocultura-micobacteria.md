@@ -1,5 +1,5 @@
 ---
-title: Hemocultura - Micobactéria
+title: Hemocultura - Micobactérias
 area: Micobacteriologia
 metodo: Cultura
 amostra: Sangue
