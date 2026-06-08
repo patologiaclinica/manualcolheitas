@@ -2775,6 +2775,21 @@
     "observacoes": ""
   },
   {
+    "slug": "proteina-de-ligacao-do-retinol-rbp",
+    "title": "Proteína de ligação do Retinol (RBP)",
+    "area": "Imunologia",
+    "metodo": "Nefelometria",
+    "amostra": "Soro",
+    "material_colheita": "Tubo soro com gel",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "24h, ambiente",
+    "tempo_resposta": "1 semana",
+    "setor": "L.IM",
+    "codigo_interno": "RBP",
+    "observacoes": ""
+  },
+  {
     "slug": "protese-vascular-pesquisa-de-aerobios-fungos-leveduriformes",
     "title": "Prótese vascular; Pesquisa de aeróbios, fungos leveduriformes",
     "area": "Microbiologia",
