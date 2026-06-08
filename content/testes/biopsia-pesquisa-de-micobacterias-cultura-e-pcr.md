@@ -14,6 +14,9 @@ observacoes: >+
   - Úlceras cutâneas: biópsia da zona periférica da lesão. Enviar em contentor
   estéril sem adição de conservantes ou fixantes. 
 
+  - Biópsias pulmonares e pleurais: contentor estéril sem conservantes ou
+  fixantes.
+
   - No caso de atraso no envio, recomenda-se adição de pequena quantidade (0,5
   ml) de NaCl estéril.
 
