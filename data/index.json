@@ -1080,6 +1080,21 @@
     "observacoes": ""
   },
   {
+    "slug": "calprotectina-fecal",
+    "title": "Calprotectina fecal",
+    "area": "Autoimunidade",
+    "metodo": "FEIA",
+    "amostra": "Fezes",
+    "material_colheita": "Contentor estéril",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "24h, ambiente",
+    "tempo_resposta": "1 semana",
+    "setor": "L.IM",
+    "codigo_interno": "CALPR",
+    "observacoes": ""
+  },
+  {
     "slug": "citomegalovirus-cmv-dna-qualitativo",
     "title": "Citomegalovirus (CMV) - DNA qualitativo",
     "area": "Virologia",
