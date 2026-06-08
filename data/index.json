@@ -2850,6 +2850,21 @@
     "observacoes": ""
   },
   {
+    "slug": "tacrolimus",
+    "title": "Tacrolimus",
+    "area": "Imunologia",
+    "metodo": "CMIA, LC-MS/MS",
+    "amostra": "Sangue total",
+    "material_colheita": "Tubo EDTA",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "24h, ambiente",
+    "tempo_resposta": "1 dia",
+    "setor": "L.IM",
+    "codigo_interno": "TACR, TACROL",
+    "observacoes": ""
+  },
+  {
     "slug": "taso-titulo-anti-estreptolisina-o",
     "title": "TASO (título anti-estreptolisina O)",
     "area": "Imunologia",
