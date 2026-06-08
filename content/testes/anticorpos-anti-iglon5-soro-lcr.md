@@ -1,5 +1,5 @@
 ---
-title: Anticorpos anti-IgLON5 (soro, LCR)
+title: Anticorpos anti-IgLON5
 area: Autoimunidade
 metodo: IFI
 amostra: Soro e LCR
