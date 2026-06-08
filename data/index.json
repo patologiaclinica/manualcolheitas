@@ -870,21 +870,6 @@
     "observacoes": "- Aspirar com seringa para a deteção de micobactérias\n\n- Úlceras cutâneas: biópsia da zona periférica da lesão. Enviar em contentor\nestéril sem adição de conservantes ou fixantes. \n\n- Biópsias pulmonares e pleurais: contentor estéril sem conservantes ou\nfixantes.\n\n- No caso de atraso no envio, recomenda-se adição de pequena quantidade (0,5\nml) de NaCl estéril.\n\n- **Não colher com zaragatoa.**"
   },
   {
-    "slug": "biopsia-ganglionar-estudo-micobacteriologico",
-    "title": "Biópsia ganglionar - Pesquisa de Micobactérias - Cultura e PCR",
-    "area": "Micobacteriologia",
-    "metodo": "Cultura e PCR",
-    "amostra": "Fragmento de biópsia ganglionar",
-    "material_colheita": "Contentor estéril",
-    "descricao_clinica": "",
-    "indicacao": "",
-    "transporte_estabilidade": "Envio imediato",
-    "tempo_resposta": "<57 dias para cultura / 4 dias para PCR",
-    "setor": "Microbiologia",
-    "codigo_interno": "MBGS, MAD",
-    "observacoes": "No caso de atraso no envio, recomenda-se adição de pequena"
-  },
-  {
     "slug": "biopsia-gastrica-pesquisa-de-antigenio-de-helicobacter-pylori",
     "title": "Biópsia gástrica; pesquisa de antigénio de Helicobacter pylori",
     "area": "Microbiologia",
@@ -1475,7 +1460,7 @@
     "area": "Microbiologia",
     "metodo": "Cultura",
     "amostra": "Exsudado de ferida não cirúrgica",
-    "material_colheita": "Zaragatoas c/ meio transporte\n\n![](uploads/zaragatoa_meio_trans.png)\n\n![](uploads/image381.jpg)",
+    "material_colheita": "Zaragatoas c/ meio transporte\n\n![](uploads/zaragatoa_meio_trans.png)",
     "descricao_clinica": "",
     "indicacao": "",
     "transporte_estabilidade": "Envio imediato à temperatura ambiente",
