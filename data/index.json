@@ -3163,50 +3163,5 @@
     "setor": "L.IM",
     "codigo_interno": "VEMAB, AVEMAB",
     "observacoes": ""
-  },
-  {
-    "slug": "adenovirus-dna-qualitativo",
-    "title": "Adenovírus,  DNA qualitativo - LCR e outros produtos",
-    "area": "Virologia",
-    "metodo": "PCR em tempo real",
-    "amostra": "LCR/ Outros produtos",
-    "material_colheita": "Contentor estéril",
-    "descricao_clinica": "",
-    "indicacao": "",
-    "transporte_estabilidade": "Imediato/72H a 4ºC",
-    "tempo_resposta": "Até 72 horas",
-    "setor": "Microbiologia",
-    "codigo_interno": "4917",
-    "observacoes": "![image.png](blob:https:/app.pagescms.org/2fa93d75-7e3e-46db-b2dd-b037be563a95)"
-  },
-  {
-    "slug": "adenovirus-dna-carga-viral",
-    "title": "Adenovírus, DNA Carga viral - Plasma",
-    "area": "Virologia",
-    "metodo": "PCR em tempo real",
-    "amostra": "Plasma",
-    "material_colheita": "Tubo de EDTA com gel",
-    "descricao_clinica": "",
-    "indicacao": "",
-    "transporte_estabilidade": "Imediato/ 72H a 4ºC, tubo deve ser centrifugado de imediato",
-    "tempo_resposta": "Até 72 horas",
-    "setor": "Microbiologia",
-    "codigo_interno": "4911",
-    "observacoes": "![](uploads/k2edta.png)"
-  },
-  {
-    "slug": "adenovirus-dna-qualitativo-1",
-    "title": "Adenovírus, DNA Qualitativo  - Medula óssea",
-    "area": "Virologia",
-    "metodo": "PCR em tempo real",
-    "amostra": "Medula óssea",
-    "material_colheita": "Tubo de EDTA (Tubo hemograma)",
-    "descricao_clinica": "",
-    "indicacao": "",
-    "transporte_estabilidade": "Imediato/ 72H a 4ºC",
-    "tempo_resposta": "Até 72 horas",
-    "setor": "Microbiologia",
-    "codigo_interno": "4917M",
-    "observacoes": "![image388.jpg](uploads/image388-1.jpg)"
   }
 ]
