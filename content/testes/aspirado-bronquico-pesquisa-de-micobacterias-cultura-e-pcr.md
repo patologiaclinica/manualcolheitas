@@ -8,5 +8,6 @@ transporte_estabilidade: Envio imediato ou em 24h a 2-4ºC
 tempo_resposta: Até 42 dias para cultura / 4 dias para PCR
 setor: Micobacteriologia
 codigo_interno: MASB, MAASB, MAASBNT
-observacoes: "- 5-10 ml em contentor estéril"
+observacoes: |+
+  - 5-10 ml em contentor estéril
 ---
