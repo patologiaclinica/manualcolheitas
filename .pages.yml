@@ -20,7 +20,7 @@ content:
     fields:
       - name: title
         label: Nome do teste
-        type: string
+        type: rich-text
         required: true
 
       - name: area
