@@ -1410,6 +1410,21 @@
     "observacoes": ""
   },
   {
+    "slug": "esperma-pesquisa-de-micobacterias",
+    "title": "Esperma - Pesquisa de Micobactérias",
+    "area": "Micobacteriologia",
+    "metodo": "Cultura",
+    "amostra": "Esperma",
+    "material_colheita": "Contentor esterilizado",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Envio imediato",
+    "tempo_resposta": "Até 42 dias para cultura",
+    "setor": "Microbiologia",
+    "codigo_interno": "MESP",
+    "observacoes": ""
+  },
+  {
     "slug": "estudo-de-colonizacao-produtores-de-carbapenemases",
     "title": "Estudo de colonização, produtores de carbapenemases",
     "area": "Microbiologia",
