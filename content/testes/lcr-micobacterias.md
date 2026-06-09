@@ -10,6 +10,6 @@ setor: L.MIC
 codigo_interno: |-
   Cultura - MLCR   
   PCR - MALCR
-observacoes: |+
-  - Não colher para frasco porta-gérmen
+observacoes: |
+  Não colher para frasco porta-gérmen
 ---
