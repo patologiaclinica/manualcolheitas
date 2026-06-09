@@ -2273,11 +2273,11 @@
     "material_colheita": "Contentor esterilizado",
     "descricao_clinica": "",
     "indicacao": "",
-    "transporte_estabilidade": "",
-    "tempo_resposta": "",
+    "transporte_estabilidade": "Envio imediato; <1h, ambiente; <24h, 2-4ºC",
+    "tempo_resposta": "Até 42 dias para cultura / 4 dias para PCR",
     "setor": "L.MIC",
-    "codigo_interno": "- 10-15ml: contentor estéril   - Não colher para frasco porta-gérmen",
-    "observacoes": ""
+    "codigo_interno": "MLPL, MALPL",
+    "observacoes": "- 10-15ml: contentor estéril    \n- Não colher para frasco porta-gérmen"
   },
   {
     "slug": "liquido-pleural-pesquisa-de-aerobios-anaerobios-fungos-leveduriformes",
