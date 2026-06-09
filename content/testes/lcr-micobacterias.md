@@ -7,6 +7,7 @@ material_colheita: Contentor esterilizado
 transporte_estabilidade: Envio imediato
 tempo_resposta: Até 42 dias para cultura / 4 dias para PCR
 setor: L.MIC
-codigo_interno: MLCR, MALCR
-observacoes: "- Não colher para frasco porta-gérmen"
+codigo_interno: Cultura - MLCR MALCR
+observacoes: |+
+  - Não colher para frasco porta-gérmen
 ---
