@@ -9,9 +9,9 @@ tempo_resposta: Até 42 dias para cultura / 4 dias para PCR
 setor: L.MIC
 codigo_interno: MPU, MAPU
 observacoes: |-
-  - Desinfeção da superfície da pele com álcool a 70% e solução iodada.  
-  - Colheita por aspiração com seringa.  
-  - Transferir para tubo/contentor esterilizado.  
-  - Não colher amostra com zaragatoa.  
+  - Desinfeção da superfície da pele com álcool a 70% e solução iodada.    
+  - Colheita por aspiração com seringa.    
+  - Transferir para tubo/contentor esterilizado.    
+  - Não colher amostra com zaragatoa.   
   - Não colocar a amostra em frasco porta-gérmen.
 ---
