@@ -9,11 +9,11 @@ tempo_resposta: Até 57 dias para cultura / 4 dias para PCR
 setor: L.MIC
 codigo_interno: MBI, MABI
 observacoes: >
-  _ Aspirar com seringa para a deteção de micobactérias
+  | Aspirar com seringa para a deteção de micobactérias
 
-  _ Úlceras cutâneas: biópsia da zona periférica da lesão. 
+  | Úlceras cutâneas: biópsia da zona periférica da lesão. 
 
-  _ Enviar em contentor estéril sem adição de conservantes ou fixantes.
+  | Enviar em contentor estéril sem adição de conservantes ou fixantes.
 
   _ Biópsias pulmonares e pleurais: contentor estéril sem conservantes ou
   fixantes.
