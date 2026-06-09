@@ -65,7 +65,7 @@ content:
 
       - name: observacoes
         label: Observações importantes
-        type: rich-text
+        type: text
 
 
   # =========================
