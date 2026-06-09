@@ -15,11 +15,11 @@ observacoes: >
 
   | Enviar em contentor estéril sem adição de conservantes ou fixantes.
 
-  _ Biópsias pulmonares e pleurais: contentor estéril sem conservantes ou
+  > Biópsias pulmonares e pleurais: contentor estéril sem conservantes ou
   fixantes.
 
-  _ No caso de atraso no envio, recomenda-se adição de pequena quantidade (0,5
+  > No caso de atraso no envio, recomenda-se adição de pequena quantidade (0,5
   ml) de NaCl estéril.
 
-  _ Não colher com zaragatoa.
+  > Não colher com zaragatoa.
 ---
