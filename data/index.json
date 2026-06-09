@@ -2952,7 +2952,7 @@
     "tempo_resposta": "Até 42 dias para cultura / 4 dias para PCR",
     "setor": "L.MIC",
     "codigo_interno": "MPU, MAPU",
-    "observacoes": "- Desinfeção da superfície da pele com álcool a 70% e solução iodada.  \n- Colheita por aspiração com seringa.  \n- Transferir para tubo/contentor esterilizado.  \n- Não colher amostra com zaragatoa.  \n- Não colocar a amostra em frasco porta-gérmen."
+    "observacoes": "- Desinfeção da superfície da pele com álcool a 70% e solução iodada.    \n- Colheita por aspiração com seringa.    \n- Transferir para tubo/contentor esterilizado.    \n- Não colher amostra com zaragatoa.   \n- Não colocar a amostra em frasco porta-gérmen."
   },
   {
     "slug": "pus-de-abcesso-pesquisa-de-aerobios-anaerobios-fungos-leveduriformes",
@@ -3358,6 +3358,21 @@
     "setor": "Microbiologia",
     "codigo_interno": "ULGEU",
     "observacoes": "Microrganismos pesquisados: ·     *Cytomegalovirus, Haemophilus ducreyi,*\nHerpes simplex virus type 1, Herpes simplex virus type 2, *Lymphogranuloma\nvenereum, Treponema pallidum, Varicella-zoster virus.*\n\n\n**"
+  },
+  {
+    "slug": "urina-micobacterias",
+    "title": "Urina - Micobactérias",
+    "area": "Micobacteriologia",
+    "metodo": "Cultura e PCR",
+    "amostra": "Urina jato médio ou cateter ou punção supra-púbica",
+    "material_colheita": "Contentor esterilizado",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Envio imediato; <24h, 2-4ºC",
+    "tempo_resposta": "Até 42 dias para cultura / 4 dias para PCR",
+    "setor": "L.MIC",
+    "codigo_interno": "UMIC, MAURI",
+    "observacoes": "- Colheita da 1ª urina da manhã em 3 dias consecutivos (20 ml)"
   },
   {
     "slug": "varicela-zoster-vzv-dna-qualitativo",
