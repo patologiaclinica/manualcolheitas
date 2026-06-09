@@ -2940,6 +2940,21 @@
     "observacoes": ""
   },
   {
+    "slug": "pus-de-abcesso-micobacterias",
+    "title": "Pus de abcesso - Micobactérias",
+    "area": "Micobacteriologia",
+    "metodo": "Cultura e PCR",
+    "amostra": "Pus de abcesso",
+    "material_colheita": "Contentor esterilizado",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Envio imediato; <2h, ambiente; <24, 2-4ºC",
+    "tempo_resposta": "Até 42 dias para cultura / 4 dias para PCR",
+    "setor": "L.MIC",
+    "codigo_interno": "MPU, MAPU",
+    "observacoes": "- Desinfeção da superfície da pele com álcool a 70% e solução iodada.  \n- Colheita por aspiração com seringa.  \n- Transferir para tubo/contentor esterilizado.  \n- Não colher amostra com zaragatoa.  \n- Não colocar a amostra em frasco porta-gérmen."
+  },
+  {
     "slug": "pus-de-abcesso-pesquisa-de-aerobios-anaerobios-fungos-leveduriformes",
     "title": "Pus de abcesso; Pesquisa de aeróbios, anaeróbios, fungos leveduriformes",
     "area": "Microbiologia",
