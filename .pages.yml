@@ -61,7 +61,7 @@ content:
 
       - name: codigo_interno
         label: Código Interno
-        type: string
+        type: rich-text
 
       - name: observacoes
         label: Observações importantes
