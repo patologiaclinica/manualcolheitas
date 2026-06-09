@@ -2550,6 +2550,21 @@
     "observacoes": ""
   },
   {
+    "slug": "outros-liquido-micobacterias",
+    "title": "Outros líquido - Micobactérias",
+    "area": "Micobacteriologia",
+    "metodo": "Cultura e PCR",
+    "amostra": "Líquidos biológicos",
+    "material_colheita": "Contentor esterilizado",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Envio imediato; <24h, 2-4ºC",
+    "tempo_resposta": "Até 42 dias para cultura / 4 dias para PCR",
+    "setor": "L.MIC",
+    "codigo_interno": "MLIQ, MALIQ",
+    "observacoes": "- 10-15ml: contentor estéril    \n- Não colher para frasco porta-gérmen"
+  },
+  {
     "slug": "painel-agentes-infecao-respiratoria-inferior-disponivel-apos-consulta-pat-clinico-escala-de-microbiologia",
     "title": "Painel agentes infeção respiratória inferior (disponível após consulta",
     "area": "Bacteriologia - Biologia Molecular",
