@@ -7,8 +7,8 @@ material_colheita: Contentor esterilizado
 transporte_estabilidade: Envio imediato; <24h, 2-4ºC
 tempo_resposta: Até 42 dias para cultura / 4 dias para PCR
 setor: L.MIC
-codigo_interno: MOUT
-observacoes: >-
+codigo_interno: MOUT, MAD
+observacoes: >+
   - Aspirar com seringa para a deteção de micobactérias  
 
   - Úlceras cutâneas: biópsia da zona periférica da lesão. Enviar em contentor
