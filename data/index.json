@@ -1770,6 +1770,21 @@
     "observacoes": ""
   },
   {
+    "slug": "hemocultura-micobacteria",
+    "title": "Hemocultura - Micobactérias",
+    "area": "Micobacteriologia",
+    "metodo": "Cultura",
+    "amostra": "Sangue",
+    "material_colheita": "Frasco de hemocultura específico",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Temperatura ambiente",
+    "tempo_resposta": "Até 42 dias",
+    "setor": "L.MIC",
+    "codigo_interno": "HMIC",
+    "observacoes": ""
+  },
+  {
     "slug": "hemocultura-pesquisa-de-aerobios-anaerobios-fungos-leveduriformes",
     "title": "Hemocultura; Pesquisa de aeróbios, anaeróbios, fungos leveduriformes",
     "area": "Microbiologia",
@@ -1933,6 +1948,21 @@
     "setor": "Microbiologia",
     "codigo_interno": "KINGLBA",
     "observacoes": ""
+  },
+  {
+    "slug": "lavado-bronco-alveolar-micobacterias",
+    "title": "Lavado bronco-alveolar - Micobactérias",
+    "area": "Micobacteriologia",
+    "metodo": "Cultura e PCR",
+    "amostra": "Lavado bronco-alveolar",
+    "material_colheita": "Contentor esterilizado",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Envio imediato; <24h, 2-4ºC",
+    "tempo_resposta": "Até 42 dias para cultura / 4 dias para PCR",
+    "setor": "L.MIC",
+    "codigo_interno": "MLLBA, MALBA,",
+    "observacoes": "- 5-10 ml: em contentor estéril"
   },
   {
     "slug": "lavado-bronco-alveolar-pesquisa-de-aerobios-anaerobios-fungos-leveduriformes",
