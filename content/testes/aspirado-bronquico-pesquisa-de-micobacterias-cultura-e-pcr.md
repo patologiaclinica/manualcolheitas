@@ -6,9 +6,7 @@ metodo: |-
 
   ---
 
-  ---
-
-  Cultura e PCR
+  PCR e cultura
 amostra: Contentor estéril
 material_colheita: Aspirado brônquico
 transporte_estabilidade: Envio imediato / até 24 horas a 2-4ºC
