@@ -2,7 +2,7 @@
 title: LCR - Micobactérias
 area: Micobacteriologia
 metodo: Cultura e PCR
-amostra: Líquido cefalorraquidiano
+amostra: LCR
 material_colheita: Tubo estéril tampa verde
 transporte_estabilidade: Envio imediato
 tempo_resposta: Até 42 dias para cultura / 4 dias para PCR
