@@ -11,5 +11,5 @@ codigo_interno: |-
   Cultura - MLCR  
   PCR - MALCR
 observacoes: |
-  Não colher para frasco porta-gérmen
+  > Não colher para frasco porta-gérmen
 ---
