@@ -12,6 +12,6 @@ codigo_interno: |-
 
   PCR - MAEXP, MAEXPNT
 observacoes: >
-  - 5-10 ml: em contentor estéril - 3 amostras de colheita matinal em dias
+  > 5-10 ml: em contentor estéril - 3 amostras de colheita matinal em dias
   consecutivos.
 ---
