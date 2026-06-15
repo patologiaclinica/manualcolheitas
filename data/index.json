@@ -2960,14 +2960,14 @@
     "area": "Micobacteriologia",
     "metodo": "Cultura e PCR",
     "amostra": "Pus de abcesso",
-    "material_colheita": "Contentor esterilizado",
+    "material_colheita": "Contentor estéril",
     "descricao_clinica": "",
     "indicacao": "",
-    "transporte_estabilidade": "Envio imediato; <2h, ambiente; <24, 2-4ºC",
+    "transporte_estabilidade": "Envio imediato / até 2 horas no ambiente; até 24 horas a 2-4ºC",
     "tempo_resposta": "Até 42 dias para cultura / 4 dias para PCR",
     "setor": "L.MIC",
-    "codigo_interno": "MPU, MAPU",
-    "observacoes": "- Desinfeção da superfície da pele com álcool a 70% e solução iodada.    \n- Colheita por aspiração com seringa.    \n- Transferir para tubo/contentor esterilizado.    \n- Não colher amostra com zaragatoa.   \n- Não colocar a amostra em frasco porta-gérmen."
+    "codigo_interno": "Cultura -  MPU \n\nPCR - MAPU",
+    "observacoes": "> Desinfeção da superfície da pele com álcool a 70% e solução iodada.    \n> Colheita por aspiração com seringa.    \n> Transferir para tubo/contentor esterilizado.    \n> Não colher amostra com zaragatoa.   \n> Não colocar a amostra em frasco porta-gérmen."
   },
   {
     "slug": "pus-de-abcesso-pesquisa-de-aerobios-anaerobios-fungos-leveduriformes",
