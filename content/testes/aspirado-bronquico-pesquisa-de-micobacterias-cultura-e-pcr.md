@@ -4,7 +4,7 @@ area: Micobacteriologia
 metodo: |-
   Cultura
 
-  ---
+  ___________________________________________________________________
 
   PCR e cultura
 amostra: Contentor estéril
