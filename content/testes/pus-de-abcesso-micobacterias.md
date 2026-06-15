@@ -3,15 +3,18 @@ title: Pus de abcesso - Micobactérias
 area: Micobacteriologia
 metodo: Cultura e PCR
 amostra: Pus de abcesso
-material_colheita: Contentor esterilizado
-transporte_estabilidade: Envio imediato; <2h, ambiente; <24, 2-4ºC
+material_colheita: Contentor estéril
+transporte_estabilidade: Envio imediato / até 2 horas no ambiente; até 24 horas a 2-4ºC
 tempo_resposta: Até 42 dias para cultura / 4 dias para PCR
 setor: L.MIC
-codigo_interno: MPU, MAPU
+codigo_interno: |-
+  Cultura -  MPU 
+
+  PCR - MAPU
 observacoes: |-
-  - Desinfeção da superfície da pele com álcool a 70% e solução iodada.    
-  - Colheita por aspiração com seringa.    
-  - Transferir para tubo/contentor esterilizado.    
-  - Não colher amostra com zaragatoa.   
-  - Não colocar a amostra em frasco porta-gérmen.
+  > Desinfeção da superfície da pele com álcool a 70% e solução iodada.    
+  > Colheita por aspiração com seringa.    
+  > Transferir para tubo/contentor esterilizado.    
+  > Não colher amostra com zaragatoa.   
+  > Não colocar a amostra em frasco porta-gérmen.
 ---
