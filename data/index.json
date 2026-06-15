@@ -1437,7 +1437,7 @@
     "tempo_resposta": "Até 42 dias para cultura / 4 dias para PCR",
     "setor": "L.MIC",
     "codigo_interno": "Cultura - MEXP  \n\nPCR - MAEXP, MAEXPNT",
-    "observacoes": "- 5-10 ml: em contentor estéril - 3 amostras de colheita matinal em dias\nconsecutivos."
+    "observacoes": "> 5-10 ml: em contentor estéril - 3 amostras de colheita matinal em dias\nconsecutivos."
   },
   {
     "slug": "exsudado-de-ferida-cirurgica-pesquisa-de-aerobios-anaerobios-fungos-leveduriformes",
