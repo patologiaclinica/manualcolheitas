@@ -7,7 +7,10 @@ material_colheita: Contentor esterilizado
 transporte_estabilidade: Envio imediato; <24h, 2-4ºC
 tempo_resposta: Até 42 dias para cultura / 4 dias para PCR
 setor: L.MIC
-codigo_interno: "MLLBA, MALBA, "
-observacoes: |+
+codigo_interno: |-
+  Cultura - MLLBA  
+
+  PCR - MALBA 
+observacoes: |
   - 5-10 ml: em contentor estéril
 ---
