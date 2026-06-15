@@ -2576,8 +2576,8 @@
     "transporte_estabilidade": "Envio imediato; <24h, 2-4ºC",
     "tempo_resposta": "Até 42 dias para cultura / 4 dias para PCR",
     "setor": "L.MIC",
-    "codigo_interno": "MOUT, MAD",
-    "observacoes": "- Aspirar com seringa para a deteção de micobactérias  \n\n- Úlceras cutâneas: biópsia da zona periférica da lesão. Enviar em contentor\nestéril sem adição de conservantes ou fixantes. No caso de atraso no envio,\nrecomenda-se adição de pequena quantidade (0,5 ml) de NaCl estéril."
+    "codigo_interno": "Cultura - MOUT  \n\nPCR - MAD",
+    "observacoes": "> Aspirar com seringa para a deteção de micobactérias  \n\n> Úlceras cutâneas: biópsia da zona periférica da lesão. Enviar em contentor\nestéril sem adição de conservantes ou fixantes. \n\n> No caso de atraso no envio, recomenda-se adição de pequena quantidade (0,5\nml) de NaCl estéril."
   },
   {
     "slug": "painel-agentes-infecao-respiratoria-inferior-disponivel-apos-consulta-pat-clinico-escala-de-microbiologia",
