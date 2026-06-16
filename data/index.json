@@ -1427,16 +1427,16 @@
   {
     "slug": "expectoracao-pesquisa-de-micobacterias-cultura-e-pcr",
     "title": "Expectoração - Micobactérias",
-    "area": "Micobacteriologia",
-    "metodo": "Cultura e PCR",
+    "area": "Microbiologia",
+    "metodo": "Cultura  \nPCR",
     "amostra": "Expectoração",
     "material_colheita": "Contentor estéril",
     "descricao_clinica": "",
     "indicacao": "",
     "transporte_estabilidade": "Envio imediato",
     "tempo_resposta": "Até 42 dias para cultura / 4 dias para PCR",
-    "setor": "L.MIC",
-    "codigo_interno": "Cultura - MEXP  \n\nPCR - MAEXP, MAEXPNT",
+    "setor": "Micobacteriologia",
+    "codigo_interno": "Cultura - MEXP    \nPCR - MAEXP, MAEXPNT",
     "observacoes": "> 5-10 ml: em contentor estéril - 3 amostras de colheita matinal em dias\nconsecutivos."
   },
   {
