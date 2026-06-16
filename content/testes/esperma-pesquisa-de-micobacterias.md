@@ -1,11 +1,11 @@
 ---
 title: Esperma - Micobactérias
-area: Micobacteriologia
+area: Microbiologia
 metodo: Cultura
 amostra: Esperma
 material_colheita: Contentor estéril
 transporte_estabilidade: Envio imediato
 tempo_resposta: Até 42 dias para cultura
-setor: L.MIC
+setor: Micobacteriologia
 codigo_interno: MESP
 ---
