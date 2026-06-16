@@ -1,11 +1,11 @@
 ---
 title: Hemocultura - Micobactérias
-area: Micobacteriologia
+area: Microbiologia
 metodo: Cultura
 amostra: Sangue
 material_colheita: Frasco de hemocultura específico
 transporte_estabilidade: Temperatura ambiente
 tempo_resposta: Até 42 dias
-setor: L.MIC
+setor: Micobacteriologia
 codigo_interno: HMIC
 ---
