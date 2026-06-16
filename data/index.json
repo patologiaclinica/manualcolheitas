@@ -737,7 +737,7 @@
   {
     "slug": "aspirado-bronquico-pesquisa-de-micobacterias-cultura-e-pcr",
     "title": "Aspirado brônquico - Micobactérias",
-    "area": "Micobacteriologia",
+    "area": "Microbiologia",
     "metodo": "Cultura  \nPCR",
     "amostra": "Aspirado brônquico",
     "material_colheita": "Contentor estéril\n\n![](uploads/contentores_chuc.png)",
@@ -745,8 +745,8 @@
     "indicacao": "",
     "transporte_estabilidade": "Envio imediato / até 24 horas a 2-4ºC",
     "tempo_resposta": "Até 42 dias para cultura / 4 dias para PCR",
-    "setor": "L.MIC",
-    "codigo_interno": "Cultura - MASB    \nPCR - MAASB, MAASBNT",
+    "setor": "Micobacteriologia",
+    "codigo_interno": "Cultura - MASB  \nPCR - MAASB, MAASBNT",
     "observacoes": "> 5-10 ml em contentor estéril"
   },
   {
