@@ -13,5 +13,6 @@ codigo_interno: |-
   Cultura - MLCR  
   PCR - MALCR
 observacoes: |
+  > 1,5ml em contentor estéril
   > Não colher para frasco porta-gérmen
 ---
