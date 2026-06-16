@@ -2957,16 +2957,16 @@
   {
     "slug": "pus-de-abcesso-micobacterias",
     "title": "Pus de abcesso - Micobactérias",
-    "area": "Micobacteriologia",
-    "metodo": "Cultura e PCR",
+    "area": "Microbiologia",
+    "metodo": "Cultura  \nPCR",
     "amostra": "Pus de abcesso",
     "material_colheita": "Contentor estéril",
     "descricao_clinica": "",
     "indicacao": "",
     "transporte_estabilidade": "Envio imediato / até 2 horas no ambiente; até 24 horas a 2-4ºC",
     "tempo_resposta": "Até 42 dias para cultura / 4 dias para PCR",
-    "setor": "L.MIC",
-    "codigo_interno": "Cultura -  MPU \n\nPCR - MAPU",
+    "setor": "Micobacteriologia",
+    "codigo_interno": "Cultura -  MPU   \nPCR - MAPU",
     "observacoes": "> Desinfeção da superfície da pele com álcool a 70% e solução iodada.    \n> Colheita por aspiração com seringa.    \n> Transferir para tubo/contentor esterilizado.    \n> Não colher amostra com zaragatoa.   \n> Não colocar a amostra em frasco porta-gérmen."
   },
   {
@@ -3062,16 +3062,16 @@
   {
     "slug": "suco-gastrico-pesquisa-de-micobacterias-cultura-e-pcr",
     "title": "Suco gástrico - Micobactérias",
-    "area": "Micobacteriologia",
-    "metodo": "Cultura e PCR",
+    "area": "Microbiologia",
+    "metodo": "Cultura  \nPCR",
     "amostra": "Aspirado, Suco gástrico",
     "material_colheita": "Contentor estéril",
     "descricao_clinica": "",
     "indicacao": "",
     "transporte_estabilidade": "Envio imediato / até 24 horas a 2-4ºC",
     "tempo_resposta": "42 dias para cultura / 4 dias para PCR",
-    "setor": "L.MIC",
-    "codigo_interno": "Cultura - MSG  \n\nPCR - MASG",
+    "setor": "Micobacteriologia",
+    "codigo_interno": "Cultura - MSG  \nPCR - MASG",
     "observacoes": "> 5-10 ml em contentor esterilizado\n> colher de manhã, 3 dias consecutivos"
   },
   {
