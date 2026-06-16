@@ -1,6 +1,6 @@
 ---
 title: Aspirado brônquico - Micobactérias
-area: Micobacteriologia
+area: Microbiologia
 metodo: |-
   Cultura  
   PCR
@@ -12,9 +12,9 @@ material_colheita: |+
 
 transporte_estabilidade: Envio imediato / até 24 horas a 2-4ºC
 tempo_resposta: Até 42 dias para cultura / 4 dias para PCR
-setor: L.MIC
+setor: Micobacteriologia
 codigo_interno: |-
-  Cultura - MASB    
+  Cultura - MASB  
   PCR - MAASB, MAASBNT
 observacoes: |
   > 5-10 ml em contentor estéril
