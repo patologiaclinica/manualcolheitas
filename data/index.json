@@ -857,16 +857,16 @@
   {
     "slug": "biopsia-pesquisa-de-micobacterias-cultura-e-pcr",
     "title": "Biópsia - Micobactérias",
-    "area": "Micobacteriologia",
-    "metodo": "Cultura e PCR",
+    "area": "Microbiologia",
+    "metodo": "Cultura   \nPCR",
     "amostra": "Biópsia (ex: pele, tecido celular, gânglio, etc.)",
     "material_colheita": "Contentor estéril",
     "descricao_clinica": "",
     "indicacao": "",
     "transporte_estabilidade": "Envio imediato / <24 horas a 2-4ºC",
     "tempo_resposta": "Até 57 dias para cultura / 4 dias para PCR",
-    "setor": "L.MIC",
-    "codigo_interno": "Cultura - MBI  \n\nPCR - MABI",
+    "setor": "Micobacteriologia",
+    "codigo_interno": "Cultura - MBI  \nPCR - MABI",
     "observacoes": "> Aspirar com seringa para a deteção de micobactérias\n\n> Úlceras cutâneas: biópsia da zona periférica da lesão. \n\n> Enviar em contentor estéril sem adição de conservantes ou fixantes.\n\n> Biópsias pulmonares e pleurais: contentor estéril sem conservantes ou\nfixantes.\n\n> No caso de atraso no envio, recomenda-se adição de pequena quantidade (0,5\nml) de NaCl estéril.\n\n> Não colher com zaragatoa."
   },
   {
