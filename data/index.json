@@ -2567,16 +2567,16 @@
   {
     "slug": "outros-produtos-micobacterias",
     "title": "Outros produtos - Micobactérias",
-    "area": "Micobacteriologia",
-    "metodo": "Cultura e PCR",
+    "area": "Microbiologia",
+    "metodo": "Cultura  \nPCR",
     "amostra": "Aspirado",
     "material_colheita": "Contentor esterilizado",
     "descricao_clinica": "",
     "indicacao": "",
-    "transporte_estabilidade": "Envio imediato; <24h, 2-4ºC",
+    "transporte_estabilidade": "Envio imediato; até 24 horas em 2-4ºC",
     "tempo_resposta": "Até 42 dias para cultura / 4 dias para PCR",
-    "setor": "L.MIC",
-    "codigo_interno": "Cultura - MOUT  \n\nPCR - MAD",
+    "setor": "Micobacteriologia",
+    "codigo_interno": "Cultura - MOUT  \nPCR - MAD",
     "observacoes": "> Aspirar com seringa para a deteção de micobactérias  \n\n> Úlceras cutâneas: biópsia da zona periférica da lesão. Enviar em contentor\nestéril sem adição de conservantes ou fixantes. \n\n> No caso de atraso no envio, recomenda-se adição de pequena quantidade (0,5\nml) de NaCl estéril."
   },
   {
