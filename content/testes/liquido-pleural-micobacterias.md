@@ -1,17 +1,18 @@
 ---
 title: Líquido pleural - Micobactérias
-area: Micobacteriologia
-metodo: Cultura e PCR
+area: Microbiologia
+metodo: |-
+  Cultura  
+  PCR
 amostra: Líquido pleural
 material_colheita: Contentor estéril
 transporte_estabilidade: Envio imediato / até 1 hora no ambiente; até 24 horas a 2-4ºC
 tempo_resposta: Até 42 dias para cultura / 4 dias para PCR
-setor: L.MIC
+setor: Micobacteriologia
 codigo_interno: |-
   Cultura - MLPL  
-
   PCR - MALPL
 observacoes: |-
-  > 10-15ml: contentor estéril    
+  > 10-15ml em contentor estéril    
   > Não colher para frasco porta-gérmen
 ---
