@@ -13,5 +13,5 @@ codigo_interno: |-
   Cultura - MLLBA  
   PCR - MALBA 
 observacoes: |
-  > 5-10 ml: em contentor estéril
+  > 5-10 ml em contentor estéril
 ---
