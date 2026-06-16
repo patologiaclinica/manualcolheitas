@@ -1,12 +1,14 @@
 ---
 title: LCR - Micobactérias
-area: Micobacteriologia
-metodo: Cultura e PCR
+area: Microbiologia
+metodo: |-
+  Cultura  
+  PCR
 amostra: LCR
 material_colheita: Tubo estéril tampa verde
 transporte_estabilidade: Envio imediato
 tempo_resposta: Até 42 dias para cultura / 4 dias para PCR
-setor: L.MIC
+setor: Micobacteriologia
 codigo_interno: |-
   Cultura - MLCR  
   PCR - MALCR
