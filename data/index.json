@@ -2037,7 +2037,7 @@
     "tempo_resposta": "Até 42 dias para cultura / 4 dias para PCR",
     "setor": "Micobacteriologia",
     "codigo_interno": "Cultura - MLCR  \nPCR - MALCR",
-    "observacoes": "> Não colher para frasco porta-gérmen"
+    "observacoes": "> 1,5ml em contentor estéril\n> Não colher para frasco porta-gérmen"
   },
   {
     "slug": "lcr-pesquisa-de-aerobios-anaerobios-fungos-leveduriformes",
