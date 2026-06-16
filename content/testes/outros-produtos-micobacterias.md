@@ -1,15 +1,16 @@
 ---
 title: Outros produtos - Micobactérias
-area: Micobacteriologia
-metodo: Cultura e PCR
+area: Microbiologia
+metodo: |-
+  Cultura  
+  PCR
 amostra: Aspirado
 material_colheita: Contentor esterilizado
-transporte_estabilidade: Envio imediato; <24h, 2-4ºC
+transporte_estabilidade: Envio imediato; até 24 horas em 2-4ºC
 tempo_resposta: Até 42 dias para cultura / 4 dias para PCR
-setor: L.MIC
+setor: Micobacteriologia
 codigo_interno: |-
   Cultura - MOUT  
-
   PCR - MAD
 observacoes: >
   > Aspirar com seringa para a deteção de micobactérias  
