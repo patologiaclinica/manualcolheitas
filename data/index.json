@@ -870,6 +870,21 @@
     "observacoes": ""
   },
   {
+    "slug": "anticorpos-nas-miosites-anti-pl7-pl12-jo1-srp-pmscl-75-e-100-ku-mi2-oj-ej-sae1-nxp2-mda5-e-tif1g",
+    "title": "Anticorpos nas miosites (anti-PL7, PL12, Jo1, SRP, PMScl 75 e 100, Ku,",
+    "area": "Autoimunidade",
+    "metodo": "Immunoblot",
+    "amostra": "Soro",
+    "material_colheita": "Tubo soro com gel",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "24h, ambiente",
+    "tempo_resposta": "1-2 semanas",
+    "setor": "L.IM",
+    "codigo_interno": "ERLMIO",
+    "observacoes": ""
+  },
+  {
     "slug": "aspirado-bronquico-pesquisa-de-micobacterias-cultura-e-pcr",
     "title": "Aspirado brônquico - Micobactérias",
     "area": "Microbiologia",
