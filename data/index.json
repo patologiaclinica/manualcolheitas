@@ -720,6 +720,21 @@
     "observacoes": ""
   },
   {
+    "slug": "anticorpos-anti-polissacaridos-capsulares-de-spneumoniae-igg-23-serotipos",
+    "title": "Anticorpos anti-polissacáridos capsulares de S.Pneumoniae IgG (23 serotipos)",
+    "area": "Imunologia",
+    "metodo": "ELISA",
+    "amostra": "Soro",
+    "material_colheita": "Tubo soro com gel",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "24h, ambiente",
+    "tempo_resposta": "1-4 semanas",
+    "setor": "L.IM",
+    "codigo_interno": "PCPG",
+    "observacoes": ""
+  },
+  {
     "slug": "anticorpos-anti-xanca",
     "title": "Anticorpos anti-XANCA",
     "area": "Autoimunidade",
