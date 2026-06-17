@@ -1,5 +1,20 @@
 [
   {
+    "slug": "anticorpos-anti-polissacaridos-capsulares-de-spneumoniae-igg-23-serotipos",
+    "title": "\"Anticorpos anti-polissacáridos capsulares de S.Pneumoniae IgG e IgG2 (23",
+    "area": "Imunologia",
+    "metodo": "ELISA",
+    "amostra": "Soro",
+    "material_colheita": "Tubo soro com gel",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "24h, ambiente",
+    "tempo_resposta": "1-4 semanas",
+    "setor": "L.IM",
+    "codigo_interno": "PCPG, PCPG2",
+    "observacoes": ""
+  },
+  {
     "slug": "adp-agregacao",
     "title": "A.D.P (agregação)",
     "area": "Hematologia",
@@ -717,21 +732,6 @@
     "tempo_resposta": "1-2 semanas",
     "setor": "L.IM",
     "codigo_interno": "EPI",
-    "observacoes": ""
-  },
-  {
-    "slug": "anticorpos-anti-polissacaridos-capsulares-de-spneumoniae-igg-23-serotipos",
-    "title": "Anticorpos anti-polissacáridos capsulares de S.Pneumoniae IgG (23 serotipos)",
-    "area": "Imunologia",
-    "metodo": "ELISA",
-    "amostra": "Soro",
-    "material_colheita": "Tubo soro com gel",
-    "descricao_clinica": "",
-    "indicacao": "",
-    "transporte_estabilidade": "24h, ambiente",
-    "tempo_resposta": "1-4 semanas",
-    "setor": "L.IM",
-    "codigo_interno": "PCPG",
     "observacoes": ""
   },
   {
