@@ -765,6 +765,21 @@
     "observacoes": ""
   },
   {
+    "slug": "anticorpos-anti-receptores-da-acetilcolina",
+    "title": "Anticorpos anti-receptores da acetilcolina",
+    "area": "Autoimunidade",
+    "metodo": "RIA",
+    "amostra": "Soro",
+    "material_colheita": "Tubo soro com gel",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "24h, ambiente",
+    "tempo_resposta": "1-4 semanas",
+    "setor": "L.IM",
+    "codigo_interno": "AAA",
+    "observacoes": ""
+  },
+  {
     "slug": "anticorpos-anti-xanca",
     "title": "Anticorpos anti-XANCA",
     "area": "Autoimunidade",
