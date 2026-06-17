@@ -735,6 +735,21 @@
     "observacoes": ""
   },
   {
+    "slug": "anticorpos-anti-proteinase-3-pr3",
+    "title": "Anticorpos anti-proteinase 3 (PR3)",
+    "area": "Autoimunidade",
+    "metodo": "FEIA",
+    "amostra": "Soro",
+    "material_colheita": "Tubo soro com gel",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "24h, ambiente",
+    "tempo_resposta": "1-2 semanas",
+    "setor": "L.IM",
+    "codigo_interno": "PR3",
+    "observacoes": ""
+  },
+  {
     "slug": "anticorpos-anti-xanca",
     "title": "Anticorpos anti-XANCA",
     "area": "Autoimunidade",
