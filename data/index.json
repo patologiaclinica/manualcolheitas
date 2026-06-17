@@ -15,6 +15,21 @@
     "observacoes": ""
   },
   {
+    "slug": "anticorpos-nas-encefalites-autoimunes-anti-antigenios-de-superficie-celularsinapses",
+    "title": "\"Anticorpos nas encefalites autoimunes (anti-antigénios de superfície",
+    "area": "Autoimunidade",
+    "metodo": "IFI",
+    "amostra": "Soro, LCR",
+    "material_colheita": "Tubo soro com gel, contentor esterilizado (LCR)",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "24h, ambiente",
+    "tempo_resposta": "1-2 semanas",
+    "setor": "L.IM",
+    "codigo_interno": "ENCEFS, ENCEFL",
+    "observacoes": ""
+  },
+  {
     "slug": "adp-agregacao",
     "title": "A.D.P (agregação)",
     "area": "Hematologia",
