@@ -180,6 +180,21 @@
     "observacoes": ""
   },
   {
+    "slug": "anti-estreptolisina-o-aso",
+    "title": "Anti-Estreptolisina O (ASO)",
+    "area": "Imunologia",
+    "metodo": "Nefelometria",
+    "amostra": "Soro",
+    "material_colheita": "Tubo soro com gel",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "24h, ambiente",
+    "tempo_resposta": "2 dias",
+    "setor": "L.IM",
+    "codigo_interno": "ASO",
+    "observacoes": ""
+  },
+  {
     "slug": "anticorpo-anti-peptideo-citrulinado-ciclico-ccp",
     "title": "Anticorpo anti-Peptídeo Citrulinado Cíclico (CCP)",
     "area": "Autoimunidade",
