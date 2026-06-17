@@ -1,5 +1,5 @@
 ---
-title: Anti-Estreptolisina O (Aso)
+title: Anti-Estreptolisina O (ASO)
 area: Imunologia
 metodo: Nefelometria
 amostra: Soro
