@@ -3555,6 +3555,21 @@
     "observacoes": ""
   },
   {
+    "slug": "trombose-factor-genetico-predisponente-inibidor-do-activador-do-plasminogenio-1-pai-1-pesquisa-da-variante-pai-1-4g-rastreio-em-individuo-saudavel",
+    "title": "Trombose, factor genético predisponente – Inibidor do activador do",
+    "area": "Genética Humana",
+    "metodo": "*PCR + Hibridização*",
+    "amostra": "Sangue total",
+    "material_colheita": "Tubo c/ Citrato de Sódio\n\nTubo c/ EDTA",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "|  |\n| ------------ |\n| 2d, ambiente |\n\n\n5d, 2-8ºC",
+    "tempo_resposta": "3s (2d úteis, urgência)",
+    "setor": "LDMH",
+    "codigo_interno": "",
+    "observacoes": ""
+  },
+  {
     "slug": "ulceras-genitais-hducreyilvenereumcmvhsv12vzvtpallidum-1",
     "title": "Ulceras genitais (H.ducreyi,L.venereum,CMV,HSV,1/2,VZV,T.pallidum)",
     "area": "Bacteriologia - Biologia Molecular",
