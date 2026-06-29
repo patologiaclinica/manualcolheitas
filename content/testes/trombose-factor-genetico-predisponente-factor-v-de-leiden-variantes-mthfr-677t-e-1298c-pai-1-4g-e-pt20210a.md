@@ -15,5 +15,6 @@ transporte_estabilidade: |+
   | 5d, 2-8ºC |
 
 
-tempo_resposta: 3s
+tempo_resposta: 3s (2d úteis, urgência)
+setor: LDMH
 ---
