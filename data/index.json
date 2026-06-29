@@ -2055,6 +2055,21 @@
     "observacoes": ""
   },
   {
+    "slug": "hemocromatose-hereditaria-pesquisa-das-mutacoes-h63d-c282y-e-s65c-no-gene-hfe-rastreio-em-individuo-saudavel",
+    "title": "Hemocromatose Hereditária  – pesquisa das mutações H63D, C282Y e S65C no",
+    "area": "Genética Humana",
+    "metodo": "*PCR + Hibridização*",
+    "amostra": "Sangue total",
+    "material_colheita": "Tubo c/ Citrato de Sódio\n\nTubo c/ EDTA",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "|  |\n| ------------- |\n| 2d, ambiente; |\n\n\n5d, 2-8ºC",
+    "tempo_resposta": "3s (2d úteis, urgência)",
+    "setor": "LDMH",
+    "codigo_interno": "",
+    "observacoes": ""
+  },
+  {
     "slug": "hemocultura-micobacteria",
     "title": "Hemocultura - Micobactérias",
     "area": "Microbiologia",
