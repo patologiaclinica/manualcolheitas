@@ -8,5 +8,14 @@ material_colheita: |-
   Tubo c/ Citrato
 
   Tubo c/ EDTA
-tempo_resposta: 2d, ambiente
+transporte_estabilidade: |-
+  
+  |  |
+  | ------------ |
+  | 2d, ambiente |
+
+
+  5d, 2-8ºC
+tempo_resposta: 3s (2d úteis, urgência)
+setor: LDMH
 ---
