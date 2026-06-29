@@ -30,6 +30,21 @@
     "observacoes": ""
   },
   {
+    "slug": "sensibilidaderesistencia-a-varfarina-pesquisa-dos-alelos-12-e-3do-gene-cyp2c9-e-da-variante-rs9923231-do-gene-vkorc1",
+    "title": "\"Sensibilidade/Resistência à varfarina – pesquisa dos alelos *1,*2 e",
+    "area": "Genética Humana",
+    "metodo": "*PCR + Hibridização*",
+    "amostra": "Sangue total",
+    "material_colheita": "Tubo c/ Citrato de Sódio\n\nTubo c/ EDTA",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "|  |\n| ------------ |\n| 2d, ambiente |\n\n\n 5d, 2-8ºC",
+    "tempo_resposta": "5d (2d úteis, urgência)",
+    "setor": "LDMH",
+    "codigo_interno": "",
+    "observacoes": ""
+  },
+  {
     "slug": "trombose-factor-genetico-predisponente-enzima-de-conversao-da-angiotensina-ace-id",
     "title": "\"Trombose, factor genético predisponente -Enzima de Conversão da",
     "area": "Genética Humana",
