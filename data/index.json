@@ -2865,6 +2865,21 @@
     "observacoes": ""
   },
   {
+    "slug": "pai-1-pesquisa-da-variante-844ggreatera-rastreio-em-individuo-saudavel",
+    "title": "PAI 1 – pesquisa da variante -844G>A, rastreio em indivíduo saudável",
+    "area": "Genética Humana",
+    "metodo": "*PCR com restrição enzimática*",
+    "amostra": "Sangue total",
+    "material_colheita": "Tubo c/ Citrato de Sódio\n\nTubo c/ EDTA",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "|  |\n| ------------ |\n| 2d, ambiente |\n\n\n 5d, 2-8ºC",
+    "tempo_resposta": "2s (2d úteis, urgência)",
+    "setor": "LDMH",
+    "codigo_interno": "",
+    "observacoes": ""
+  },
+  {
     "slug": "painel-agentes-infecao-respiratoria-inferior-disponivel-apos-consulta-pat-clinico-escala-de-microbiologia",
     "title": "Painel agentes infeção respiratória inferior (disponível após consulta",
     "area": "Bacteriologia - Biologia Molecular",
