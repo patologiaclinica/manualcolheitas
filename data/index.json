@@ -1140,6 +1140,21 @@
     "observacoes": "![image.png](uploads/image-29.png)"
   },
   {
+    "slug": "beta-talassemia-pesquisa-de-mutacoes-pontuais-e-pequenas-delecoesinsercoes-no-gene-hbb",
+    "title": "Beta-talassemia - pesquisa de mutações pontuais e pequenas",
+    "area": "Genética Humana",
+    "metodo": "*PCR+hibridização*",
+    "amostra": "Sangue total",
+    "material_colheita": "Tubo c/ EDTA",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "|  |\n| ----------- |\n| 2d,ambiente |\n\n\n5d, 2-8ºC",
+    "tempo_resposta": "5d (urgência, 2d)",
+    "setor": "LDMH",
+    "codigo_interno": "",
+    "observacoes": ""
+  },
+  {
     "slug": "bilis-pesquisa-de-aerobios-anaerobios-e-fungos-leveduriformes",
     "title": "Bílis; pesquisa de aeróbios, anaeróbios e fungos leveduriformes",
     "area": "Microbiologia",
