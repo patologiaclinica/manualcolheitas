@@ -30,6 +30,21 @@
     "observacoes": ""
   },
   {
+    "slug": "trombose-factor-genetico-predisponente-factor-v-de-leiden-variantes-mthfr-677t-e-1298c-pai-1-4g-e-pt20210a",
+    "title": "\"Trombose, factor genético predisponente – Factor V de Leiden, variantes:",
+    "area": "LDMH",
+    "metodo": "*PCR + Hibridização*",
+    "amostra": "Sangue total",
+    "material_colheita": "Tubo c/ Citrato de Sódio\n\nTubo c/ EDTA",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "|  |\n| ------------ |\n| 2d, ambiente |\n\n\n 5d, 2-8ºC",
+    "tempo_resposta": "3s",
+    "setor": "",
+    "codigo_interno": "",
+    "observacoes": ""
+  },
+  {
     "slug": "adp-agregacao",
     "title": "A.D.P (agregação)",
     "area": "Hematologia",
