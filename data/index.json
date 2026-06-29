@@ -75,6 +75,21 @@
     "observacoes": ""
   },
   {
+    "slug": "trombose-factor-genetico-predisponente-metilenotetrahidrofolato-redutase-pesquisa-das-variantes-mthfr-677t-e-mthfr-1298c",
+    "title": "\"Trombose, factor genético predisponente – Metilenotetrahidrofolato",
+    "area": "Genética Humana",
+    "metodo": "*PCR + Hibridização*",
+    "amostra": "Sangue total",
+    "material_colheita": "Tubo c/ Citrato de Sódio\n\nTubo c/ EDTA",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "|  |\n| ------------ |\n| 2d, ambiente |\n\n\n 5d, 2-8ºC",
+    "tempo_resposta": "3s (2d úteis, urgência)",
+    "setor": "LDMH",
+    "codigo_interno": "",
+    "observacoes": ""
+  },
+  {
     "slug": "adp-agregacao",
     "title": "A.D.P (agregação)",
     "area": "Hematologia",
