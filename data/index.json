@@ -1035,6 +1035,21 @@
     "observacoes": ""
   },
   {
+    "slug": "apolipoproteina-e-pesquisa-dos-alelos-e2-e3-e-e4",
+    "title": "Apolipoproteína E, pesquisa dos alelos ε2, ε3 e ε4",
+    "area": "Genética Humana",
+    "metodo": "|  |\n| -------------------- |\n| *PCR + Hibridização* |",
+    "amostra": "Sangue total",
+    "material_colheita": "Tubo c/ Citrato de Sódio\n\nTubo c/ EDTA",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "|  |\n| ----------- |\n| 2d,ambiente |\n\n\n5d, 2-8ºC",
+    "tempo_resposta": "3s (urgência, 2 dias)",
+    "setor": "LDMH",
+    "codigo_interno": "",
+    "observacoes": ""
+  },
+  {
     "slug": "aspirado-bronquico-pesquisa-de-micobacterias-cultura-e-pcr",
     "title": "Aspirado brônquico - Micobactérias",
     "area": "Microbiologia",
