@@ -8,13 +8,12 @@ material_colheita: |-
   Tubo c/ Citrato de Sódio
 
   Tubo c/ EDTA
-transporte_estabilidade: |-
+transporte_estabilidade: |+
   
-  |  |
-  | ------------ |
   | 2d, ambiente |
+  | ------------ |
+  | 5d, 2-8ºC |
 
 
-   5d, 2-8ºC
 tempo_resposta: 3s
 ---
