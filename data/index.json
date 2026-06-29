@@ -1425,6 +1425,21 @@
     "observacoes": ""
   },
   {
+    "slug": "cyp3a5-pesquisa-da-variante-alelica-3",
+    "title": "CYP3A5 – pesquisa da variante alélica *3",
+    "area": "Genética Humana",
+    "metodo": "*PCR com restrição enzimática*",
+    "amostra": "Sangue total",
+    "material_colheita": "Tubo c/ EDTA",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "|  |\n| ----------- |\n| 2d,ambiente |\n\n\n5d, 2-8ºC",
+    "tempo_resposta": "2s (2d úteis, urgência)",
+    "setor": "LDMH",
+    "codigo_interno": "",
+    "observacoes": ""
+  },
+  {
     "slug": "deficiencia-de-alfa-1-antitripsina-pesquisa-dos-alelos-piz-e-pis-do-gene-serpina-1-rastreio-em-individuo-saudavel",
     "title": "Deficiência de alfa 1 antitripsina - pesquisa dos alelos PI*Z e PI*S do",
     "area": "Genética Humana",
