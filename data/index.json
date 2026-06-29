@@ -30,6 +30,21 @@
     "observacoes": ""
   },
   {
+    "slug": "trombose-factor-genetico-predisponente-enzima-de-conversao-da-angiotensina-ace-id",
+    "title": "\"Trombose, factor genético predisponente -Enzima de Conversão da",
+    "area": "Genética Humana",
+    "metodo": "*PCR +hibrização*",
+    "amostra": "Sangue total",
+    "material_colheita": "Tubo c/ Citrato de Sódio\n\nTubo c/ EDTA",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "|  |\n| ------------ |\n| 2d, ambiente |\n\n\n 5d, 2-8ºC",
+    "tempo_resposta": "3s (2d úteis, urgência)",
+    "setor": "LDMH",
+    "codigo_interno": "",
+    "observacoes": ""
+  },
+  {
     "slug": "trombose-factor-genetico-predisponente-factor-v-de-leiden-variantes-mthfr-677t-e-1298c-pai-1-4g-e-pt20210a",
     "title": "\"Trombose, factor genético predisponente – Factor V de Leiden, variantes:",
     "area": "Genética Humana",
