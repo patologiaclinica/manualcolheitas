@@ -2100,6 +2100,21 @@
     "observacoes": ""
   },
   {
+    "slug": "hipercolesterolemia-familiar-pesquisa-de-mutacoes-nos-genes-apoe-apob-ldlr-pcsk9-ldlrap1-srebf2-sap1-lipa-abcg5-e-abcg8",
+    "title": "Hipercolesterolémia Familiar -  pesquisa de mutações nos genes APOE,",
+    "area": "Genética Humana",
+    "metodo": "*Sequenciação de nova geração – NGS*",
+    "amostra": "Sangue total",
+    "material_colheita": "Tubo c/ EDTA",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "|  |\n| ------------- |\n| 2d, ambiente; |\n\n\n5d, 2-8ºC",
+    "tempo_resposta": "2-3 Meses",
+    "setor": "LDMH",
+    "codigo_interno": "",
+    "observacoes": ""
+  },
+  {
     "slug": "humor-aquoso-pesquisa-de-aerobios-fungos-leveduriformes",
     "title": "Humor aquoso; Pesquisa de aeróbios, fungos leveduriformes",
     "area": "Microbiologia",
