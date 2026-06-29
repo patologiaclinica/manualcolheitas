@@ -285,17 +285,17 @@
     "observacoes": ""
   },
   {
-    "slug": "anexina-a5-pesquisa-do-haplotipo-m2",
+    "slug": "anexina-a5-pesquisa-do-haplotipo-m2-1",
     "title": "Anexina A5, pesquisa do haplótipo M2",
-    "area": "Hematologia",
-    "metodo": "PCR e restrição enzimática",
+    "area": "Genética Humana",
+    "metodo": "|  |\n| ---------------------------- |\n| *PCR e restrição enzimática* |",
     "amostra": "Sangue total",
     "material_colheita": "Tubo c/ EDTA",
     "descricao_clinica": "",
     "indicacao": "",
-    "transporte_estabilidade": "2d, ambiente  \n5d, 2-8ºC",
-    "tempo_resposta": "4s (urgência,2d)",
-    "setor": "L.BM",
+    "transporte_estabilidade": "|  |\n| ------------ |\n| 2d,ambiente; |\n\n\n5d, 2-8ºC",
+    "tempo_resposta": "2s (urgência,2d)",
+    "setor": "LDMH",
     "codigo_interno": "",
     "observacoes": ""
   },
