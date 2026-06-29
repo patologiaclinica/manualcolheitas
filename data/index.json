@@ -1890,6 +1890,21 @@
     "observacoes": ""
   },
   {
+    "slug": "extracao-de-rna",
+    "title": "Extração de RNA",
+    "area": "Genética Humana",
+    "metodo": "",
+    "amostra": "Sangue total",
+    "material_colheita": "Tubo c/ EDTA",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "|  |\n| ----------- |\n| 1d,ambiente |\n\n\n2d, de 2-8ºC",
+    "tempo_resposta": "1d",
+    "setor": "LDMH",
+    "codigo_interno": "",
+    "observacoes": ""
+  },
+  {
     "slug": "fasciolose-detecao-ac-igg",
     "title": "Fasciolose; Deteção Ac. IgG",
     "area": "Microbiologia",
