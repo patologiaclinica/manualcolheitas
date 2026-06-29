@@ -30,6 +30,21 @@
     "observacoes": ""
   },
   {
+    "slug": "intolerancia-a-lactose-pesquisa-dos-polimorfismos-13910-ct-e-22018-ga-no-gene-lct",
+    "title": "\"Intolerância à lactose – pesquisa dos polimorfismos -13910 (C/T) e",
+    "area": "Genética Humana",
+    "metodo": "*PCR+hibridização*",
+    "amostra": "Sangue total",
+    "material_colheita": "Tubo c/ EDTA",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "|  |\n| ------------- |\n| 2d, ambiente; |\n\n\n5d, 2-8ºC",
+    "tempo_resposta": "2s  (2d úteis, urgência)",
+    "setor": "LDMH",
+    "codigo_interno": "",
+    "observacoes": ""
+  },
+  {
     "slug": "sensibilidaderesistencia-a-varfarina-pesquisa-dos-alelos-12-e-3do-gene-cyp2c9-e-da-variante-rs9923231-do-gene-vkorc1",
     "title": "\"Sensibilidade/Resistência à varfarina – pesquisa dos alelos *1,*2 e",
     "area": "Genética Humana",
