@@ -38,7 +38,7 @@
     "material_colheita": "Tubo c/ Citrato de Sódio\n\nTubo c/ EDTA",
     "descricao_clinica": "",
     "indicacao": "",
-    "transporte_estabilidade": "|  |\n| ------------ |\n| 2d, ambiente |\n\n\n 5d, 2-8ºC",
+    "transporte_estabilidade": "| 2d, ambiente |\n| ------------ |\n| 5d, 2-8ºC |",
     "tempo_resposta": "3s",
     "setor": "",
     "codigo_interno": "",
