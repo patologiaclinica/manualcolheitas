@@ -3660,6 +3660,21 @@
     "observacoes": ""
   },
   {
+    "slug": "trombose-factor-genetico-predisponente-protrombina-pesquisa-de-variante-pt20210a-rastreio-em-individuo-saudavel",
+    "title": "Trombose, factor genético predisponente – Protrombina, pesquisa de",
+    "area": "Genética Humana",
+    "metodo": "*PCR + Hibridização*",
+    "amostra": "Sangue total",
+    "material_colheita": "Tubo c/ Citrato de Sódio\n\nTubo c/ EDTA",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "|  |\n| ------------ |\n| 2d, ambiente |\n\n\n 5d, 2-8ºC",
+    "tempo_resposta": "3s (2d úteis, urgência)",
+    "setor": "LDMH",
+    "codigo_interno": "",
+    "observacoes": ""
+  },
+  {
     "slug": "trombose-factor-genetico-predisponente-protrombina-pesquisa-de-variante-pt20210a",
     "title": "Trombose, factor genético predisponente – Protrombina, pesquisa de",
     "area": "Genética Humana",
