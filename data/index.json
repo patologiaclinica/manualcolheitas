@@ -2085,6 +2085,21 @@
     "observacoes": ""
   },
   {
+    "slug": "hemoglobina-c-pesquisa-da-mutacao-c19ggreatera-no-gene-hbb",
+    "title": "Hemoglobina C - pesquisa da mutação c.19G>A no gene HBB",
+    "area": "Genética Humana",
+    "metodo": "*PCR+hibridização*",
+    "amostra": "Sangue total",
+    "material_colheita": "Tubo c/ EDTA",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "|  |\n| ------------- |\n| 2d, ambiente; |\n\n\n5d, 2-8ºC",
+    "tempo_resposta": "5d",
+    "setor": "LDMH",
+    "codigo_interno": "",
+    "observacoes": ""
+  },
+  {
     "slug": "hidatidose-ech-granulosus-detecao-de-anticorpos-igg",
     "title": "Hidatidose (Ech. granulosus); Deteção de anticorpos IgG",
     "area": "Microbiologia",
