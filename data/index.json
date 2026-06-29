@@ -39,8 +39,8 @@
     "descricao_clinica": "",
     "indicacao": "",
     "transporte_estabilidade": "| 2d, ambiente |\n| ------------ |\n| 5d, 2-8ºC |",
-    "tempo_resposta": "3s",
-    "setor": "",
+    "tempo_resposta": "3s (2d úteis, urgência)",
+    "setor": "LDMH",
     "codigo_interno": "",
     "observacoes": ""
   },
