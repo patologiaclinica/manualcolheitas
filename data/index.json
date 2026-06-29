@@ -3135,6 +3135,21 @@
     "observacoes": "\"                                 \\"
   },
   {
+    "slug": "pesquisa-de-variantes-no-gene-dpyd-associadas-a-toxicidade-as-fluoropirimidinas-5-fu",
+    "title": "Pesquisa de variantes no gene DPYD associadas a toxicidade as",
+    "area": "Genética Humana",
+    "metodo": "*PCR+hibridização*\n\n*PCR em Tempo Real*",
+    "amostra": "Sangue total",
+    "material_colheita": "Tubo c/ EDTA",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "|  |\n| ------------ |\n| 2d, ambiente |\n\n\n 5d, 2-8ºC",
+    "tempo_resposta": "1s (2d úteis, urgência)",
+    "setor": "LDMH",
+    "codigo_interno": "",
+    "observacoes": ""
+  },
+  {
     "slug": "placenta-micobacterias",
     "title": "Placenta - Micobactérias",
     "area": "Microbiologia",
