@@ -2475,6 +2475,21 @@
     "observacoes": ""
   },
   {
+    "slug": "leucemia-bcrabl1-p190-pesquisa-dos-transcritos-de-fusao-e1a2-e-e1a3",
+    "title": "Leucemia – BCR/ABL1 p190, pesquisa dos transcritos de fusão e1a2 e e1a3",
+    "area": "Genética Humana",
+    "metodo": "|  |\n| ------------------------------- |\n| *PCR com transcriptase reversa* |",
+    "amostra": "Sangue total",
+    "material_colheita": "Tubo c/ EDTA",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "|  |\n| ------------- |\n| 1d, ambiente; |\n\n\n2d, 2-8ºC",
+    "tempo_resposta": "Até 2d",
+    "setor": "LDMH",
+    "codigo_interno": "",
+    "observacoes": ""
+  },
+  {
     "slug": "liquido-de-dialise-pesquisa-de-aerobios-anaerobios-fungos-leveduriformes",
     "title": "Líquido de diálise; Pesquisa de aeróbios, anaeróbios, fungos leveduriformes",
     "area": "Microbiologia",
