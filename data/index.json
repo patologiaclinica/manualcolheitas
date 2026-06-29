@@ -3300,6 +3300,21 @@
     "observacoes": ""
   },
   {
+    "slug": "sindrome-de-gilbert-pesquisa-da-duplicacao-ta-no-gene-ugt1a1",
+    "title": "Síndrome de Gilbert – pesquisa da duplicação [TA] no gene UGT1A1",
+    "area": "Genética Humana",
+    "metodo": "|  |\n| ------------------- |\n| *PCR em tempo real* |",
+    "amostra": "Sangue total",
+    "material_colheita": "Tubo c/ EDTA",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "|  |\n| ------------ |\n| 2d, ambiente |\n\n\n 5d, 2-8ºC",
+    "tempo_resposta": "5d (2d úteis, urgência)",
+    "setor": "LDMH",
+    "codigo_interno": "",
+    "observacoes": ""
+  },
+  {
     "slug": "sirolimus",
     "title": "Sirolimus",
     "area": "Imunologia",
