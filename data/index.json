@@ -1560,6 +1560,21 @@
     "observacoes": "![image388.jpg](uploads/image388-4.jpg)"
   },
   {
+    "slug": "drepanocitose-hemoglobina-s-pesquisa-da-mutacao-c20agreatert-no-gene-hbb",
+    "title": "Drepanocitose- Hemoglobina S - pesquisa da mutação c.20A>T no gene HBB",
+    "area": "Genética Humana",
+    "metodo": "*PCR+hibridização*",
+    "amostra": "Sangue total",
+    "material_colheita": "Tubo c/ EDTA",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "|  |\n| ----------- |\n| 2d,ambiente |\n\n\n5d, de 2-8ºC",
+    "tempo_resposta": "5d (2d úteis, urgência)",
+    "setor": "LDMH",
+    "codigo_interno": "",
+    "observacoes": ""
+  },
+  {
     "slug": "dst-chlam-trachomatis-myco-genitalium-myco-hominis-neiss-gonorrhoea-trich-vaginalis-ureapl-parvum-ureapl-urealyticum-dna-qualitativo-1",
     "title": "DST (Chlam. trachomatis, Myco. genitalium, Myco. hominis, Neiss.",
     "area": "Bacteriologia - Biologia Molecular",
