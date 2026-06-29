@@ -53,9 +53,9 @@
     "material_colheita": "Tubo c/ Citrato\n\nTubo c/ EDTA",
     "descricao_clinica": "",
     "indicacao": "",
-    "transporte_estabilidade": "",
-    "tempo_resposta": "2d, ambiente",
-    "setor": "",
+    "transporte_estabilidade": "|  |\n| ------------ |\n| 2d, ambiente |\n\n\n5d, 2-8ºC",
+    "tempo_resposta": "3s (2d úteis, urgência)",
+    "setor": "LDMH",
     "codigo_interno": "",
     "observacoes": ""
   },
