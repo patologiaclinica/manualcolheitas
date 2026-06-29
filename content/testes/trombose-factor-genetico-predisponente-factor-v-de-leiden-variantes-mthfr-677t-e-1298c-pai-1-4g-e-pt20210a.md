@@ -1,7 +1,7 @@
 ---
 title: "Trombose, factor genético predisponente – Factor V de Leiden, variantes:
   MTHFR 677T e 1298C, PAI 1 4G e PT20210A"
-area: LDMH
+area: Genética Humana
 metodo: "*PCR + Hibridização*"
 amostra: Sangue total
 material_colheita: |-
