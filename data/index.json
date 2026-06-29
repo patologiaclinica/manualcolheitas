@@ -2820,6 +2820,21 @@
     "observacoes": ""
   },
   {
+    "slug": "neoplasia-mieloproliferativa-jak2-quantificacao-em-tempo-real-da-mutacao-v617f",
+    "title": "Neoplasia mieloproliferativa – JAK2 quantificação em tempo real da",
+    "area": "Genética Humana",
+    "metodo": "*PCR tempo real*",
+    "amostra": "Sangue total",
+    "material_colheita": "Tubo c/ EDTA",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "",
+    "tempo_resposta": "3d (1d útil, urgência)",
+    "setor": "LDMH",
+    "codigo_interno": "",
+    "observacoes": ""
+  },
+  {
     "slug": "outros-liquido-micobacterias",
     "title": "Outros líquido - Micobactérias",
     "area": "Microbiologia",
