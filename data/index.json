@@ -32,7 +32,7 @@
   {
     "slug": "trombose-factor-genetico-predisponente-factor-v-de-leiden-variantes-mthfr-677t-e-1298c-pai-1-4g-e-pt20210a",
     "title": "\"Trombose, factor genético predisponente – Factor V de Leiden, variantes:",
-    "area": "LDMH",
+    "area": "Genética Humana",
     "metodo": "*PCR + Hibridização*",
     "amostra": "Sangue total",
     "material_colheita": "Tubo c/ Citrato de Sódio\n\nTubo c/ EDTA",
@@ -41,6 +41,21 @@
     "transporte_estabilidade": "| 2d, ambiente |\n| ------------ |\n| 5d, 2-8ºC |",
     "tempo_resposta": "3s (2d úteis, urgência)",
     "setor": "LDMH",
+    "codigo_interno": "",
+    "observacoes": ""
+  },
+  {
+    "slug": "trombose-factor-genetico-predisponente-factor-xiii-pesquisa-da-mutacao-val34leu",
+    "title": "\"Trombose, factor genético predisponente – Factor XIII, pesquisa da",
+    "area": "Genética Humana",
+    "metodo": "*PCR + Hibridização*",
+    "amostra": "Sangue total",
+    "material_colheita": "Tubo c/ Citrato\n\nTubo c/ EDTA",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "",
+    "tempo_resposta": "2d, ambiente",
+    "setor": "",
     "codigo_interno": "",
     "observacoes": ""
   },
