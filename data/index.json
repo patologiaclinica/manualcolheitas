@@ -1139,7 +1139,7 @@
     "codigo_interno": "",
     "observacoes": ""
   },
-   {
+  {
     "slug": "hemocromatose-hereditaria-pesquisa-das-mutacoes-h63d-c282y-e-s65c-no-gene-hfe-rastreio-em-individuo-saudavel",
     "title": "Hemocromatose Hereditária  – pesquisa das mutações H63D, C282Y e S65C no",
     "area": "Genética Humana",
@@ -1184,7 +1184,7 @@
     "codigo_interno": "",
     "observacoes": ""
   },
-   {
+  {
     "slug": "hipercolesterolemia-familiar-pesquisa-de-mutacoes-nos-genes-apoe-apob-ldlr-pcsk9-ldlrap1-srebf2-sap1-lipa-abcg5-e-abcg8",
     "title": "Hipercolesterolémia Familiar -  pesquisa de mutações nos genes APOE,",
     "area": "Genética Humana",
@@ -1259,7 +1259,7 @@
     "codigo_interno": "",
     "observacoes": ""
   },
-   {
+  {
     "slug": "neoplasia-mieloproliferativa-jak2-quantificacao-em-tempo-real-da-mutacao-v617f",
     "title": "Neoplasia mieloproliferativa – JAK2 quantificação em tempo real da",
     "area": "Genética Humana",
@@ -1618,7 +1618,7 @@
     "setor": "L.IM",
     "codigo_interno": "VEMAB, AVEMAB",
     "observacoes": ""
-  }
+  },
   {
     "slug": "acanthamoeba-1",
     "title": "Acanthamoeba,  DNA qualitativo",
