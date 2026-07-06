@@ -1,7 +1,7 @@
 [
   {
     "slug": "anticorpos-anti-polissacaridos-capsulares-de-spneumoniae-igg-23-serotipos",
-    "title": "\"Anticorpos anti-polissacáridos capsulares de S.Pneumoniae IgG e IgG2 (23",
+    "title": "Anticorpos anti-polissacáridos capsulares de S.Pneumoniae IgG e IgG2 (23",
     "area": "Imunologia",
     "metodo": "ELISA",
     "amostra": "Soro",
@@ -16,7 +16,7 @@
   },
   {
     "slug": "anticorpos-nas-encefalites-autoimunes-anti-antigenios-de-superficie-celularsinapses",
-    "title": "\"Anticorpos nas encefalites autoimunes (anti-antigénios de superfície",
+    "title": "Anticorpos nas encefalites autoimunes (anti-antigénios de superfície",
     "area": "Autoimunidade",
     "metodo": "IFI",
     "amostra": "Soro, LCR",
@@ -31,7 +31,7 @@
   },
   {
     "slug": "dpyd-pesquisa-de-variantes-no-gene-dpyd-associadas-a-toxicidade-as-fluoropirimidinas-5-flurouracilo-capecitabina-tegafur",
-    "title": "\"DPYD— Pesquisa de variantes no gene DPYD associadas a toxicidade as",
+    "title": "DPYD— Pesquisa de variantes no gene DPYD associadas a toxicidade as",
     "area": "Genética Humana",
     "metodo": "*PCR+hibridização*\n\n*PCR Tempo Real*",
     "amostra": "Sangue total",
@@ -46,7 +46,7 @@
   },
   {
     "slug": "intolerancia-a-lactose-pesquisa-dos-polimorfismos-13910-ct-e-22018-ga-no-gene-lct",
-    "title": "\"Intolerância à lactose – pesquisa dos polimorfismos -13910 (C/T) e",
+    "title": "Intolerância à lactose – pesquisa dos polimorfismos -13910 (C/T) e",
     "area": "Genética Humana",
     "metodo": "*PCR+hibridização*",
     "amostra": "Sangue total",
@@ -61,7 +61,7 @@
   },
   {
     "slug": "sensibilidaderesistencia-a-varfarina-pesquisa-dos-alelos-12-e-3do-gene-cyp2c9-e-da-variante-rs9923231-do-gene-vkorc1",
-    "title": "\"Sensibilidade/Resistência à varfarina – pesquisa dos alelos *1,*2 e",
+    "title": "Sensibilidade/Resistência à varfarina – pesquisa dos alelos *1,*2 e",
     "area": "Genética Humana",
     "metodo": "*PCR + Hibridização*",
     "amostra": "Sangue total",
@@ -76,7 +76,7 @@
   },
   {
     "slug": "trombose-factor-genetico-predisponente-enzima-de-conversao-da-angiotensina-ace-id",
-    "title": "\"Trombose, factor genético predisponente -Enzima de Conversão da",
+    "title": "Trombose, factor genético predisponente -Enzima de Conversão da",
     "area": "Genética Humana",
     "metodo": "*PCR +hibrização*",
     "amostra": "Sangue total",
@@ -91,7 +91,7 @@
   },
   {
     "slug": "trombose-factor-genetico-predisponente-factor-v-de-leiden-variantes-mthfr-677t-e-1298c-pai-1-4g-e-pt20210a",
-    "title": "\"Trombose, factor genético predisponente – Factor V de Leiden, variantes:",
+    "title": "Trombose, factor genético predisponente – Factor V de Leiden, variantes:",
     "area": "Genética Humana",
     "metodo": "*PCR + Hibridização*",
     "amostra": "Sangue total",
@@ -106,7 +106,7 @@
   },
   {
     "slug": "trombose-factor-genetico-predisponente-factor-xiii-pesquisa-da-mutacao-val34leu",
-    "title": "\"Trombose, factor genético predisponente – Factor XIII, pesquisa da",
+    "title": "Trombose, factor genético predisponente – Factor XIII, pesquisa da",
     "area": "Genética Humana",
     "metodo": "*PCR + Hibridização*",
     "amostra": "Sangue total",
@@ -121,7 +121,7 @@
   },
   {
     "slug": "trombose-factor-genetico-predisponente-inibidor-do-activador-do-plasminogenio-1-pai-1-pesquisa-da-variante-pai-1-4g",
-    "title": "\"Trombose, factor genético predisponente – Inibidor do activador do",
+    "title": "Trombose, factor genético predisponente – Inibidor do activador do",
     "area": "Genética Humana",
     "metodo": "*PCR + Hibridização*",
     "amostra": "Sangue total",
@@ -136,7 +136,7 @@
   },
   {
     "slug": "trombose-factor-genetico-predisponente-metilenotetrahidrofolato-redutase-pesquisa-das-variantes-mthfr-677t-e-mthfr-1298c",
-    "title": "\"Trombose, factor genético predisponente – Metilenotetrahidrofolato",
+    "title": "Trombose, factor genético predisponente – Metilenotetrahidrofolato",
     "area": "Genética Humana",
     "metodo": "*PCR + Hibridização*",
     "amostra": "Sangue total",
