@@ -2145,36 +2145,6 @@
     "observacoes": ""
   },
   {
-    "slug": "mycoplasma-chlpneumlegionella-spp-dna-qualitativo",
-    "title": "Mycoplasma /Chl.pneum./Legionella spp-DNA qualitativo",
-    "area": "Bacteriologia - Biologia Molecular",
-    "metodo": "PCR em tempo real",
-    "amostra": "Liq. Pleural/ LCR/Outras amostras,  contentor estéril",
-    "material_colheita": "Contentor estéril",
-    "descricao_clinica": "",
-    "indicacao": "",
-    "transporte_estabilidade": "Imediato/ 72H a 4ºC",
-    "tempo_resposta": "até 72 horas",
-    "setor": "Microbiologia",
-    "codigo_interno": "4918",
-    "observacoes": ""
-  },
-  {
-    "slug": "mycoplasma-pneumchlpneumoniaelegionella-spp-dna-qualitativo",
-    "title": "Mycoplasma pneum./Chl.pneumoniae/Legionella spp. - DNA qualitativo",
-    "area": "Bacteriologia - Biologia Molecular",
-    "metodo": "PCR em tempo real",
-    "amostra": "Sangue total",
-    "material_colheita": "Tubo de EDTA (tubo de hemograma)",
-    "descricao_clinica": "",
-    "indicacao": "",
-    "transporte_estabilidade": "Imediato /72H a 4ºC",
-    "tempo_resposta": "até 72 horas",
-    "setor": "Microbiologia",
-    "codigo_interno": "4936",
-    "observacoes": "![image388.jpg](uploads/image388-7.jpg)"
-  },
-  {
     "slug": "nmeningitidisspneumoniaelisteria-dna-qualitativo-1",
     "title": "N.meningitidis/S.pneumoniae./Listeria -DNA qualitativo",
     "area": "Bacteriologia - Biologia Molecular",
