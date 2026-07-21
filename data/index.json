@@ -3045,21 +3045,6 @@
     "observacoes": ""
   },
   {
-    "slug": "parvovirus-b19-dna-carga-viral",
-    "title": "Parvovírus B19  DNA Carga viral",
-    "area": "Virologia",
-    "metodo": "pCR EM TEMPO REAL",
-    "amostra": "Plasma,",
-    "material_colheita": "Tubo de EDTA com gel",
-    "descricao_clinica": "",
-    "indicacao": "",
-    "transporte_estabilidade": "imediato/72H  a4ºC",
-    "tempo_resposta": "Até 72 horas",
-    "setor": "Microbiologia",
-    "codigo_interno": "4941",
-    "observacoes": "![image.png](uploads/image-22.png)"
-  },
-  {
     "slug": "parvovirus-b19-dna-qualitativo-1",
     "title": "Parvovírus B19 -  DNA  qualitativo",
     "area": "Virologia",
