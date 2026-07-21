@@ -1245,21 +1245,6 @@
     "observacoes": ""
   },
   {
-    "slug": "dst-chlamtrach-neissgono-dna-qualitativo-2",
-    "title": "DST (Chlam.trach; Neiss.gono), DNA qualitativo",
-    "area": "Bacteriologia - Biologia Molecular",
-    "metodo": "PCr em tempo real",
-    "amostra": "Exs. Retal,",
-    "material_colheita": "Zaragatoa com meio de transporte líquido (Amies)",
-    "descricao_clinica": "",
-    "indicacao": "",
-    "transporte_estabilidade": "Imediato/ 72h a 4ºC",
-    "tempo_resposta": "Até 4h",
-    "setor": "Microbiologia",
-    "codigo_interno": "DMCR",
-    "observacoes": ""
-  },
-  {
     "slug": "dst-chlamtrach-neissgono-dna-qualitativo-3",
     "title": "DST (Chlam.trach; Neiss.gono), DNA qualitativo",
     "area": "Bacteriologia - Biologia Molecular",
