@@ -4125,21 +4125,6 @@
     "observacoes": "> Colheita da 1ª urina da manhã em 3 dias consecutivos (20 ml)"
   },
   {
-    "slug": "varicela-zoster-vzv-dna-qualitativo",
-    "title": "Varicela Zoster (VZV) DNA  qualitativo",
-    "area": "Virologia",
-    "metodo": "PCR em tempo real",
-    "amostra": "LCR/Outros produtos,",
-    "material_colheita": "Contentor estéril",
-    "descricao_clinica": "",
-    "indicacao": "",
-    "transporte_estabilidade": "Imediato/ 72H a 4ºC",
-    "tempo_resposta": "Até 72 horas",
-    "setor": "Microbiologia",
-    "codigo_interno": "4940",
-    "observacoes": ""
-  },
-  {
     "slug": "varicela-zoster-vzv-dna-carga-viral",
     "title": "Varicela Zoster (VZV) DNA Carga viral",
     "area": "Virologia",
