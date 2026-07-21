@@ -150,36 +150,6 @@
     "observacoes": ""
   },
   {
-    "slug": "adp-agregacao",
-    "title": "A.D.P (agregação)",
-    "area": "Hematologia",
-    "metodo": "LTA",
-    "amostra": "Plasma",
-    "material_colheita": "Tubo c/ citrato",
-    "descricao_clinica": "",
-    "indicacao": "",
-    "transporte_estabilidade": "2h, ambiente",
-    "tempo_resposta": "1d",
-    "setor": "L.HM",
-    "codigo_interno": "",
-    "observacoes": ""
-  },
-  {
-    "slug": "acetominofeno-paracetamol",
-    "title": "Acetominofeno (Paracetamol)",
-    "area": "Química Clínica",
-    "metodo": "Enzimático",
-    "amostra": "Soro",
-    "material_colheita": "Tubo c/ gel",
-    "descricao_clinica": "",
-    "indicacao": "",
-    "transporte_estabilidade": "8h, ambiente\n2s, 2-8ºC\n45d, -20ºC",
-    "tempo_resposta": "1d",
-    "setor": "L.Core HP",
-    "codigo_interno": "",
-    "observacoes": ""
-  },
-  {
     "slug": "actividade-citotoxica-das-celulas-nk-in-vitro",
     "title": "Actividade citotóxica das células NK, in vitro",
     "area": "Citometria de Fluxo",
