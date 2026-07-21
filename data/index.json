@@ -165,36 +165,6 @@
     "observacoes": ""
   },
   {
-    "slug": "acanthamoeba-2",
-    "title": "Acanthamoeba, DNA qualitativo",
-    "area": "Bacteriologia - Biologia Molecular",
-    "metodo": "PCR em tempo real",
-    "amostra": "Qualquer amostra ocular",
-    "material_colheita": "Tubo solicitado ao lab de microbiologia",
-    "descricao_clinica": "",
-    "indicacao": "",
-    "transporte_estabilidade": "Imediato / 72horas a 4ºC",
-    "tempo_resposta": "até 72 horas",
-    "setor": "Microbiologia",
-    "codigo_interno": "ACANTA",
-    "observacoes": ""
-  },
-  {
-    "slug": "acanthamoeba",
-    "title": "Acanthamoeba, DNA qualitativo",
-    "area": "Bacteriologia - Biologia Molecular",
-    "metodo": "PCR em tempo real",
-    "amostra": "Outros produtos",
-    "material_colheita": "Contentor estéril",
-    "descricao_clinica": "",
-    "indicacao": "",
-    "transporte_estabilidade": "Imediato / 72horas a 4ºC",
-    "tempo_resposta": "até 72 horas",
-    "setor": "Microbiologia",
-    "codigo_interno": "ACANTA",
-    "observacoes": "![image.png](uploads/image-27.png)"
-  },
-  {
     "slug": "acetominofeno-paracetamol",
     "title": "Acetominofeno (Paracetamol)",
     "area": "Química Clínica",
