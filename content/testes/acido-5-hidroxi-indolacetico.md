@@ -1,7 +1,7 @@
 ---
 title: "Ácido 5-hidroxi-indolacético  "
 area: Química Clínica - Cromatografia
-metodo: LC/MS-MS
+metodo: LC-MS/MS
 amostra: Urina de 24h
 material_colheita: |+
   Tubo de urina com indicação diurese
