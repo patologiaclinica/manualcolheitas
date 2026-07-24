@@ -165,6 +165,21 @@
     "observacoes": ""
   },
   {
+    "slug": "acido-5-hidroxi-indolacetico",
+    "title": "Ácido 5-hidroxi-indolacético",
+    "area": "Química Clínica - Cromatografia",
+    "metodo": "LC/MS-MS",
+    "amostra": "Urina de 24h",
+    "material_colheita": "Tubo de urina com indicação diurese\n\n![](<uploads/Tubo urina.jpg>)\n\n Contentor \n\n![](uploads/urina24h.jpg)",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Amostras refrigeradas durante todo o período de recolha",
+    "tempo_resposta": "Até 10 dias",
+    "setor": "L.CRM",
+    "codigo_interno": "A5H",
+    "observacoes": ""
+  },
+  {
     "slug": "actividade-citotoxica-das-celulas-nk-in-vitro",
     "title": "Actividade citotóxica das células NK, in vitro",
     "area": "Citometria de Fluxo",
