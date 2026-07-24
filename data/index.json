@@ -165,6 +165,21 @@
     "observacoes": ""
   },
   {
+    "slug": "acido-5-hidroxi",
+    "title": "Ácido 5-hidroxi",
+    "area": "Química Clínica",
+    "metodo": "LC/MS-MS",
+    "amostra": "Urina 24h",
+    "material_colheita": "Tubo de urina com indicação diurese, Contentor\n\n![](uploads/urina24h.jpg)",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "",
+    "tempo_resposta": "",
+    "setor": "",
+    "codigo_interno": "",
+    "observacoes": ""
+  },
+  {
     "slug": "actividade-citotoxica-das-celulas-nk-in-vitro",
     "title": "Actividade citotóxica das células NK, in vitro",
     "area": "Citometria de Fluxo",
