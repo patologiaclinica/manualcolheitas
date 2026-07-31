@@ -8,6 +8,6 @@ transporte_estabilidade: |-
   24h, ambiente
   7d, 2-8ºC
   3m, -20ºC
-tempo_resposta: 1-4s
+tempo_resposta: 1-2s
 setor: L.IM
 ---
