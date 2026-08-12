@@ -55,7 +55,7 @@ content:
         label: Tempo de resposta
         type: string
 
-      - name: setor
+      - name: Laboratorio
         label: Laboratório
         type: string
 
