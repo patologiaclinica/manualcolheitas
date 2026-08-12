@@ -14,8 +14,8 @@ content:
 
     view:
       primary: title
-      secondary: area
-      sort: [area, title]
+      secondary: sector
+      sort: [sector, title]
 
     fields:
       - name: title
@@ -23,8 +23,8 @@ content:
         type: string
         required: true
 
-      - name: area
-        label: Área
+      - name: sector
+        label: Sector
         type: string
         options:
           values:
@@ -55,8 +55,8 @@ content:
         label: Tempo de resposta
         type: string
 
-      - name: setor
-        label: Setor
+      - name: area
+        label: Área
         type: string
 
       - name: codigo_interno
