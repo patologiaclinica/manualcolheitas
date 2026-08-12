@@ -55,8 +55,8 @@ content:
         label: Tempo de resposta
         type: string
 
-      - name: Laboratorio
-        label: Laboratório
+      - name: setor
+        label: Setor
         type: string
 
       - name: codigo_interno
