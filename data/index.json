@@ -1920,6 +1920,21 @@
     "observacoes": ""
   },
   {
+    "slug": "hemocultura-micobacterias",
+    "title": "Hemocultura - Micobactérias",
+    "area": "Microbiologia",
+    "metodo": "Cultura",
+    "amostra": "Sangue",
+    "material_colheita": "Frasco de hemocultura específico",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Envio imediato / Conservar a 37ºC ou temperatura normal",
+    "tempo_resposta": "Até 42 dias para cultura",
+    "setor": "Micobacteriologia",
+    "codigo_interno": "HMIC",
+    "observacoes": "Colher para frasco específico (Bactec→ – Myco/F Lytic, fornecido"
+  },
+  {
     "slug": "hemoglobina-c-pesquisa-da-mutacao-c19ggreatera-no-gene-hbb",
     "title": "Hemoglobina C - pesquisa da mutação c.19G>A no gene HBB",
     "area": "Genética Humana",
