@@ -12,5 +12,5 @@ codigo_interno: |-
   PCR MTC - MAASB  
   PCR MNT - MAASBNT
 observacoes: |
-  5-10 ml: em contentor estéril.
+  5-10 ml em contentor estéril.
 ---
