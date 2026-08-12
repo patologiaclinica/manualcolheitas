@@ -15,5 +15,5 @@ codigo_interno: |-
   Cultura - MEXP  
   PCR MTC - MAEXP  
   PCR MNT - MAEXPNT
-observacoes: Enviar 3 amostras de manhã.
+observacoes: Enviar 3 amostras de manhã em dias consecutivos.
 ---
