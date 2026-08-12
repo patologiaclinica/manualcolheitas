@@ -1065,6 +1065,21 @@
     "observacoes": ""
   },
   {
+    "slug": "aspirado-de-medula-ossea-micobacterias",
+    "title": "Aspirado de medula óssea - Micobactérias",
+    "area": "Microbiologia",
+    "metodo": "Cultura",
+    "amostra": "Medula óssea",
+    "material_colheita": "Frasco de hemocultura específico",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Envio imediato / Conservar a 34ºC ou temperatura ambiente",
+    "tempo_resposta": "Até 42 dias para cultura",
+    "setor": "Micobacteriologia",
+    "codigo_interno": "Cultura - MASM",
+    "observacoes": ""
+  },
+  {
     "slug": "aspirado-gastrico-micobacterias",
     "title": "Aspirado gástrico - Micobactérias",
     "area": "Microbiologia",
