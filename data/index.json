@@ -1560,6 +1560,21 @@
     "observacoes": ""
   },
   {
+    "slug": "expectoracao-micobacterias",
+    "title": "Expectoração - Micobactérias",
+    "area": "Microbiologia",
+    "metodo": "Cultura ou cultura e PCR",
+    "amostra": "Expectoração",
+    "material_colheita": "Contentor estéril (de preferência estanque)\n\n![image.png](uploads/image-45.png)",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Envio imediato",
+    "tempo_resposta": "Até 42 dias para cultura / 4 dias para PCR",
+    "setor": "Micobacteriologia",
+    "codigo_interno": "Cultura - MEXP  \nPCR MTC - MAEXP  \nPCR MNT - MAEXPNT",
+    "observacoes": "Enviar 3 amostras de manhã."
+  },
+  {
     "slug": "exsudado-de-ferida-cirurgica-pesquisa-de-aerobios-anaerobios-fungos-leveduriformes",
     "title": "Exsudado de ferida cirúrgica - Aeróbios, anaeróbios, fungos leveduriformes",
     "area": "Bacteriologia - Geral",
