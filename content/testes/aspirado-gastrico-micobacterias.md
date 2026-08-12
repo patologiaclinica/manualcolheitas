@@ -11,6 +11,6 @@ codigo_interno: |-
   Cultura - MSG  
   PCR - MASG
 observacoes: |-
-  5-10 ml em contentor esterilizado.
+  5-10 ml em contentor estéril.
   colher de manhã, 3 dias consecutivos.
 ---
