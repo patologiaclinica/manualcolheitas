@@ -7,6 +7,9 @@ material_colheita: >+
   Líquido peritoneal - Contentor estéril (de preferência estanque)
 
 
+  ![](uploads/contentores_chuc.png)
+
+
   ![](uploads/portagermen_small.png)
 
 
