@@ -1,7 +1,7 @@
 ---
 title: Urina - Micobactérias
 area: Microbiologia
-metodo: Cultura ou cultura e PCR
+metodo: Cultura; Cultura e PCR
 amostra: Urina de jato médio ou cateter ou punção supra-púbica
 material_colheita: |+
   Contentor estéril (de preferência estanque)
@@ -14,6 +14,6 @@ setor: Micobacteriologia
 codigo_interno: |-
   Cultura - UMIC  
   PCR - MAURI
-observacoes: |+
+observacoes: |
   Colheita da 1ª urina da manhã em 3 dias consecutivos (20 ml).
 ---
