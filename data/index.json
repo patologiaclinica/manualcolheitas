@@ -2352,7 +2352,7 @@
     "tempo_resposta": "Até 42 dias para cultura / 4 dias para PCR",
     "setor": "Micobacteriologia",
     "codigo_interno": "Cultura - MLIA  \nPCR - MALIA",
-    "observacoes": ""
+    "observacoes": "10-15 ml em tubo estéril.\nNão colher para frasco porta-gérmen"
   },
   {
     "slug": "liquido-pleural-pesquisa-de-aerobios-anaerobios-fungos-leveduriformes",
