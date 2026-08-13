@@ -3,11 +3,15 @@ title: Líquido pleural - Micobactérias
 area: Micobacteriologia
 metodo: Cultura; Cultura e PCR
 amostra: Líquido pleural
-material_colheita: |+
-  Contentor estéril (de preferência estanque) ou frasco de hemocultura 
+material_colheita: >+
+  Se Líquido pleural - Contentor estéril (de preferência estanque)
+
 
   ![image.png](uploads/image-54.png)
 
+
+  Se Líquido pleural em frasco de hemocultura - frasco de hemocultura
+  específico 
 
 
   ![](uploads/micobact.png)
