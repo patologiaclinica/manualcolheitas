@@ -1,5 +1,5 @@
 ---
-title: Aspirado traqueobrônquico - Micobactérias
+title: Aspirado bronco-alveolar - Micobactérias
 area: Microbiologia
 metodo: Cultura ou cultura e PCR
 amostra: Aspirado traqueobrônquico
