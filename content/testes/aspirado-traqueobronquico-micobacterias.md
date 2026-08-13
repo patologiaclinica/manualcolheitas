@@ -1,7 +1,7 @@
 ---
 title: Aspirado brônquico - Micobactérias
 area: Micobacteriologia
-metodo: Cultura ou cultura e PCR
+metodo: Cultura; Cultura e PCR
 amostra: Aspirado brônquico
 material_colheita: |+
   Contentor estéril (de preferência estanque)
