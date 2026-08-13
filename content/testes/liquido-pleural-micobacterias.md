@@ -16,11 +16,11 @@ setor: Micobacteriologia
 codigo_interno: |-
   Cultura - MLPL; MLPLH  
   PCR - MALPL
-observacoes: >
+observacoes: >-
   10-15 ml em tubo estéril.
-
-  Não colher para frasco porta-gérmen
 
   Ou colher para frasco específico (Bactec→ – Myco/F Lytic, fornecido pelo
   laboratório).
+
+  Não colher para frasco porta-gérmen
 ---
