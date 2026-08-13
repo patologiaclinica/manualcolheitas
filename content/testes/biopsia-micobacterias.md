@@ -1,7 +1,7 @@
 ---
 title: Biópsia - Micobactérias
 area: Micobacteriologia
-metodo: Cultura ou cultura e PCR
+metodo: Cultura; Cultura e PCR
 amostra: Biópsia
 material_colheita: |+
   Contentor estéril (de preferência estanque)
