@@ -1,6 +1,6 @@
 ---
 title: Biópsia - Micobactérias
-area: Micobacteriologia
+area: Microbiologia
 metodo: Cultura ou cultura e PCR
 amostra: Biópsia
 material_colheita: |+
