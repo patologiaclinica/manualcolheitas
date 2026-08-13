@@ -14,5 +14,7 @@ setor: Micobacteriologia
 codigo_interno: |-
   Cultura - MOUT  
   PCR - MAD
-observacoes: Não colher com zaragatoa.
+observacoes: |-
+  Enviar em contentor estéril sem adição de conservantes ou fixantes.
+  Não colher com zaragatoa.
 ---
