@@ -3105,6 +3105,21 @@
     "observacoes": ""
   },
   {
+    "slug": "pus-de-abcesso-micobacterias",
+    "title": "Pus de abcesso - Micobactérias",
+    "area": "Microbiologia",
+    "metodo": "Cultura ou cultura e PCR",
+    "amostra": "Pus de abcesso",
+    "material_colheita": "Contentor estéril (de preferência estanque)\n\n![image.png](uploads/image-58.png)",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Envio imediato / até 24 horas, a 2-4ºC",
+    "tempo_resposta": "Até 42 dias para cultura / 4 dias para PCR",
+    "setor": "Micobacteriologia",
+    "codigo_interno": "Cultura - MPU  \nPCR - MAPU",
+    "observacoes": "Desinfeção da superfície da pele com álcool a 70% e solução iodada.\nColheita por aspiração com seringa.\nTransferir para tubo/contentor esterilizado.\nNão colher amostra com zaragatoa.\nNão colocar a amostra em frasco porta-gérmen."
+  },
+  {
     "slug": "raspado-cornea-pesquisa-fungos-filamentosos",
     "title": "Raspado córnea - Aeróbios",
     "area": "Bacteriologia - Geral",
