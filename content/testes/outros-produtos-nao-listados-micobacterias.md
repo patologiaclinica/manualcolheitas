@@ -14,12 +14,5 @@ setor: Micobacteriologia
 codigo_interno: |-
   Cultura - MOUT  
   PCR - MAD
-observacoes: >-
-  Aspirar com seringa para a deteção de micobactérias 
-
-  Úlceras cutâneas: biópsia da zona periférica da lesão. Enviar em contentor
-  estéril sem adição de conservantes ou fixantes. No caso de atraso no envio,
-  recomenda-se adição de pequena quantidade (0,5 ml) de NaCl estéril. 
-
-  Não colher com zaragatoa.
+observacoes: Não colher com zaragatoa.
 ---
