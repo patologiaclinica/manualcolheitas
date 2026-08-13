@@ -2507,7 +2507,7 @@
   {
     "slug": "outros-produtos-nao-listados-micobacterias",
     "title": "Outros produtos (não listados) - Micobactérias",
-    "area": "Microbiologia",
+    "area": "Micobacteriologia",
     "metodo": "Cultura; Cultura e PCR",
     "amostra": "Outros produtos biológicos",
     "material_colheita": "Contentor estéril (de preferência estanque)\n\n![image.png](uploads/image-60.png)",
@@ -2515,7 +2515,7 @@
     "indicacao": "",
     "transporte_estabilidade": "Envio imediato / até 24 horas, a 2-4ºC",
     "tempo_resposta": "Até 42 dias para cultura / 4 dias para PCR",
-    "setor": "Micobacteriologia",
+    "setor": "L.MIC",
     "codigo_interno": "Cultura - MOUT  \nPCR - MAD",
     "observacoes": "Enviar em contentor estéril sem adição de conservantes ou fixantes.\nNão colher com zaragatoa."
   },
@@ -2957,7 +2957,7 @@
   {
     "slug": "pesquisa-de-micobacterias-exame-direto",
     "title": "Pesquisa de micobactérias (Exame direto)",
-    "area": "Microbiologia",
+    "area": "Micobacteriologia",
     "metodo": "Exame direto em coloração de Ziehl-Neelsen modificado",
     "amostra": "Expetoração",
     "material_colheita": "Contentor estéril (de preferência estanque)\n\n![image.png](uploads/image-61.png)",
@@ -2965,7 +2965,7 @@
     "indicacao": "",
     "transporte_estabilidade": "Envio imediato / até 24 horas, a 2-4ºC",
     "tempo_resposta": "Até 4 horas",
-    "setor": "Micobacteriologia",
+    "setor": "L.MIC",
     "codigo_interno": "ZBK",
     "observacoes": ""
   },
@@ -3062,7 +3062,7 @@
   {
     "slug": "placenta-micobacterias",
     "title": "Placenta - Micobactérias",
-    "area": "Microbiologia",
+    "area": "Micobacteriologia",
     "metodo": "Cultura",
     "amostra": "Placenta",
     "material_colheita": "Contentor estéril (de preferência estanque)\n\n![image.png](uploads/image-57.png)",
@@ -3070,7 +3070,7 @@
     "indicacao": "",
     "transporte_estabilidade": "Envio imediato / até 24 horas, a 2-4ºC",
     "tempo_resposta": "Até 42 dias",
-    "setor": "Micobacteriologia",
+    "setor": "L.MIC",
     "codigo_interno": "MPLA",
     "observacoes": ""
   },
@@ -3137,7 +3137,7 @@
   {
     "slug": "pus-de-abcesso-micobacterias",
     "title": "Pus de abcesso - Micobactérias",
-    "area": "Microbiologia",
+    "area": "Micobacteriologia",
     "metodo": "Cultura; Cultura e PCR",
     "amostra": "Pus de abcesso",
     "material_colheita": "Contentor estéril (de preferência estanque)\n\n![image.png](uploads/image-58.png)",
@@ -3145,7 +3145,7 @@
     "indicacao": "",
     "transporte_estabilidade": "Envio imediato / até 24 horas, a 2-4ºC",
     "tempo_resposta": "Até 42 dias para cultura / 4 dias para PCR",
-    "setor": "Micobacteriologia",
+    "setor": "L.MIC",
     "codigo_interno": "Cultura - MPU  \nPCR - MAPU",
     "observacoes": "Desinfeção da superfície da pele com álcool a 70% e solução iodada.\nColheita por aspiração com seringa.\nTransferir para tubo/contentor esterilizado.\nNão colher amostra com zaragatoa.\nNão colocar a amostra em frasco porta-gérmen."
   },
