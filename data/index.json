@@ -2190,6 +2190,21 @@
     "observacoes": ""
   },
   {
+    "slug": "lcr-micobacterias",
+    "title": "LCR - Micobactérias",
+    "area": "Microbiologia",
+    "metodo": "Cultura ou cultura e PCR",
+    "amostra": "Liquido céfalo-raquidiano",
+    "material_colheita": "Contentor estéril (de preferência estanque)",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Envio imediato",
+    "tempo_resposta": "Até 42 dias para cultura / 4 dias para PCR",
+    "setor": "Micobactérias",
+    "codigo_interno": "Cultura - MLCR  \nPCR - MALCR",
+    "observacoes": "Tubo estéril tampa verde"
+  },
+  {
     "slug": "leishmania-dna-qualitativo",
     "title": "Leishmania sp., DNA qualitativo",
     "area": "Bacteriologia - Biologia Molecular",
