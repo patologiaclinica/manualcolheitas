@@ -1,7 +1,7 @@
 ---
 title: Pus de abcesso - Micobactérias
 area: Microbiologia
-metodo: Cultura ou cultura e PCR
+metodo: Cultura; Cultura e PCR
 amostra: Pus de abcesso
 material_colheita: |+
   Contentor estéril (de preferência estanque)
