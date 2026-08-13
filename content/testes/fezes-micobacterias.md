@@ -1,6 +1,6 @@
 ---
 title: Fezes - Micobactérias
-area: Microbiologia
+area: Micobacteriologia
 metodo: Cultura ou cultura e PCR
 amostra: Fezes
 material_colheita: |+
@@ -10,7 +10,7 @@ material_colheita: |+
 
 transporte_estabilidade: Conservar a 2-4ºC até envio (até 24 horas)
 tempo_resposta: Até 42 dias para cultura / 4 dias para PCR
-setor: Micobacteriologia
+setor: L.MIC
 codigo_interno: |-
   Cultura - MFZ  
   PCR - MFZA
