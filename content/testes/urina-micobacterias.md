@@ -2,9 +2,9 @@
 title: Urina - Micobactérias
 area: Micobacteriologia
 metodo: Cultura; Cultura e PCR
-amostra: Urina de jato médio ou cateter ou punção supra-púbica
+amostra: Urina de jato médio, Urina de cateter, Urina de punção supra-púbica
 material_colheita: |+
-  Contentor estéril (de preferência estanque)
+  Para todas as amostras - Contentor estéril (de preferência estanque)
 
   ![image.png](uploads/image-59.png)
 
