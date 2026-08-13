@@ -2505,6 +2505,21 @@
     "observacoes": "10-15 ml\tem\ttubo estéril.\nNão colher para frasco porta-gérmen."
   },
   {
+    "slug": "outros-produtos-nao-listados-micobacterias",
+    "title": "Outros produtos (não listados) - Micobactérias",
+    "area": "Microbiologia",
+    "metodo": "Cultura ou cultura e PCR",
+    "amostra": "Outros produtos biológicos",
+    "material_colheita": "Contentor estéril (de preferência estanque)\n\n![image.png](uploads/image-60.png)",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Envio imediato / até 24 horas, a 2-4ºC",
+    "tempo_resposta": "Até 42 dias para cultura / 4 dias para PCR",
+    "setor": "Micobacteriologia",
+    "codigo_interno": "Cultura - MOUT  \nPCR - MAD",
+    "observacoes": "Aspirar com seringa para a deteção de micobactérias \n\nÚlceras cutâneas: biópsia da zona periférica da lesão. Enviar em contentor\nestéril sem adição de conservantes ou fixantes. No caso de atraso no envio,\nrecomenda-se adição de pequena quantidade (0,5 ml) de NaCl estéril. \n\nNão colher com zaragatoa."
+  },
+  {
     "slug": "pai-1-pesquisa-da-variante-844-ggreatera",
     "title": "PAI 1 – pesquisa da variante -844 G>A",
     "area": "Genética Humana",
