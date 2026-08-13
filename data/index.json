@@ -2955,6 +2955,21 @@
     "observacoes": "Colheita ótima: um terço da altura do contentor preenchida com fezes"
   },
   {
+    "slug": "pesquisa-de-micobacterias-exame-direto",
+    "title": "Pesquisa de micobactérias (Exame direto)",
+    "area": "Microbiologia",
+    "metodo": "Exame direto em coloração de Ziehl-Neelsen modificado",
+    "amostra": "Expetoração",
+    "material_colheita": "Contentor estéril (de preferência estanque)\n\n![image.png](uploads/image-61.png)",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Envio imediato / até 24 horas, a 2-4ºC",
+    "tempo_resposta": "Até 4 horas",
+    "setor": "Micobacteriologia",
+    "codigo_interno": "ZBK",
+    "observacoes": ""
+  },
+  {
     "slug": "microfilarias-pesquisa-de",
     "title": "Pesquisa de Microfilárias",
     "area": "Parasitologia",
