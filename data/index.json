@@ -2382,7 +2382,7 @@
     "tempo_resposta": "Até 42 dias para cultura / 4 dias para PCR",
     "setor": "Micobacteriologia",
     "codigo_interno": "Cultura - MLPL; MLPLH  \nPCR - MALPL",
-    "observacoes": "10-15 ml em tubo estéril.\n\nNão colher para frasco porta-gérmen\n\nOu colher para frasco específico (Bactec→ – Myco/F Lytic, fornecido pelo\nlaboratório)."
+    "observacoes": "10-15 ml em tubo estéril.\n\nOu colher para frasco específico (Bactec→ – Myco/F Lytic, fornecido pelo\nlaboratório).\n\nNão colher para frasco porta-gérmen"
   },
   {
     "slug": "liquido-sinovial-pesquisa-de-aerobios-anaerobios-fungos-leveduriformes",
