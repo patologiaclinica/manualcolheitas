@@ -24,7 +24,7 @@ content:
         required: true
 
       - name: area
-        label: Área
+        label: Área Interna
         type: string
         options:
           values:
