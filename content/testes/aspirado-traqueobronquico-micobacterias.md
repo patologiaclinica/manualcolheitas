@@ -1,8 +1,8 @@
 ---
-title: Aspirado bronco-alveolar - Micobactérias
+title: Aspirado brônquico - Micobactérias
 area: Microbiologia
 metodo: Cultura ou cultura e PCR
-amostra: Aspirado traqueobrônquico
+amostra: Aspirado brônquico
 material_colheita: |+
   Contentor estéril (de preferência estanque)
 
