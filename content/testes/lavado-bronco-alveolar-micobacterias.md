@@ -1,7 +1,7 @@
 ---
 title: Lavado bronco-alveolar - Micobactérias
 area: Micobacteriologia
-metodo: Cultura ou cultura e PCR
+metodo: Cultura; Cultura e PCR
 amostra: Lavado bronco-alveolar
 material_colheita: |+
   Contentor estéril (de preferência estanque)
