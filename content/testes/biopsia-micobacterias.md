@@ -1,6 +1,6 @@
 ---
 title: Biópsia - Micobactérias
-area: Microbiologia
+area: Micobacteriologia
 metodo: Cultura ou cultura e PCR
 amostra: Biópsia
 material_colheita: |+
@@ -10,7 +10,7 @@ material_colheita: |+
 
 transporte_estabilidade: Envio imediato / até 24 horas, a 2-4ºC
 tempo_resposta: Até 60 dias para cultura / 4 dias para PCR
-setor: Micobacteriologia
+setor: L.MIC
 codigo_interno: |-
   Cultura - MBI  
   PCR - MABI
