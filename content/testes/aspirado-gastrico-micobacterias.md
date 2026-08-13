@@ -1,7 +1,7 @@
 ---
 title: Aspirado gástrico - Micobactérias
 area: Micobacteriologia
-metodo: Cultura ou cultura e PCR
+metodo: Cultura; Cultura e PCR
 amostra: Aspirado gástrico
 material_colheita: |+
   Contentor estéril (de preferência estanque)
