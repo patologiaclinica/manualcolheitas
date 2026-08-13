@@ -1,7 +1,7 @@
 ---
 title: Aspirado traqueobrônquico - Micobactérias
 area: Microbiologia
-metodo: Cultura ou  cultura e PCR
+metodo: Cultura ou cultura e PCR
 amostra: Aspirado traqueobrônquico
 material_colheita: |+
   Contentor estéril (de preferência estanque)
