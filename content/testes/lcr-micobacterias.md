@@ -1,7 +1,7 @@
 ---
 title: LCR - Micobactérias
 area: Microbiologia
-metodo: Cultura ou cultura e PCR
+metodo: Cultura; Cultura e PCR
 amostra: Líquido cefalorraquidiano
 material_colheita: |+
   Contentor estéril de tampa verde
