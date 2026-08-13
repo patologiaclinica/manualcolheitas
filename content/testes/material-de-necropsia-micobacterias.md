@@ -1,6 +1,6 @@
 ---
 title: Material de necropsia - Micobactérias
-area: Microbiologia
+area: Micobacteriologia
 metodo: Cultura
 amostra: Material necropsia
 material_colheita: |+
@@ -10,6 +10,6 @@ material_colheita: |+
 
 transporte_estabilidade: Envio imediato / até 24 horas, a 2-4ºC
 tempo_resposta: Até 42 dias
-setor: Micobacteriologia
+setor: L.MIC
 codigo_interno: MFH
 ---
