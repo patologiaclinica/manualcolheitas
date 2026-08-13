@@ -1,7 +1,7 @@
 ---
 title: Outros líquidos - Micobactérias
 area: Microbiologia
-metodo: Cultura ou cultura e PCR
+metodo: Cultura; Cultura e PCR
 amostra: Líquido biológico
 material_colheita: |+
   Contentor estéril (de preferência estanque)
