@@ -1,7 +1,7 @@
 ---
 title: Outros produtos (não listados) - Micobactérias
 area: Microbiologia
-metodo: Cultura ou cultura e PCR
+metodo: Cultura; Cultura e PCR
 amostra: Outros produtos biológicos
 material_colheita: |+
   Contentor estéril (de preferência estanque)
