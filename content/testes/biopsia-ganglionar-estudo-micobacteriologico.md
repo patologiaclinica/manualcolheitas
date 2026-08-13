@@ -14,7 +14,10 @@ setor: Micobacteriologia
 codigo_interno: |-
   Cultura - MBGS  
   PCR - MABI
-observacoes: Não enviar biópsia em meio de transporte para anaeróbios (contentor
-  que elimina o oxigénio, essencial para promover viabilidade de anaeróbios,
+observacoes: >-
+  Enviar em contentor estéril sem adição de conservantes ou fixantes.
+
+  Não enviar biópsia em meio de transporte para anaeróbios (contentor que
+  elimina o oxigénio, essencial para promover viabilidade de anaeróbios,
   impedindo recuperação de micobactérias presentes na amostra).
 ---
