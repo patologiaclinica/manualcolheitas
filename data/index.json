@@ -2490,6 +2490,21 @@
     "observacoes": ""
   },
   {
+    "slug": "outros-liquidos-micobacterias",
+    "title": "Outros líquidos - Micobactérias",
+    "area": "Microbiologia",
+    "metodo": "Cultura ou cultura e PCR",
+    "amostra": "Líquido biológico",
+    "material_colheita": "Contentor estéril (de preferência estanque)\n\n![image.png](uploads/image-56.png)",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "Envio imediato / até 24 horas, a 2-4ºC",
+    "tempo_resposta": "Até 42 dias para cultura / 4 dias para PCR",
+    "setor": "Micobacteriologia",
+    "codigo_interno": "Cultura - MLIQ  \nPCR - MALIQ",
+    "observacoes": "10-15 ml\tem\ttubo estéril.\nNão colher para frasco porta-gérmen."
+  },
+  {
     "slug": "pai-1-pesquisa-da-variante-844-ggreatera",
     "title": "PAI 1 – pesquisa da variante -844 G>A",
     "area": "Genética Humana",
