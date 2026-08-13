@@ -1,6 +1,6 @@
 ---
 title: Biópsia ganglionar - Micobactérias
-area: Micobacteriologia
+area: Microbiologia
 metodo: Cultura ou cultura e PCR
 amostra: Fragmento de biópsia ganglionar
 material_colheita: |+
