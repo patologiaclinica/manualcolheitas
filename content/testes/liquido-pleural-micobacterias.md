@@ -4,7 +4,7 @@ area: Microbiologia
 metodo: Cultura ou cultura e PCR
 amostra: Líquido pleural
 material_colheita: |+
-  Contentor estéril (de preferência estanque)
+  Contentor estéril (de preferência estanque) ou frasco de hemocultura
 
   ![image.png](uploads/image-54.png)
 
@@ -12,7 +12,7 @@ transporte_estabilidade: Envio imediato / até 24 horas, a 2-4ºC / até 1 hora,
 tempo_resposta: Até 42 dias para cultura / 4 dias para PCR
 setor: Micobacteriologia
 codigo_interno: |-
-  Cultura - MLPL  
+  Cultura - MLPL; MLPLH  
   PCR - MALPL
 observacoes: |
   10-15 ml em tubo estéril.
