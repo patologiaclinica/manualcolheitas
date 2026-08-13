@@ -3,8 +3,10 @@ title: Líquido pleural - Micobactérias
 area: Microbiologia
 metodo: Cultura ou cultura e PCR
 amostra: Líquido pleural
-material_colheita: |+
+material_colheita: >+
   Contentor estéril (de preferência estanque) ou frasco de hemocultura
+  específico
+
 
   ![image.png](uploads/image-54.png)
 
@@ -14,7 +16,11 @@ setor: Micobacteriologia
 codigo_interno: |-
   Cultura - MLPL; MLPLH  
   PCR - MALPL
-observacoes: |
+observacoes: >
   10-15 ml em tubo estéril.
+
   Não colher para frasco porta-gérmen
+
+  Ou colher para frasco específico (Bactec→ – Myco/F Lytic, fornecido pelo
+  laboratório).
 ---
