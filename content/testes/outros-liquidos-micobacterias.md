@@ -1,6 +1,6 @@
 ---
 title: Outros líquidos - Micobactérias
-area: Microbiologia
+area: Micobacteriologia
 metodo: Cultura; Cultura e PCR
 amostra: Líquido biológico
 material_colheita: |+
@@ -10,11 +10,11 @@ material_colheita: |+
 
 transporte_estabilidade: Envio imediato / até 24 horas, a 2-4ºC
 tempo_resposta: Até 42 dias para cultura / 4 dias para PCR
-setor: Micobacteriologia
+setor: L.MIC
 codigo_interno: |-
   Cultura - MLIQ  
   PCR - MALIQ
 observacoes: |
-  10-15 ml	em	tubo estéril.
+  10-15 ml em tubo estéril.
   Não colher para frasco porta-gérmen.
 ---
