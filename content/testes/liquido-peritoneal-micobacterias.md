@@ -14,4 +14,7 @@ setor: Micobacteriologia
 codigo_interno: |-
   Cultura - MLIA  
   PCR - MALIA
+observacoes: |-
+  10-15 ml em tubo estéril.
+  Não colher para frasco porta-gérmen
 ---
