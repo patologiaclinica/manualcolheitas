@@ -1,6 +1,6 @@
 ---
 title: Urina - Micobactérias
-area: Microbiologia
+area: Micobacteriologia
 metodo: Cultura; Cultura e PCR
 amostra: Urina de jato médio ou cateter ou punção supra-púbica
 material_colheita: |+
@@ -10,7 +10,7 @@ material_colheita: |+
 
 transporte_estabilidade: "Envio imediato / até 24 horas, a 2-4ºC "
 tempo_resposta: Até 42 dias para cultura / 4 dias para PCR
-setor: Micobacteriologia
+setor: L.MIC
 codigo_interno: |-
   Cultura - UMIC  
   PCR - MAURI
