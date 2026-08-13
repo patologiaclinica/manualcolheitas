@@ -1,6 +1,6 @@
 ---
 title: Expectoração - Micobactérias
-area: Microbiologia
+area: Micobacteriologia
 metodo: Cultura ou cultura e PCR
 amostra: Expectoração
 material_colheita: |+
@@ -10,7 +10,7 @@ material_colheita: |+
 
 transporte_estabilidade: Envio imediato
 tempo_resposta: Até 42 dias para cultura / 4 dias para PCR
-setor: Micobacteriologia
+setor: L.MIC
 codigo_interno: |-
   Cultura - MEXP  
   PCR MTC - MAEXP  
