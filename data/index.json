@@ -2402,7 +2402,7 @@
   {
     "slug": "material-de-necropsia-micobacterias",
     "title": "Material de necropsia - Micobactérias",
-    "area": "Microbiologia",
+    "area": "Micobacteriologia",
     "metodo": "Cultura",
     "amostra": "Material necropsia",
     "material_colheita": "Contentor estéril (de preferência estanque)\n\n![image.png](uploads/image-55.png)",
@@ -2410,7 +2410,7 @@
     "indicacao": "",
     "transporte_estabilidade": "Envio imediato / até 24 horas, a 2-4ºC",
     "tempo_resposta": "Até 42 dias",
-    "setor": "Micobacteriologia",
+    "setor": "L.MIC",
     "codigo_interno": "MFH",
     "observacoes": ""
   },
