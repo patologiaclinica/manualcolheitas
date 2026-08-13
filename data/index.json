@@ -2192,15 +2192,15 @@
   {
     "slug": "lcr-micobacterias",
     "title": "LCR - Micobactérias",
-    "area": "Microbiologia",
+    "area": "Micobacteriologia",
     "metodo": "Cultura; Cultura e PCR",
     "amostra": "Líquido cefalorraquidiano",
-    "material_colheita": "Contentor estéril de tampa verde\n\n![image.png](uploads/image-52.png)",
+    "material_colheita": "Contentor estéril de tampa verde\n\n![](uploads/lcr_left.png)",
     "descricao_clinica": "",
     "indicacao": "",
     "transporte_estabilidade": "Envio imediato",
     "tempo_resposta": "Até 42 dias para cultura / 4 dias para PCR",
-    "setor": "Micobactérias",
+    "setor": "L.MIC",
     "codigo_interno": "Cultura - MLCR  \nPCR - MALCR",
     "observacoes": "Tubo estéril tampa verde"
   },
@@ -2342,7 +2342,7 @@
   {
     "slug": "liquido-peritoneal-micobacterias",
     "title": "Líquido peritoneal - Micobactérias",
-    "area": "Microbiologia",
+    "area": "Micobacteriologia",
     "metodo": "Cultura; Cultura e PCR",
     "amostra": "Líquido peritoneal",
     "material_colheita": "Contentor estéril (de preferência estanque)\n\n![image.png](uploads/image-53.png)",
@@ -2350,7 +2350,7 @@
     "indicacao": "",
     "transporte_estabilidade": "Envio imediato / até 24 horas, a 2-4ºC / até 1 horas, à temperatura ambiente",
     "tempo_resposta": "Até 42 dias para cultura / 4 dias para PCR",
-    "setor": "Micobacteriologia",
+    "setor": "L.MIC",
     "codigo_interno": "Cultura - MLIA  \nPCR - MALIA",
     "observacoes": "10-15 ml em tubo estéril.\nNão colher para frasco porta-gérmen"
   },
