@@ -10,17 +10,20 @@ material_colheita: |-
   Tubo c/ Citrato de sódio
 
   Tubo c/ EDTA
-transporte_estabilidade: |+
-  
+transporte_estabilidade: "
+
   | 2d,ambiente |
-  | ------------ |
-  | 5d, de 2-8ºC |
+
+  | ----------------------------------- |
+
+  | 2d, Temperatura ambiente 5d, 2-8ºC\x1f |
 
 
+  \n"
 tempo_resposta: 2d
 setor: LDMH
 codigo_interno: "**EDNA**"
-observacoes: >+
+observacoes: >
   Volume mínimo de amostra: 2-3 mL.
 
   Condições de colheita: Colher uma amostra para um tubo de EDTA ou de citrato
