@@ -30,21 +30,6 @@
     "observacoes": ""
   },
   {
-    "slug": "dpyd-pesquisa-de-variantes-no-gene-dpyd-associadas-a-toxicidade-as-fluoropirimidinas-5-flurouracilo-capecitabina-tegafur",
-    "title": "\"DPYD— Pesquisa de variantes no gene DPYD associadas a toxicidade as",
-    "area": "Genética Humana",
-    "metodo": "*PCR+hibridização*\n\n*PCR Tempo Real*",
-    "amostra": "Sangue total",
-    "material_colheita": "Tubo c/ EDTA",
-    "descricao_clinica": "",
-    "indicacao": "",
-    "transporte_estabilidade": "|  |\n| ----------- |\n| 2d,ambiente |\n\n\n5d, de 2-8ºC",
-    "tempo_resposta": "1s (2d úteis, urgência)",
-    "setor": "LDMH",
-    "codigo_interno": "",
-    "observacoes": ""
-  },
-  {
     "slug": "sensibilidaderesistencia-a-varfarina-pesquisa-dos-alelos-12-e-3do-gene-cyp2c9-e-da-variante-rs9923231-do-gene-vkorc1",
     "title": "\"Sensibilidade/Resistência à varfarina – pesquisa dos alelos *1,*2 e",
     "area": "Genética Humana",
@@ -3748,6 +3733,21 @@
     "setor": "L.MIC",
     "codigo_interno": "USV, UJM, USC",
     "observacoes": ""
+  },
+  {
+    "slug": "dpyd-pesquisa-de-variantes-no-gene-dpyd-associadas-a-toxicidade-as-fluoropirimidinas-5-flurouracilo-capecitabina-tegafur",
+    "title": "Variantes no gene DPYD associadas a toxicidade às fluoropirimidinas",
+    "area": "Estudos Moleculares Humanos",
+    "metodo": "*PCR+hibridização*\n\n*PCR Tempo Real*",
+    "amostra": "Sangue total",
+    "material_colheita": "Tubo c/ EDTA\n\nTubo c/ Citrato de Sódio",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "",
+    "tempo_resposta": "1s (2d úteis, urgência)",
+    "setor": "LDMH",
+    "codigo_interno": "HDPYD",
+    "observacoes": "Volume mínimo de amostra: 2-3 mL de sangue periférico.\n\nCondições de colheita: Colher uma amostra para um tubo de EDTA ou de citrato\nde sódio, respeitando o volume recomendado pelo fabricante. Homogeneizar\nsuavemente por inversão, evitando agitação vigorosa.\n\nCondições de transporte: Transportar à temperatura ambiente, preferencialmente\nno próprio dia da colheita. Garantir o acondicionamento e transporte em\ncondições de segurança biológica adequadas.\n\nConservação e estabilidade: Manter à temperatura ambiente até à receção no\nlaboratório.\n\nInterferência: utilização de anticoagulantes não validados para o\nprocedimento; transfusão de componentes sanguíneos contendo leucócitos;\ntransplante alogénico de medula óssea ou de células progenitoras\nhematopoiéticas."
   },
   {
     "slug": "varicela-zoster-vzv-dna-carga-viral",
