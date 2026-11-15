@@ -1,6 +1,6 @@
 ---
 title: Extracção de DNA - LDMH
-area: Abordagem Analítica Biologia Molecular/Genética
+area: Estudos Moleculares Humanos
 metodo: Extração automática de DNA genómico.
 amostra: |-
   Sangue Total
