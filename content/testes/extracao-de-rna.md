@@ -1,6 +1,6 @@
 ---
 title: Extração de RNA (Rastreio Indivíduo Saudável) - LDMH
-area: Abordagem Analítica Biologia Molecular/Genética
+area: Estudos Moleculares Humanos
 metodo: Extração semiautomática de RNA.
 amostra: |-
   Sangue total
