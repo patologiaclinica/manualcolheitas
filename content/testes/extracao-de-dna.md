@@ -3,20 +3,20 @@ title: Extracção de DNA - LDMH
 area: Abordagem Analítica Biologia Molecular/Genética
 metodo: Extração automática de DNA genómico.
 amostra: |-
-  Sangue total
+  Sangue Total
 
   Medula Óssea
 material_colheita: |-
-  Tubo c/ Citrato de sódio
-
   Tubo c/ EDTA
+
+  Tubo c/ Citrato de sódio
 transporte_estabilidade: "
 
-  | 2d,ambiente |
+  |  |  |  |
 
-  | ----------------------------------- |
+  | ---------------------------------- | --- | --- |
 
-  | 2d, Temperatura ambiente 5d, 2-8ºC\x1f |
+  | 2d, Temperatura ambiente\x1f5d, 2-8ºC |  |  |
 
 
   \n"
