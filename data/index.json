@@ -1035,21 +1035,6 @@
     "observacoes": ""
   },
   {
-    "slug": "apolipoproteina-e-pesquisa-dos-alelos-e2-e3-e-e4",
-    "title": "Apolipoproteína E, pesquisa dos alelos ε2, ε3 e ε4",
-    "area": "Genética Humana",
-    "metodo": "|  |\n| -------------------- |\n| *PCR + Hibridização* |",
-    "amostra": "Sangue total",
-    "material_colheita": "Tubo c/ Citrato de Sódio\n\nTubo c/ EDTA",
-    "descricao_clinica": "",
-    "indicacao": "",
-    "transporte_estabilidade": "|  |\n| ----------- |\n| 2d,ambiente |\n\n\n5d, 2-8ºC",
-    "tempo_resposta": "3s (urgência, 2 dias)",
-    "setor": "LDMH",
-    "codigo_interno": "",
-    "observacoes": ""
-  },
-  {
     "slug": "aspirado-traqueobronquico-micobacterias",
     "title": "Aspirado brônquico - Micobactérias",
     "area": "Micobacteriologia",
@@ -1787,7 +1772,7 @@
   {
     "slug": "extracao-de-dna",
     "title": "Extracção de DNA - LDMH",
-    "area": "Abordagem Analítica Biologia Molecular/Genética",
+    "area": "Estudos Moleculares Humanos",
     "metodo": "Extração automática de DNA genómico.",
     "amostra": "Sangue Total\n\nMedula Óssea",
     "material_colheita": "Tubo c/ EDTA\n\nTubo c/ Citrato de sódio",
@@ -3103,6 +3088,21 @@
     "setor": "LDMH",
     "codigo_interno": "",
     "observacoes": ""
+  },
+  {
+    "slug": "apolipoproteina-e-pesquisa-dos-alelos-e2-e3-e-e4",
+    "title": "Pesquisa dos alelos ε2, ε3 e ε4 do gene APOE - Risco Cognitivo",
+    "area": "Estudos Moleculares Humanos",
+    "metodo": "|  |\n| ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n| Extração de DNA genómico, seguida de amplificação por PCR com “primers” biotinilados e hibridação reversa para identificação dos alelos ε2, ε3 e ε4 do gene *APOE*. |",
+    "amostra": "Sangue total",
+    "material_colheita": "Tubo c/ EDTA\n\nTubo c/ Citrato de Sódio",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "",
+    "tempo_resposta": "Rotina 3s (urgência, 2 dias)",
+    "setor": "LDMH",
+    "codigo_interno": "APOEN",
+    "observacoes": "Volume mínimo de amostra: 2-3 mL de sangue periférico.\n\nCondições de colheita: Colher uma amostra para um tubo de EDTA ou de citrato\nde sódio, respeitando o volume recomendado pelo fabricante. Homogeneizar\nsuavemente por inversão, evitando agitação vigorosa.\n\nCondições de transporte: Transportar à temperatura ambiente, preferencialmente\nno próprio dia da colheita. Garantir o acondicionamento e transporte em\ncondições de segurança biológica adequadas.\n\nConservação e estabilidade: Manter à temperatura ambiente até à receção no\nlaboratório.\n\nInterferência: utilização de anticoagulantes não validados para o\nprocedimento; transfusão de componentes sanguíneos contendo leucócitos;\ntransplante alogénico de medula óssea ou de células progenitoras\nhematopoiéticas."
   },
   {
     "slug": "placenta-pesquisa-de-aerobios-fungos-leveduriformes",
