@@ -1725,21 +1725,6 @@
     "observacoes": ""
   },
   {
-    "slug": "extracao-de-dna",
-    "title": "Extração de DNA",
-    "area": "Genética Humana",
-    "metodo": "",
-    "amostra": "Sangue total",
-    "material_colheita": "Tubo c/ Citrato de sódio ou c/ EDTA\n\nTubo c/ EDTA",
-    "descricao_clinica": "",
-    "indicacao": "",
-    "transporte_estabilidade": "|  |\n| ----------- |\n| 2d,ambiente |\n\n\n5d, de 2-8ºC",
-    "tempo_resposta": "2d",
-    "setor": "LDMH",
-    "codigo_interno": "",
-    "observacoes": ""
-  },
-  {
     "slug": "extracao-de-rna",
     "title": "Extração de RNA",
     "area": "Genética Humana",
@@ -1753,6 +1738,21 @@
     "setor": "LDMH",
     "codigo_interno": "",
     "observacoes": ""
+  },
+  {
+    "slug": "extracao-de-dna",
+    "title": "Extracção de DNA - LDMH",
+    "area": "Abordagem Analítica Biologia Molecular/Genética",
+    "metodo": "Extração automática de DNA genómico.",
+    "amostra": "Sangue total\n\nMedula Óssea",
+    "material_colheita": "Tubo c/ Citrato de sódio\n\nTubo c/ EDTA",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "| 2d,ambiente |\n| ------------ |\n| 5d, de 2-8ºC |",
+    "tempo_resposta": "2d",
+    "setor": "LDMH",
+    "codigo_interno": "**EDNA**",
+    "observacoes": "Volume mínimo de amostra: 2-3 mL.\n\nCondições de colheita: Colher uma amostra para um tubo de EDTA ou de citrato\nde sódio, respeitando o volume recomendado pelo fabricante. Homogeneizar\nsuavemente por inversão, evitando agitação vigorosa.\n\nCondições de transporte: Transportar à temperatura ambiente, preferencialmente\nno próprio dia da colheita. Garantir o acondicionamento e transporte em\ncondições de segurança biológica adequadas.\n\nConservação e estabilidade: Manter à temperatura ambiente até à receção no\nlaboratório.\n\nInterferência: utilização de anticoagulantes não validados para o\nprocedimento; transfusão de componentes sanguíneos contendo leucócitos;\ntransplante alogénico de medula óssea ou de células progenitoras\nhematopoiéticas."
   },
   {
     "slug": "fezes-pesquisa-de-campylobacter",
