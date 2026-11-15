@@ -1245,6 +1245,21 @@
     "observacoes": ""
   },
   {
+    "slug": "cancro-coloretal-detecao-de-mutacoes-no-exao-2-do-gene-kras",
+    "title": "Cancro coloretal - Deteção de mutações no exão 2 do gene KRAS",
+    "area": "Estudos Moleculares Humanos",
+    "metodo": "",
+    "amostra": "Sangue Total",
+    "material_colheita": "Tubo c/ Preservante Específico",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "",
+    "tempo_resposta": "",
+    "setor": "LDMH",
+    "codigo_interno": "KRAS",
+    "observacoes": ""
+  },
+  {
     "slug": "cancro-do-pulmao-pesquisa-de-alteracoes-do-gene-egfr",
     "title": "Cancro do pulmão, pesquisa de alterações do gene EGFR",
     "area": "Estudos Moleculares Humanos",
