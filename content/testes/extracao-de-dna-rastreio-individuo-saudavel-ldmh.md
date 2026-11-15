@@ -1,6 +1,6 @@
 ---
 title: Extração de DNA (Rastreio Indivíduo Saudável) - LDMH
-area: Abordagem Analítica Biologia Molecular/Genética
+area: Estudos Moleculares Humanos
 metodo: Extração automática de DNA genómico.
 amostra: |-
   Sangue total
