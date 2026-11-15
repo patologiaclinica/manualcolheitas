@@ -1,5 +1,5 @@
 ---
-title: Extração de RNA  - LDMH
+title: Extração de RNA (Rastreio Indivíduo Saudável) - LDMH
 area: Abordagem Analítica Biologia Molecular/Genética
 metodo: Extração semiautomática de RNA.
 amostra: |-
@@ -22,7 +22,7 @@ transporte_estabilidade: "
   \n"
 tempo_resposta: 1 d
 setor: LDMH
-codigo_interno: ERNA
+codigo_interno: ERNAF
 observacoes: >
   Tipo de recipiente: Tubo com anticoagulante EDTA (preferencial) ou citrato de
   sódio.
