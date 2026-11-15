@@ -1740,6 +1740,21 @@
     "observacoes": "Volume mínimo de amostra: 2-3 mL.\n\nCondições de colheita: Colher uma amostra para um tubo de EDTA ou de citrato\nde sódio, respeitando o volume recomendado pelo fabricante. Homogeneizar\nsuavemente por inversão, evitando agitação vigorosa.\n\nCondições de transporte: Transportar à temperatura ambiente, preferencialmente\nno próprio dia da colheita. Garantir o acondicionamento e transporte em\ncondições de segurança biológica adequadas.\n\nConservação e estabilidade: Manter à temperatura ambiente até à receção no\nlaboratório.\n\nInterferência: utilização de anticoagulantes não validados para o\nprocedimento; transfusão de componentes sanguíneos contendo leucócitos;\ntransplante alogénico de medula óssea ou de células progenitoras\nhematopoiéticas."
   },
   {
+    "slug": "extracao-de-dna-livre-circulante",
+    "title": "Extração de DNA livre circulante",
+    "area": "Abordagem Analítica Biologia Molecular/Genética",
+    "metodo": "Separação do plasma por centrifugação, seguida de extração manual de DNA",
+    "amostra": "Sangue Total",
+    "material_colheita": "T",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "",
+    "tempo_resposta": "1 d",
+    "setor": "LDMH",
+    "codigo_interno": "ECFDNA",
+    "observacoes": ""
+  },
+  {
     "slug": "extracao-de-rna-ldmh",
     "title": "Extração de RNA - LDMH",
     "area": "Abordagem Analítica Biologia Molecular/Genética",
