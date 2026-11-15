@@ -1350,6 +1350,21 @@
     "observacoes": "Microorganismos presentes no painel:   \n\nRickettsia sp., Babesia microti, Babesia divergens, Ehrlichia chafeensis,\nEhrlichia muris, Borrelia burgdorferi sensu lato, Borrelia miyamotoi, Borrelia\nhermsii, Anaplasma phagocitophylum e Coxiella burnetii"
   },
   {
+    "slug": "drepanocitose-anemia-de-celulas-falciformes-pesquisa-da-alteracao-c20agreatert-gene-hbb",
+    "title": "Drepanocitose (anemia de células falciformes) - pesquisa da alteração",
+    "area": "Estudos Moleculares Humanos",
+    "metodo": "",
+    "amostra": "Sangue Total",
+    "material_colheita": "Tubo c/ EDTA\n\nTubo c/ Citrato de Sódio",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "2d, Temperatura ambiente\n\n5d, 2-8ºC",
+    "tempo_resposta": "5d (urgência, 2d)",
+    "setor": "LDMH",
+    "codigo_interno": "DPN",
+    "observacoes": "Volume mínimo de amostra: 2-3 mL de sangue periférico.\n\nCondições de colheita: Colher uma amostra para um tubo de EDTA ou de citrato\nde sódio, respeitando o volume recomendado pelo fabricante. Homogeneizar\nsuavemente por inversão, evitando agitação vigorosa.\n\nCondições de transporte: Transportar à temperatura ambiente, preferencialmente\nno próprio dia da colheita. Garantir o acondicionamento e transporte em\ncondições de segurança biológica adequadas.\n\nConservação e estabilidade: Manter à temperatura ambiente até à receção no\nlaboratório.\n\nInterferência: utilização de anticoagulantes não validados para o\nprocedimento; transfusão de componentes sanguíneos contendo leucócitos;\ntransplante alogénico de medula óssea ou de células progenitoras\nhematopoiéticas."
+  },
+  {
     "slug": "drepanocitose-hemoglobina-s-pesquisa-da-mutacao-c20agreatert-no-gene-hbb",
     "title": "Drepanocitose- Hemoglobina S - pesquisa da mutação c.20A>T no gene HBB",
     "area": "Genética Humana",
