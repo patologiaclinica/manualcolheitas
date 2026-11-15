@@ -2130,6 +2130,21 @@
     "observacoes": "O volume de sangue colhido para cada tubo QFT-Plus deve ser suficiente para\nque o nível de sangue fique exatamente dentro dos limites da banda preta\nindicada na etiqueta de cada tubo, não devendo ficar abaixo nem ultrapassar\nessa banda.\n\nAs etiquetas de identificação do paciente não devem ocultar a banda preta\nindicada na etiqueta de cada tubo.\n\nA cor das tampas dos tubos não deve ser alterada, devendo corresponder à cor\nda respetiva etiqueta de identificação de cada tubo."
   },
   {
+    "slug": "intolerancia-a-lactose-no-adulto-hipolactasia-primaria-do-adulto-rastreio-individuo-saudavel",
+    "title": "Intolerância à Lactose no Adulto (Hipolactasia primária do adulto)",
+    "area": "Estudos Moleculares Humanos",
+    "metodo": "Extração de DNA genómico, seguida de amplificação por PCR “multiplex”",
+    "amostra": "Sangue total",
+    "material_colheita": "Tubo c/ EDTA\n\nTubo c/ Citrato de Sódio",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "",
+    "tempo_resposta": "2d, ambiente;\\x1f5d, 2-8ºC |",
+    "setor": "",
+    "codigo_interno": "",
+    "observacoes": ""
+  },
+  {
     "slug": "intolerancia-a-lactose-pesquisa-dos-polimorfismos-13910-ct-e-22018-ga-no-gene-lct",
     "title": "Intolerância à Lactose no Adulto (Hipolactasia primária do adulto)",
     "area": "Estudos Moleculares Humanos",
