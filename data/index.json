@@ -3420,6 +3420,21 @@
     "observacoes": "Volume mínimo de amostra: 2-3 mL de sangue periférico.\n\nCondições de colheita: Colher uma amostra para um tubo de EDTA ou de citrato\nde sódio, respeitando o volume recomendado pelo fabricante. Homogeneizar\nsuavemente por inversão, evitando agitação vigorosa.\n\nCondições de transporte: Transportar à temperatura ambiente, preferencialmente\nno próprio dia da colheita. Garantir o acondicionamento e transporte em\ncondições de segurança biológica adequadas.\n\nConservação e estabilidade: Manter à temperatura ambiente até à receção no\nlaboratório.\n\nInterferência: utilização de anticoagulantes não validados para o\nprocedimento; transfusão de componentes sanguíneos contendo leucócitos;\ntransplante alogénico de medula óssea ou de células progenitoras\nhematopoiéticas."
   },
   {
+    "slug": "sindrome-de-gilbert-duplicacao-ta-no-gene-ugt1a1-rastreio-individuo-saudavel",
+    "title": "Sindrome de Gilbert - duplicação [TA], no gene UGT1A1 (Rastreio Indivíduo",
+    "area": "Estudos Moleculares Humanos",
+    "metodo": "Extração de DNA genómico, seguida de amplificação por PCR em tempo real, com\ndeteção fluorescente e análise das curvas de amplificação, para identificação\nde repetição TA na região promotora do gene *UGT1A1*, associado à Síndrome de\nGilbert.",
+    "amostra": "Sangue Total",
+    "material_colheita": "Tubo c/ EDTA\n\nTubo c/ Citrato de sódio",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "2d, Temperatura ambiente\n\n5d, 2-8ºC",
+    "tempo_resposta": "5d (2d úteis, urgência)",
+    "setor": "LDMH",
+    "codigo_interno": "UGT1F",
+    "observacoes": "Volume mínimo de amostra: 2-3 mL de sangue periférico.\n\nCondições de colheita: Colher uma amostra para um tubo de EDTA ou de citrato\nde sódio, respeitando o volume recomendado pelo fabricante. Homogeneizar\nsuavemente por inversão, evitando agitação vigorosa.\n\nCondições de transporte: Transportar à temperatura ambiente, preferencialmente\nno próprio dia da colheita. Garantir o acondicionamento e transporte em\ncondições de segurança biológica adequadas.\n\nConservação e estabilidade: Manter à temperatura ambiente até à receção no\nlaboratório.\n\nInterferência: utilização de anticoagulantes não validados para o\nprocedimento; transfusão de componentes sanguíneos contendo leucócitos;\ntransplante alogénico de medula óssea ou de células progenitoras\nhematopoiéticas."
+  },
+  {
     "slug": "sirolimus",
     "title": "Sirolimus",
     "area": "Imunologia",
