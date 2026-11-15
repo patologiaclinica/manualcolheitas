@@ -1745,14 +1745,14 @@
     "area": "Abordagem Analítica Biologia Molecular/Genética",
     "metodo": "Separação do plasma por centrifugação, seguida de extração manual de DNA",
     "amostra": "Sangue Total",
-    "material_colheita": "T",
+    "material_colheita": "Tubo c/ EDTA\n\nTubo c/ Preservante Específico",
     "descricao_clinica": "",
     "indicacao": "",
-    "transporte_estabilidade": "",
-    "tempo_resposta": "1 d",
+    "transporte_estabilidade": "Temperatura ambiente",
+    "tempo_resposta": "7 d",
     "setor": "LDMH",
     "codigo_interno": "ECFDNA",
-    "observacoes": ""
+    "observacoes": "Tipo de recipiente: Tubo específico para colheita e estabilização de DNA livre\ncirculante ou tubo com EDTA, desde que o processamento seja realizado dentro\ndo prazo validado pelo laboratório.\n\nVolume mínimo de amostra: cerca de 10 mL de sangue periférico\n\nCondições de colheita: Colher a amostra por punção venosa, evitando hemólise e\ntraumatismo excessivo. Respeitar o volume de enchimento recomendado para o\ntubo. Homogeneizar suavemente por inversão, de acordo com as instruções do\nfabricante.\n\nCondições de transporte: Transportar à temperatura ambiente. Quando utilizado\nEDTA, enviar e processar a amostra nas primeiras 3 horas após a colheita.\nGarantir o acondicionamento e transporte em condições de segurança biológica\nadequadas.\n\nConservação e estabilidade: Manter à temperatura ambiente até à receção no\nlaboratório.\n\nInterferência: utilização de anticoagulantes não validados para o\nprocedimento; hemólise e lise de leucócitos, atraso no processamento de\namostras, volume insuficiente."
   },
   {
     "slug": "extracao-de-rna-ldmh",
