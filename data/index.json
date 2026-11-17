@@ -2670,6 +2670,21 @@
     "observacoes": ""
   },
   {
+    "slug": "leucemia-mieloblastica-aguda-quantificacao-em-tempo-real-do-transcrito-de-fusao-cbfbmyh11",
+    "title": "Leucemia mieloblástica aguda - quantificação em tempo real do transcrito",
+    "area": "Estudos Moleculares Humanos",
+    "metodo": "",
+    "amostra": "Sangue Total",
+    "material_colheita": "Tubo c/ EDTA",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "",
+    "tempo_resposta": "",
+    "setor": "LDMH",
+    "codigo_interno": "MYHQ",
+    "observacoes": ""
+  },
+  {
     "slug": "leucemia-mieloblastica-aguda-quantificacao-em-tempo-real-do-transcrito-de-fusao-pml-rara",
     "title": "Leucemia mieloblástica aguda - quantificação em tempo real do transcrito",
     "area": "Estudos Moleculares Humanos",
