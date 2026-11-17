@@ -1,5 +1,5 @@
 ---
-title: " Leucemia mieloblástica aguda - pesquisa de gene de fusão PML-RARA no
+title: " Leucemia mieloblástica aguda - pesquisa de gene de fusão PML::RARA no
   diagnóstico (RT-PCR Nested - PCR)"
 area: Estudos Moleculares Humanos
 amostra: Sangue Total
