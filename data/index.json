@@ -2552,7 +2552,7 @@
   {
     "slug": "leucemia-bcrabl1-p210-pesquisa-dos-transcritos-de-fusao-e13a2-e14a2-e13a3-e-e14a3",
     "title": "Leucemia – BCR/ABL1 p210, pesquisa dos transcritos de fusão e13a2, e14a2,",
-    "area": "Genética Humana",
+    "area": "Estudos Moleculares Humanos",
     "metodo": "|  |\n| ------------------------------- |\n| *PCR com transcriptase reversa* |",
     "amostra": "Sangue total",
     "material_colheita": "Tubo c/ EDTA",
@@ -2561,7 +2561,7 @@
     "transporte_estabilidade": "1d, ambiente\n\n2d, 2-8ºC",
     "tempo_resposta": "Até 2d",
     "setor": "LDMH",
-    "codigo_interno": "",
+    "codigo_interno": "BCRAB1",
     "observacoes": ""
   },
   {
