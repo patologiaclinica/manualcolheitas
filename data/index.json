@@ -2732,16 +2732,16 @@
   {
     "slug": "neoplasia-mieloproliferativa-jak2-quantificacao-em-tempo-real-da-mutacao-v617f",
     "title": "Neoplasia mieloproliferativa – JAK2 quantificação em tempo real da",
-    "area": "Genética Humana",
+    "area": "Estudos Moleculares Humanos",
     "metodo": "*PCR tempo real*",
     "amostra": "Sangue total",
-    "material_colheita": "Tubo c/ EDTA",
+    "material_colheita": "Tubo c/ EDTA\n\nTubo c/ Citrato de Sódio",
     "descricao_clinica": "",
     "indicacao": "",
     "transporte_estabilidade": "",
     "tempo_resposta": "3d (1d útil, urgência)",
     "setor": "LDMH",
-    "codigo_interno": "",
+    "codigo_interno": "QJAK",
     "observacoes": ""
   },
   {
