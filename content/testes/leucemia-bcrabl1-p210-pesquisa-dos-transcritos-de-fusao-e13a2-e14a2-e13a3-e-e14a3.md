@@ -1,7 +1,7 @@
 ---
 title: Leucemia – BCR/ABL1 p210, pesquisa dos transcritos de fusão e13a2, e14a2,
   e13a3 e e14a3
-area: Genética Humana
+area: Estudos Moleculares Humanos
 metodo: |+
   
   |  |
@@ -17,4 +17,5 @@ transporte_estabilidade: |-
   2d, 2-8ºC
 tempo_resposta: Até 2d
 setor: LDMH
+codigo_interno: BCRAB1
 ---
