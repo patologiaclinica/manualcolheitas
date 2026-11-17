@@ -2565,6 +2565,21 @@
     "observacoes": ""
   },
   {
+    "slug": "leucemia-mieloblastica-aguda-pesquisa-de-gene-de-fusao-runx1-runx1t1-no-diagnostico",
+    "title": "Leucemia mieloblástica aguda - pesquisa de gene de fusão RUNX1-RUNX1T1 no",
+    "area": "Estudos Moleculares Humanos",
+    "metodo": "",
+    "amostra": "Sangue Total",
+    "material_colheita": "Tubo c/ EDTA\n\nTubo c/ Citrato de Sódio",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "",
+    "tempo_resposta": "",
+    "setor": "LDMH",
+    "codigo_interno": "AMLP",
+    "observacoes": ""
+  },
+  {
     "slug": "leucemia-mieloblastica-aguda-quantificacao-em-tempo-real-do-transcrito-de-fusao-runx1-runx1t1",
     "title": "Leucemia mieloblástica aguda - quantificação em tempo real do transcrito",
     "area": "Estudos Moleculares Humanos",
