@@ -45,21 +45,6 @@
     "observacoes": ""
   },
   {
-    "slug": "trombose-factor-genetico-predisponente-enzima-de-conversao-da-angiotensina-ace-id",
-    "title": "\"Trombose, factor genético predisponente -Enzima de Conversão da",
-    "area": "Genética Humana",
-    "metodo": "*PCR +hibrização*",
-    "amostra": "Sangue total",
-    "material_colheita": "Tubo c/ Citrato de Sódio\n\nTubo c/ EDTA",
-    "descricao_clinica": "",
-    "indicacao": "",
-    "transporte_estabilidade": "|  |\n| ------------ |\n| 2d, ambiente |\n\n\n 5d, 2-8ºC",
-    "tempo_resposta": "3s (2d úteis, urgência)",
-    "setor": "LDMH",
-    "codigo_interno": "",
-    "observacoes": ""
-  },
-  {
     "slug": "trombose-factor-genetico-predisponente-factor-xiii-pesquisa-da-mutacao-val34leu",
     "title": "\"Trombose, factor genético predisponente – Factor XIII, pesquisa da",
     "area": "Genética Humana",
@@ -1948,6 +1933,21 @@
     "setor": "LDMH",
     "codigo_interno": "**EDNA**",
     "observacoes": "Volume mínimo de amostra: 2-3 mL.\n\nCondições de colheita: Colher uma amostra para um tubo de EDTA ou de citrato\nde sódio, respeitando o volume recomendado pelo fabricante. Homogeneizar\nsuavemente por inversão, evitando agitação vigorosa.\n\nCondições de transporte: Transportar à temperatura ambiente, preferencialmente\nno próprio dia da colheita. Garantir o acondicionamento e transporte em\ncondições de segurança biológica adequadas.\n\nConservação e estabilidade: Manter à temperatura ambiente até à receção no\nlaboratório.\n\nInterferência: utilização de anticoagulantes não validados para o\nprocedimento; transfusão de componentes sanguíneos contendo leucócitos;\ntransplante alogénico de medula óssea ou de células progenitoras\nhematopoiéticas."
+  },
+  {
+    "slug": "trombose-factor-genetico-predisponente-enzima-de-conversao-da-angiotensina-ace-id",
+    "title": "Fatores de risco para complicações obstétricas - polimorfismo I/D, gene",
+    "area": "Estudos Moleculares Humanos",
+    "metodo": "*PCR +hibrização*",
+    "amostra": "Sangue total",
+    "material_colheita": "Tubo c/ Citrato de Sódio\n\nTubo c/ EDTA",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "",
+    "tempo_resposta": "3s (2d úteis, urgência)",
+    "setor": "LDMH",
+    "codigo_interno": "ACE",
+    "observacoes": ""
   },
   {
     "slug": "fezes-pesquisa-de-campylobacter",
