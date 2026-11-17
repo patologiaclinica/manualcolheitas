@@ -2565,6 +2565,21 @@
     "observacoes": ""
   },
   {
+    "slug": "leucemia-mieloblastica-aguda-pesquisa-das-mutacoes-itd-e-d835-gene-flt3",
+    "title": "Leucemia mieloblástica aguda - pesquisa das mutações ITD e D835, gene FLT3",
+    "area": "Estudos Moleculares Humanos",
+    "metodo": "",
+    "amostra": "Sangue Total",
+    "material_colheita": "Tubo c/ EDTA\n\nTubo c/ Citrato de Sódio",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "",
+    "tempo_resposta": "",
+    "setor": "LDMH",
+    "codigo_interno": "FLT3",
+    "observacoes": ""
+  },
+  {
     "slug": "leucemia-mieloblastica-aguda-pesquisa-de-gene-de-fusao-runx1-runx1t1-em-doenca-minima-residual",
     "title": "Leucemia mieloblástica aguda - pesquisa de gene de fusão RUNX1-RUNX1T1 em",
     "area": "Estudos Moleculares Humanos",
