@@ -1,5 +1,20 @@
 [
   {
+    "slug": "leucemia-mieloblastica-aguda-pesquisa-de-gene-de-fusao-pml-rara-no-diagnostico-rt-pcr-nested-pcr",
+    "title": "\" Leucemia mieloblástica aguda - pesquisa de gene de fusão PML::RARA no",
+    "area": "Estudos Moleculares Humanos",
+    "metodo": "",
+    "amostra": "Sangue Total",
+    "material_colheita": "Tubo c/ EDTA",
+    "descricao_clinica": "",
+    "indicacao": "",
+    "transporte_estabilidade": "",
+    "tempo_resposta": "",
+    "setor": "LDMH",
+    "codigo_interno": "T1517",
+    "observacoes": ""
+  },
+  {
     "slug": "anticorpos-anti-polissacaridos-capsulares-de-spneumoniae-igg-23-serotipos",
     "title": "\"Anticorpos anti-polissacáridos capsulares de S.Pneumoniae IgG e IgG2 (23",
     "area": "Imunologia",
