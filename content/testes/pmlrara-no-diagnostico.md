@@ -1,5 +1,6 @@
 ---
-title: PML::RARA no diagnóstico
+title: Leucemia mieloblástica aguda - pesquisa de gene de fusão PML-RARA no
+  diagnóstico
 area: Estudos Moleculares Humanos
 amostra: Sangue Total
 material_colheita: Tubo c/ EDTA
