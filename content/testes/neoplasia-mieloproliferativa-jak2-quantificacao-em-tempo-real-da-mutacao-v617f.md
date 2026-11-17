@@ -1,6 +1,5 @@
 ---
-title: Neoplasia mieloproliferativa – JAK2 quantificação em tempo real da
-  mutação V617F
+title: Neoplasia mieloproliferativa - Quantificação da alteração V617F, gene JAK2
 area: Estudos Moleculares Humanos
 metodo: "*PCR tempo real*"
 amostra: Sangue total
