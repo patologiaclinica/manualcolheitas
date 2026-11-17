@@ -1,10 +1,13 @@
 ---
 title: Neoplasia mieloproliferativa – JAK2 quantificação em tempo real da
   mutação V617F
-area: Genética Humana
+area: Estudos Moleculares Humanos
 metodo: "*PCR tempo real*"
 amostra: Sangue total
-material_colheita: Tubo c/ EDTA
+material_colheita: |-
+  Tubo c/ EDTA
+
+  Tubo c/ Citrato de Sódio
 transporte_estabilidade: "
 
   |  |
@@ -17,4 +20,5 @@ transporte_estabilidade: "
   \n"
 tempo_resposta: 3d (1d útil, urgência)
 setor: LDMH
+codigo_interno: QJAK
 ---
